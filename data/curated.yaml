@@ -1,0 +1,483 @@
+# 策展「真好用」工具种子（full_name = owner/repo）
+# title_zh / summary_zh / bullets_zh 可选手写；缺省时由 pipeline 模板生成
+schema_version: 1
+items:
+  - full_name: obsidianmd/obsidian-releases
+    category_ids: [productivity, writing]
+    title_zh: Obsidian 笔记
+    summary_zh: 用双向链接把想法连成一张知识网，适合长期记笔记的人。
+    bullets_zh:
+      - 本地文件，数据在你自己手里
+      - 用链接把笔记串成网络
+      - 插件多，可按需扩展
+    scene: 记笔记
+
+  - full_name: AppFlowy-IO/AppFlowy
+    category_ids: [productivity]
+    title_zh: AppFlowy
+    summary_zh: 开源的 Notion 替代品，用来建文档、看板和知识库。
+    bullets_zh:
+      - 界面接近 Notion，上手快
+      - 可自托管，更可控
+      - 适合个人与小团队协作
+    scene: 做文档看板
+
+  - full_name: logseq/logseq
+    category_ids: [productivity, writing]
+    title_zh: Logseq
+    summary_zh: 大纲式笔记，边写边把知识串起来。
+    bullets_zh:
+      - 大纲写作很顺手
+      - 支持双向链接与日记
+      - 本地优先，隐私友好
+    scene: 记笔记
+
+  - full_name: excalidraw/excalidraw
+    category_ids: [design]
+    title_zh: Excalidraw
+    summary_zh: 手绘风格在线白板，开会画图、讲思路特别合适。
+    bullets_zh:
+      - 打开浏览器就能画
+      - 手绘感，不显得死板
+      - 可分享链接一起改
+    scene: 画草图
+
+  - full_name: drawdb-io/drawdb
+    category_ids: [developer, design]
+    title_zh: drawDB
+    summary_zh: 在浏览器里画数据库关系图，直观好懂。
+    bullets_zh:
+      - 无需安装
+      - 拖拽建表很直观
+      - 适合学习与讲解结构
+    scene: 画结构图
+
+  - full_name: penpot/penpot
+    category_ids: [design]
+    title_zh: Penpot
+    summary_zh: 开源的设计协作工具，有点像 Figma。
+    bullets_zh:
+      - 浏览器里做 UI 设计
+      - 可自托管
+      - 适合设计与开发协作
+    scene: 做界面
+
+  - full_name: outline/outline
+    category_ids: [writing, productivity]
+    title_zh: Outline
+    summary_zh: 团队知识库，把公司文档集中放在一处。
+    bullets_zh:
+      - Markdown 写作流畅
+      - 权限与分享清晰
+      - 适合小团队知识沉淀
+    scene: 团队文档
+
+  - full_name: steveseguin/vdo.ninja
+    category_ids: [media]
+    title_zh: VDO.Ninja
+    summary_zh: 把手机摄像头变成电脑直播源，简单好用。
+    bullets_zh:
+      - 浏览器即可，少装软件
+      - 适合直播与远程演示
+      - 延迟较低
+    scene: 直播
+
+  - full_name: yt-dlp/yt-dlp
+    category_ids: [media]
+    title_zh: yt-dlp
+    summary_zh: 强大的视频下载工具，支持很多网站（请遵守版权与网站条款）。
+    bullets_zh:
+      - 支持站点非常多
+      - 可下载字幕与音频
+      - 适合备份自己有权使用的内容
+    scene: 下视频
+
+  - full_name: janhq/jan
+    category_ids: [ai]
+    title_zh: Jan
+    summary_zh: 在自己电脑上跑 AI 对话，数据不必上传云端。
+    bullets_zh:
+      - 本地运行，更安心
+      - 界面接近聊天产品
+      - 可切换不同开源模型
+    scene: AI 聊天
+
+  - full_name: open-webui/open-webui
+    category_ids: [ai]
+    title_zh: Open WebUI
+    summary_zh: 漂亮的本地 AI 聊天界面，可接多种模型后端。
+    bullets_zh:
+      - 网页界面好看易用
+      - 可自托管
+      - 适合把家里的模型「包一层壳」
+    scene: AI 聊天
+
+  - full_name: langchain-ai/langchain
+    category_ids: [ai, developer]
+    title_zh: LangChain
+    summary_zh: 搭 AI 应用的常用工具包（偏开发者，但生态很火）。
+    bullets_zh:
+      - AI 应用脚手架丰富
+      - 文档与示例多
+      - 适合想做智能助手的人了解
+    scene: 做 AI 应用
+
+  - full_name: AUTOMATIC1111/stable-diffusion-webui
+    category_ids: [ai, design]
+    title_zh: Stable Diffusion WebUI
+    summary_zh: 用网页界面玩 AI 画图，社区模型非常多。
+    bullets_zh:
+      - 浏览器里调参出图
+      - 插件与模型生态大
+      - 需要一定电脑配置
+    scene: AI 画图
+
+  - full_name: Comfy-Org/ComfyUI
+    category_ids: [ai, design]
+    title_zh: ComfyUI
+    summary_zh: 节点式 AI 画图工作流，适合想精细控制出图的人。
+    bullets_zh:
+      - 流程可视化
+      - 可复用复杂工作流
+      - 学习曲线略陡
+    scene: AI 画图
+
+  - full_name: syncthing/syncthing
+    category_ids: [life, productivity]
+    title_zh: Syncthing
+    summary_zh: 在多台设备之间同步文件，不经过别人的云盘。
+    bullets_zh:
+      - 点对点同步
+      - 开源可自管
+      - 适合照片、文档多端同步
+    scene: 同步文件
+
+  - full_name: photoprism/photoprism
+    category_ids: [life, media]
+    title_zh: PhotoPrism
+    summary_zh: 自己架设的相册，用 AI 帮忙认人、搜图。
+    bullets_zh:
+      - 照片在自己服务器上
+      - 可搜索场景与人脸
+      - 适合重视隐私的家庭
+    scene: 管照片
+
+  - full_name: immich-app/immich
+    category_ids: [life, media]
+    title_zh: Immich
+    summary_zh: 开源的「私人谷歌相册」，手机备份很方便。
+    bullets_zh:
+      - 手机自动备份
+      - 界面现代好用
+      - 适合家庭自建相册
+    scene: 管照片
+
+  - full_name: home-assistant/core
+    category_ids: [life]
+    title_zh: Home Assistant
+    summary_zh: 把家里智能设备接到一起，自己当「总控」。
+    bullets_zh:
+      - 设备品牌支持广
+      - 可做自动化场景
+      - 适合智能家居爱好者
+    scene: 智能家居
+
+  - full_name: actualbudget/actual
+    category_ids: [life, productivity]
+    title_zh: Actual Budget
+    summary_zh: 本地优先的记账与预算工具，把钱花在哪看得清清楚楚。
+    bullets_zh:
+      - 数据可放本地
+      - 预算规划清晰
+      - 适合想认真管钱的人
+    scene: 记账
+
+  - full_name: maybe-finance/maybe
+    category_ids: [life]
+    title_zh: Maybe
+    summary_zh: 开源个人财务看板，看清资产与现金流。
+    bullets_zh:
+      - 财务总览直观
+      - 可自托管
+      - 适合理财入门者浏览
+    scene: 理财
+
+  - full_name: calcom/cal.com
+    category_ids: [productivity]
+    title_zh: Cal.com
+    summary_zh: 开源预约日历，让别人方便地约你的时间。
+    bullets_zh:
+      - 预约链接一键分享
+      - 可接常用日历
+      - 适合顾问、老师、自由职业
+    scene: 约时间
+
+  - full_name: nocodb/nocodb
+    category_ids: [productivity, developer]
+    title_zh: NocoDB
+    summary_zh: 把数据库变成像表格一样好用的界面。
+    bullets_zh:
+      - 表格体验接近 Airtable
+      - 可接已有数据库
+      - 适合做轻量业务表
+    scene: 做表格
+
+  - full_name: appsmithorg/appsmith
+    category_ids: [developer, productivity]
+    title_zh: Appsmith
+    summary_zh: 低代码搭内部工具，表单、后台页面拖一拖就有。
+    bullets_zh:
+      - 拖拽组建页面
+      - 可接 API 与数据库
+      - 适合快速做内部后台
+    scene: 搭内部工具
+
+  - full_name: tooljet/tooljet
+    category_ids: [developer, productivity]
+    title_zh: ToolJet
+    summary_zh: 另一个好用的开源低代码平台，快速做业务小工具。
+    bullets_zh:
+      - 组件丰富
+      - 可自托管
+      - 适合运营与业务同学配合使用
+    scene: 搭内部工具
+
+  - full_name: hoppscotch/hoppscotch
+    category_ids: [developer]
+    title_zh: Hoppscotch
+    summary_zh: 浏览器里测 API 的轻量工具，有点像 Postman。
+    bullets_zh:
+      - 打开网页就能测接口
+      - 团队可共享集合
+      - 适合前后端联调
+    scene: 测接口
+
+  - full_name: localstack/localstack
+    category_ids: [developer]
+    title_zh: LocalStack
+    summary_zh: 在本地模拟云服务，开发时少花云费用。
+    bullets_zh:
+      - 本地模拟 AWS 等服务
+      - 方便联调与测试
+      - 偏开发者向
+    scene: 本地云开发
+
+  - full_name: vercel/next.js
+    category_ids: [developer, writing]
+    title_zh: Next.js
+    summary_zh: 做现代网站与博客的主流框架之一（需一点开发基础）。
+    bullets_zh:
+      - 文档与社区极强
+      - 适合官网、博客、产品站
+      - 趋势长期靠前
+    scene: 做网站
+
+  - full_name: withastro/astro
+    category_ids: [developer, writing]
+    title_zh: Astro
+    summary_zh: 偏内容站的现代框架，博客和文档站很合适。
+    bullets_zh:
+      - 默认输出轻量页面
+      - 适合文档与营销站
+      - 学习曲线相对友好
+    scene: 做网站
+
+  - full_name: facebook/react
+    category_ids: [developer]
+    title_zh: React
+    summary_zh: 做网页界面最流行的库之一，生态巨大。
+    bullets_zh:
+      - 工作机会与教程极多
+      - 组件化思维清晰
+      - 适合想了解前端趋势的人
+    scene: 学前端
+
+  - full_name: microsoft/vscode
+    category_ids: [developer, productivity]
+    title_zh: VS Code
+    summary_zh: 微软开源的代码编辑器，写东西、改配置都好用。
+    bullets_zh:
+      - 插件生态极强
+      - 跨平台
+      - 不只程序员，写 Markdown 也香
+    scene: 写代码改文件
+
+  - full_name: rustdesk/rustdesk
+    category_ids: [life, productivity]
+    title_zh: RustDesk
+    summary_zh: 开源远程桌面，在外面操控家里的电脑。
+    bullets_zh:
+      - 可自建中继更安心
+      - 跨平台
+      - 适合远程协助家人
+    scene: 远程桌面
+
+  - full_name: localsend/localsend
+    category_ids: [life, productivity]
+    title_zh: LocalSend
+    summary_zh: 同一 Wi-Fi 下互传文件，不用网线也不必上云。
+    bullets_zh:
+      - 跨手机与电脑
+      - 局域网直传
+      - 界面简单
+    scene: 传文件
+
+  - full_name: Stirling-Tools/Stirling-PDF
+    category_ids: [productivity, life]
+    title_zh: Stirling PDF
+    summary_zh: 浏览器里处理 PDF：合并、拆分、转换，工具很全。
+    bullets_zh:
+      - 可自托管
+      - PDF 常用操作都有
+      - 适合办公党
+    scene: 处理 PDF
+
+  - full_name: documenso/documenso
+    category_ids: [productivity]
+    title_zh: Documenso
+    summary_zh: 开源电子签名，签约不用处处求人。
+    bullets_zh:
+      - 可自托管
+      - 流程清晰
+      - 适合小团队合同签署
+    scene: 电子签名
+
+  - full_name: twentyhq/twenty
+    category_ids: [productivity]
+    title_zh: Twenty
+    summary_zh: 开源 CRM，管客户与跟进记录。
+    bullets_zh:
+      - 界面现代
+      - 可自托管
+      - 适合小生意客户管理
+    scene: 管客户
+
+  - full_name: knadh/listmonk
+    category_ids: [productivity, writing]
+    title_zh: Listmonk
+    summary_zh: 自己发邮件通讯的工具，管订阅列表很方便。
+    bullets_zh:
+      - 性能好、界面清爽
+      - 可自托管
+      - 适合独立创作者
+    scene: 发邮件通讯
+
+  - full_name: gohugoio/hugo
+    category_ids: [writing, developer]
+    title_zh: Hugo
+    summary_zh: 极快的静态博客生成器，适合个人站点。
+    bullets_zh:
+      - 生成速度很快
+      - 主题丰富
+      - 适合技术博客与文档
+    scene: 写博客
+
+  - full_name: anuraghazra/github-readme-stats
+    category_ids: [developer]
+    title_zh: GitHub Readme Stats
+    summary_zh: 给 GitHub 主页生成漂亮的数据卡片。
+    bullets_zh:
+      - 一键嵌入统计图
+      - 样式可选
+      - 适合装点个人主页
+    scene: 装点主页
+
+  - full_name: sindresorhus/awesome
+    category_ids: [learning]
+    title_zh: Awesome 列表
+    summary_zh: 各类「精选资源」总入口，想找专题工具从这里逛。
+    bullets_zh:
+      - 覆盖主题极广
+      - 社区长期维护
+      - 适合按兴趣探索
+    scene: 找资源
+
+  - full_name: ebookfoundation/free-programming-books
+    category_ids: [learning]
+    title_zh: 免费编程书单
+    summary_zh: 汇总免费编程书籍与资源，自学友好。
+    bullets_zh:
+      - 多语言资源
+      - 完全免费入口
+      - 适合自学路线查阅
+    scene: 自学
+
+  - full_name: kamranahmedse/developer-roadmap
+    category_ids: [learning]
+    title_zh: 开发者路线图
+    summary_zh: 用图告诉你前端、后端等方向该学什么。
+    bullets_zh:
+      - 路线清晰可视化
+      - 持续更新
+      - 适合入门规划
+    scene: 学规划
+
+  - full_name: trekhleb/javascript-algorithms
+    category_ids: [learning, developer]
+    title_zh: JavaScript 算法
+    summary_zh: 用 JS 讲解常见算法与数据结构，带注释。
+    bullets_zh:
+      - 示例好读
+      - 适合面试复习
+      - 偏学习向
+    scene: 学算法
+
+  - full_name: freeCodeCamp/freeCodeCamp
+    category_ids: [learning]
+    title_zh: freeCodeCamp
+    summary_zh: 免费学编程的大型开源课程社区。
+    bullets_zh:
+      - 课程体系完整
+      - 中文资源也在增长
+      - 适合零基础起步
+    scene: 学编程
+
+  - full_name: microsoft/PowerToys
+    category_ids: [productivity]
+    title_zh: PowerToys
+    summary_zh: Windows 效率小工具合集：窗口布局、批量改名等。
+    bullets_zh:
+      - 官方维护，靠谱
+      - 小功能很实用
+      - 适合 Windows 用户
+    scene: Windows 效率
+
+  - full_name: raycast/extensions
+    category_ids: [productivity]
+    title_zh: Raycast 扩展
+    summary_zh: macOS 启动器 Raycast 的开源扩展仓库。
+    bullets_zh:
+      - 扩展能力强
+      - 社区插件多
+      - 适合 Mac 效率党
+    scene: Mac 效率
+
+  - full_name: n8n-io/n8n
+    category_ids: [productivity, ai]
+    title_zh: n8n
+    summary_zh: 可视化自动化：把邮箱、表格、AI 串成流程。
+    bullets_zh:
+      - 拖拽连线即可
+      - 可自托管
+      - 适合「如果这样就那样」的自动化
+    scene: 自动化
+
+  - full_name: activepieces/activepieces
+    category_ids: [productivity]
+    title_zh: Activepieces
+    summary_zh: 开源自动化平台，Zapier 的平替味道。
+    bullets_zh:
+      - 积木式流程
+      - 可自托管
+      - 适合业务自动化
+    scene: 自动化
+
+  - full_name: Infisical/infisical
+    category_ids: [developer]
+    title_zh: Infisical
+    summary_zh: 管理密钥与环境变量，团队协作更安全。
+    bullets_zh:
+      - 密钥集中管理
+      - 减少「密码写进代码」
+      - 偏开发与运维
+    scene: 管密钥

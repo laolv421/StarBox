@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0335E50D1B540E3EA2FB12AA /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B3427B8F2DF6FE45B5EA71 /* APIModels.swift */; };
+		044A316698F8EA556337CBC8 /* LocalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD4CCE370F50D89EDD57EC /* LocalModels.swift */; };
+		07E78435CAFC65147E3E77E3 /* StarboxTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A863D5FA095ADEB9C0F0B1 /* StarboxTheme.swift */; };
+		158230E5E553F9DEBE8014FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E662B0FA6F408657FED4B8 /* Assets.xcassets */; };
+		2EDD8D4AF19D0E76642E8C5B /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A96CD9E22653AEE2A0CB7DE /* feed.json */; };
+		39F99E5A650956A23ADE7219 /* StarboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB41A6D6A7D27031E001171 /* StarboxApp.swift */; };
+		456BD9EA715B68A12E0C5AC7 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CF57B3EDC482ABF4C594C /* FeedStore.swift */; };
+		4C7947B3DB2E2224D62E28D7 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB87BE9B8A3A9486C0632F /* CategoriesView.swift */; };
+		4E4C02FFE02CE40143127C76 /* FeedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F1CB082743D0931C418F9 /* FeedCache.swift */; };
+		60E86D5571F9084728F53AB5 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3BD44A5F16D6812A180E51 /* RootTabView.swift */; };
+		678201FD478001133E0965E0 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7530EC2E8FF2B3EB166DE749 /* MeView.swift */; };
+		6E3203EBE12527B5B6D34E8D /* RepoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FA3F22C8B30D4F8396F0F1 /* RepoCardView.swift */; };
+		745ED1DD8FA2E8FB366DB9D9 /* FeedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCA2A74E53BD225F3B6CEF3 /* FeedClient.swift */; };
+		8965E01023315F6A5F69FBFC /* meta.json in Resources */ = {isa = PBXBuildFile; fileRef = 309470B8614827B455B3525F /* meta.json */; };
+		930903179247C0A490C97D2C /* StatusBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22E3000DBE4AABD87487E1 /* StatusBanner.swift */; };
+		A6FB5265160989D94CA3E98F /* ToolboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DAFD41A9D8FCCF8297F3E8 /* ToolboxView.swift */; };
+		B235BE7505481CCE32154D9C /* RepoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639F2994ABFE337F14A68A7 /* RepoDetailView.swift */; };
+		D8749E1C88D097F4ADE23180 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE3F5251C55AB34B0ACB578 /* DiscoverView.swift */; };
+		F125F62B79111B757535EE0F /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = BE253035EBA1383568F797A2 /* categories.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB41A6D6A7D27031E001171 /* StarboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarboxApp.swift; sourceTree = "<group>"; };
+		0E22E3000DBE4AABD87487E1 /* StatusBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBanner.swift; sourceTree = "<group>"; };
+		14ED733D4DCF5B08BBC7F840 /* Starbox.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Starbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309470B8614827B455B3525F /* meta.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = meta.json; sourceTree = "<group>"; };
+		33BD4CCE370F50D89EDD57EC /* LocalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalModels.swift; sourceTree = "<group>"; };
+		46DAFD41A9D8FCCF8297F3E8 /* ToolboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxView.swift; sourceTree = "<group>"; };
+		5AAB87BE9B8A3A9486C0632F /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		649CF57B3EDC482ABF4C594C /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		72A863D5FA095ADEB9C0F0B1 /* StarboxTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarboxTheme.swift; sourceTree = "<group>"; };
+		7530EC2E8FF2B3EB166DE749 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		7A96CD9E22653AEE2A0CB7DE /* feed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
+		7F3F1CB082743D0931C418F9 /* FeedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCache.swift; sourceTree = "<group>"; };
+		94FA3F22C8B30D4F8396F0F1 /* RepoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCardView.swift; sourceTree = "<group>"; };
+		9639F2994ABFE337F14A68A7 /* RepoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailView.swift; sourceTree = "<group>"; };
+		979337EB0EE4EF4632A7C307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A8B3427B8F2DF6FE45B5EA71 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		BCCA2A74E53BD225F3B6CEF3 /* FeedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedClient.swift; sourceTree = "<group>"; };
+		BE253035EBA1383568F797A2 /* categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+		C3E662B0FA6F408657FED4B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE3F5251C55AB34B0ACB578 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		FB3BD44A5F16D6812A180E51 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AE1C0464A654977B4D419EA /* Starbox */ = {
+			isa = PBXGroup;
+			children = (
+				C3E662B0FA6F408657FED4B8 /* Assets.xcassets */,
+				979337EB0EE4EF4632A7C307 /* Info.plist */,
+				0AB41A6D6A7D27031E001171 /* StarboxApp.swift */,
+				9B736A4142BD0503820A4B96 /* Models */,
+				FF8235769D69DA809639AEA2 /* Resources */,
+				5F958EE67548505E8DFC5068 /* Services */,
+				E76CC44970FDB271750304B5 /* Theme */,
+				CD6509814BE81F293A52F834 /* Views */,
+			);
+			path = Starbox;
+			sourceTree = "<group>";
+		};
+		5F958EE67548505E8DFC5068 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7F3F1CB082743D0931C418F9 /* FeedCache.swift */,
+				BCCA2A74E53BD225F3B6CEF3 /* FeedClient.swift */,
+				649CF57B3EDC482ABF4C594C /* FeedStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		971F2C6116CD081C93A405FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14ED733D4DCF5B08BBC7F840 /* Starbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B736A4142BD0503820A4B96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3427B8F2DF6FE45B5EA71 /* APIModels.swift */,
+				33BD4CCE370F50D89EDD57EC /* LocalModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5ACCAFAF78FF761575AAF84 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				94FA3F22C8B30D4F8396F0F1 /* RepoCardView.swift */,
+				0E22E3000DBE4AABD87487E1 /* StatusBanner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CD6509814BE81F293A52F834 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB87BE9B8A3A9486C0632F /* CategoriesView.swift */,
+				EEE3F5251C55AB34B0ACB578 /* DiscoverView.swift */,
+				7530EC2E8FF2B3EB166DE749 /* MeView.swift */,
+				9639F2994ABFE337F14A68A7 /* RepoDetailView.swift */,
+				FB3BD44A5F16D6812A180E51 /* RootTabView.swift */,
+				46DAFD41A9D8FCCF8297F3E8 /* ToolboxView.swift */,
+				B5ACCAFAF78FF761575AAF84 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E76CC44970FDB271750304B5 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				72A863D5FA095ADEB9C0F0B1 /* StarboxTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F527735ED2E5395CF583BDC4 = {
+			isa = PBXGroup;
+			children = (
+				1AE1C0464A654977B4D419EA /* Starbox */,
+				971F2C6116CD081C93A405FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8235769D69DA809639AEA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE253035EBA1383568F797A2 /* categories.json */,
+				7A96CD9E22653AEE2A0CB7DE /* feed.json */,
+				309470B8614827B455B3525F /* meta.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3B088C1E807C78267B8B63 /* Starbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8938D35E159B6A00FE6F80 /* Build configuration list for PBXNativeTarget "Starbox" */;
+			buildPhases = (
+				7D54B810BC2D0A77E481F8AA /* Sources */,
+				46933B2088929DF6DD15025F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starbox;
+			packageProductDependencies = (
+			);
+			productName = Starbox;
+			productReference = 14ED733D4DCF5B08BBC7F840 /* Starbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA65B62897C81DD4A22FA648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EA3B088C1E807C78267B8B63 = {
+						DevelopmentTeam = 3AUYS9SZ8T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CEBF6EA2F54A7F0944EFF86 /* Build configuration list for PBXProject "Starbox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F527735ED2E5395CF583BDC4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 971F2C6116CD081C93A405FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3B088C1E807C78267B8B63 /* Starbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46933B2088929DF6DD15025F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158230E5E553F9DEBE8014FA /* Assets.xcassets in Resources */,
+				F125F62B79111B757535EE0F /* categories.json in Resources */,
+				2EDD8D4AF19D0E76642E8C5B /* feed.json in Resources */,
+				8965E01023315F6A5F69FBFC /* meta.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D54B810BC2D0A77E481F8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0335E50D1B540E3EA2FB12AA /* APIModels.swift in Sources */,
+				4C7947B3DB2E2224D62E28D7 /* CategoriesView.swift in Sources */,
+				D8749E1C88D097F4ADE23180 /* DiscoverView.swift in Sources */,
+				4E4C02FFE02CE40143127C76 /* FeedCache.swift in Sources */,
+				745ED1DD8FA2E8FB366DB9D9 /* FeedClient.swift in Sources */,
+				456BD9EA715B68A12E0C5AC7 /* FeedStore.swift in Sources */,
+				044A316698F8EA556337CBC8 /* LocalModels.swift in Sources */,
+				678201FD478001133E0965E0 /* MeView.swift in Sources */,
+				6E3203EBE12527B5B6D34E8D /* RepoCardView.swift in Sources */,
+				B235BE7505481CCE32154D9C /* RepoDetailView.swift in Sources */,
+				60E86D5571F9084728F53AB5 /* RootTabView.swift in Sources */,
+				39F99E5A650956A23ADE7219 /* StarboxApp.swift in Sources */,
+				07E78435CAFC65147E3E77E3 /* StarboxTheme.swift in Sources */,
+				930903179247C0A490C97D2C /* StatusBanner.swift in Sources */,
+				A6FB5265160989D94CA3E98F /* ToolboxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AA68951B88948BCFFB580B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = none;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUYS9SZ8T;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starbox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "星盒";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijian.starbox;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432EB6DF4A47C057B361F275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		922712998C2B582324F089AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE7D04131521EECDB00B7153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = none;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUYS9SZ8T;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starbox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "星盒";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijian.starbox;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEBF6EA2F54A7F0944EFF86 /* Build configuration list for PBXProject "Starbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922712998C2B582324F089AB /* Debug */,
+				432EB6DF4A47C057B361F275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE8938D35E159B6A00FE6F80 /* Build configuration list for PBXNativeTarget "Starbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA68951B88948BCFFB580B5 /* Debug */,
+				DE7D04131521EECDB00B7153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA65B62897C81DD4A22FA648 /* Project object */;
+}

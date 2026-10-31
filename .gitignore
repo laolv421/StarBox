@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+app/Starbox.xcodeproj/xcuserdata/
+app/Starbox.xcworkspace/xcuserdata/
+app/build/
+DerivedData/
+*.xcuserstate
+build/
+.swiftpm/

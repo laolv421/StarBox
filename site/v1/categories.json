@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "productivity",
+      "name_zh": "效率办公",
+      "subtitle_zh": "把琐事变少，把时间留给重要的事",
+      "icon": "checkmark.circle"
+    },
+    {
+      "id": "ai",
+      "name_zh": "AI 助手",
+      "subtitle_zh": "用人工智能帮忙写、画、总结、聊天",
+      "icon": "sparkles"
+    },
+    {
+      "id": "writing",
+      "name_zh": "写作创作",
+      "subtitle_zh": "写文章、做笔记、整理灵感",
+      "icon": "pencil.line"
+    },
+    {
+      "id": "design",
+      "name_zh": "设计与视觉",
+      "subtitle_zh": "做图、做界面、找灵感",
+      "icon": "paintbrush"
+    },
+    {
+      "id": "learning",
+      "name_zh": "学习成长",
+      "subtitle_zh": "学新东西、练技能、看教程",
+      "icon": "book"
+    },
+    {
+      "id": "media",
+      "name_zh": "影音下载",
+      "subtitle_zh": "看视频、听音乐、保存内容（请遵守版权）",
+      "icon": "play.rectangle"
+    },
+    {
+      "id": "life",
+      "name_zh": "生活实用",
+      "subtitle_zh": "理财、健康、旅行、日常小帮手",
+      "icon": "heart"
+    },
+    {
+      "id": "developer",
+      "name_zh": "开发者工具",
+      "subtitle_zh": "写代码、协作、部署时用得上的家伙",
+      "icon": "hammer"
+    }
+  ]
+}

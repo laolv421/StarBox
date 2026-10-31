@@ -1,0 +1,50 @@
+# 星盒类目：面向普通人的说法，映射 GitHub topics
+schema_version: 1
+categories:
+  - id: productivity
+    name_zh: 效率办公
+    subtitle_zh: 把琐事变少，把时间留给重要的事
+    icon: checkmark.circle
+    topics: [productivity, notes, todo, markdown, notion, obsidian, spreadsheet]
+
+  - id: ai
+    name_zh: AI 助手
+    subtitle_zh: 用人工智能帮忙写、画、总结、聊天
+    icon: sparkles
+    topics: [ai, llm, chatgpt, openai, machine-learning, generative-ai, gpt]
+
+  - id: writing
+    name_zh: 写作创作
+    subtitle_zh: 写文章、做笔记、整理灵感
+    icon: pencil.line
+    topics: [writing, blog, cms, documentation, static-site]
+
+  - id: design
+    name_zh: 设计与视觉
+    subtitle_zh: 做图、做界面、找灵感
+    icon: paintbrush
+    topics: [design, ui, figma, icon, svg, graphics, css]
+
+  - id: learning
+    name_zh: 学习成长
+    subtitle_zh: 学新东西、练技能、看教程
+    icon: book
+    topics: [education, tutorial, learning, course, awesome-list]
+
+  - id: media
+    name_zh: 影音下载
+    subtitle_zh: 看视频、听音乐、保存内容（请遵守版权）
+    icon: play.rectangle
+    topics: [video, audio, youtube, podcast, media]
+
+  - id: life
+    name_zh: 生活实用
+    subtitle_zh: 理财、健康、旅行、日常小帮手
+    icon: heart
+    topics: [finance, health, recipe, travel, self-hosted, home-assistant]
+
+  - id: developer
+    name_zh: 开发者工具
+    subtitle_zh: 写代码、协作、部署时用得上的家伙
+    icon: hammer
+    topics: [cli, devops, docker, git, vscode, developer-tools, terminal]
