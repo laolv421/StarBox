@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T14:58:03Z",
+  "generated_at": "2026-11-08T20:22:06Z",
   "items": [
     {
       "id": "sindresorhus/awesome",
@@ -23,9 +23,9 @@
         "resources",
         "unicorns"
       ],
-      "stars": 533616,
+      "stars": 533776,
       "stars_delta_7d": 0,
-      "forks": 38231,
+      "forks": 38236,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/sindresorhus/awesome",
@@ -33,7 +33,7 @@
       "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
       "source": "curated",
       "scene": "找资源",
-      "updated_at": "2026-11-08T14:55:52Z"
+      "updated_at": "2026-11-08T20:19:53Z"
     },
     {
       "id": "freeCodeCamp/freeCodeCamp",
@@ -66,9 +66,9 @@
         "react",
         "teachers"
       ],
-      "stars": 458748,
+      "stars": 458763,
       "stars_delta_7d": 1,
-      "forks": 48142,
+      "forks": 48144,
       "language": "TypeScript",
       "homepage": "https://contribute.freecodecamp.org",
       "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
@@ -76,7 +76,7 @@
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "source": "curated",
       "scene": "学编程",
-      "updated_at": "2026-11-08T14:33:47Z"
+      "updated_at": "2026-11-08T19:48:48Z"
     },
     {
       "id": "EbookFoundation/free-programming-books",
@@ -99,9 +99,9 @@
         "list",
         "resource"
       ],
-      "stars": 401275,
+      "stars": 401291,
       "stars_delta_7d": 0,
-      "forks": 67384,
+      "forks": 67408,
       "language": "Python",
       "homepage": "https://ebookfoundation.github.io/free-programming-books/",
       "html_url": "https://github.com/EbookFoundation/free-programming-books",
@@ -109,7 +109,7 @@
       "description": ":books: Freely available programming books",
       "source": "curated",
       "scene": "自学",
-      "updated_at": "2026-11-08T14:53:56Z"
+      "updated_at": "2026-11-08T20:08:44Z"
     },
     {
       "id": "nilbuild/developer-roadmap",
@@ -145,9 +145,9 @@
         "software-architect-roadmap",
         "vue-roadmap"
       ],
-      "stars": 371542,
+      "stars": 371559,
       "stars_delta_7d": 0,
-      "forks": 45505,
+      "forks": 45541,
       "language": "TypeScript",
       "homepage": "https://roadmap.sh",
       "html_url": "https://github.com/nilbuild/developer-roadmap",
@@ -155,7 +155,7 @@
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "source": "curated",
       "scene": "学规划",
-      "updated_at": "2026-11-08T14:48:06Z"
+      "updated_at": "2026-11-08T19:58:02Z"
     },
     {
       "id": "react/react",
@@ -179,9 +179,9 @@
         "react",
         "ui"
       ],
-      "stars": 252408,
+      "stars": 252417,
       "stars_delta_7d": 0,
-      "forks": 51964,
+      "forks": 51983,
       "language": "JavaScript",
       "homepage": "https://react.dev",
       "html_url": "https://github.com/react/react",
@@ -189,7 +189,7 @@
       "description": "The library for web and native user interfaces.",
       "source": "curated",
       "scene": "学前端",
-      "updated_at": "2026-11-08T13:35:20Z"
+      "updated_at": "2026-11-08T19:59:25Z"
     },
     {
       "id": "n8n-io/n8n",
@@ -228,9 +228,9 @@
         "workflow",
         "workflow-automation"
       ],
-      "stars": 209815,
+      "stars": 209840,
       "stars_delta_7d": 1,
-      "forks": 61403,
+      "forks": 61406,
       "language": "TypeScript",
       "homepage": "https://n8n.io",
       "html_url": "https://github.com/n8n-io/n8n",
@@ -238,7 +238,7 @@
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "source": "curated",
       "scene": "自动化",
-      "updated_at": "2026-11-08T14:54:44Z"
+      "updated_at": "2026-11-08T20:13:02Z"
     },
     {
       "id": "yt-dlp/yt-dlp",
@@ -263,9 +263,9 @@
         "youtube-downloader",
         "yt-dlp"
       ],
-      "stars": 206150,
+      "stars": 206211,
       "stars_delta_7d": 1,
-      "forks": 18113,
+      "forks": 18120,
       "language": "Python",
       "homepage": "https://discord.gg/H5MNcFW63r",
       "html_url": "https://github.com/yt-dlp/yt-dlp",
@@ -273,7 +273,7 @@
       "description": "A feature-rich command-line audio/video downloader",
       "source": "curated",
       "scene": "下视频",
-      "updated_at": "2026-11-08T14:51:40Z"
+      "updated_at": "2026-11-08T20:15:33Z"
     },
     {
       "id": "trekhleb/javascript-algorithms",
@@ -300,9 +300,9 @@
         "javascript",
         "javascript-algorithms"
       ],
-      "stars": 196724,
+      "stars": 196726,
       "stars_delta_7d": 0,
-      "forks": 30983,
+      "forks": 30984,
       "language": "JavaScript",
       "homepage": null,
       "html_url": "https://github.com/trekhleb/javascript-algorithms",
@@ -310,7 +310,7 @@
       "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
       "source": "curated",
       "scene": "学算法",
-      "updated_at": "2026-11-08T12:45:05Z"
+      "updated_at": "2026-11-08T19:47:28Z"
     },
     {
       "id": "microsoft/vscode",
@@ -334,9 +334,9 @@
         "typescript",
         "visual-studio-code"
       ],
-      "stars": 195182,
-      "stars_delta_7d": 1,
-      "forks": 44442,
+      "stars": 195195,
+      "stars_delta_7d": 0,
+      "forks": 44445,
       "language": "TypeScript",
       "homepage": "https://code.visualstudio.com",
       "html_url": "https://github.com/microsoft/vscode",
@@ -344,7 +344,7 @@
       "description": "Visual Studio Code",
       "source": "curated",
       "scene": "写代码改文件",
-      "updated_at": "2026-11-08T14:56:59Z"
+      "updated_at": "2026-11-08T20:01:27Z"
     },
     {
       "id": "AUTOMATIC1111/stable-diffusion-webui",
@@ -379,7 +379,7 @@
         "upscaling",
         "web"
       ],
-      "stars": 165257,
+      "stars": 165258,
       "stars_delta_7d": 0,
       "forks": 31880,
       "language": "Python",
@@ -389,7 +389,7 @@
       "description": "Stable Diffusion web UI",
       "source": "curated",
       "scene": "AI 画图",
-      "updated_at": "2026-11-08T14:51:57Z"
+      "updated_at": "2026-11-08T19:37:02Z"
     },
     {
       "id": "open-webui/open-webui",
@@ -422,9 +422,9 @@
         "ui",
         "webui"
       ],
-      "stars": 158096,
+      "stars": 158121,
       "stars_delta_7d": 0,
-      "forks": 22983,
+      "forks": 22988,
       "language": "Svelte",
       "homepage": "https://openwebui.com",
       "html_url": "https://github.com/open-webui/open-webui",
@@ -432,7 +432,7 @@
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "source": "curated",
       "scene": "AI 聊天",
-      "updated_at": "2026-11-08T14:54:54Z"
+      "updated_at": "2026-11-08T20:13:17Z"
     },
     {
       "id": "langchain-ai/langchain",
@@ -471,9 +471,9 @@
         "rag",
         "typescript"
       ],
-      "stars": 149195,
+      "stars": 149208,
       "stars_delta_7d": 0,
-      "forks": 25092,
+      "forks": 25097,
       "language": "Python",
       "homepage": "https://docs.langchain.com/langchain/",
       "html_url": "https://github.com/langchain-ai/langchain",
@@ -481,7 +481,7 @@
       "description": "The agent engineering platform.",
       "source": "curated",
       "scene": "做 AI 应用",
-      "updated_at": "2026-11-08T14:38:32Z"
+      "updated_at": "2026-11-08T20:13:24Z"
     },
     {
       "id": "Comfy-Org/ComfyUI",
@@ -506,9 +506,9 @@
         "pytorch",
         "stable-diffusion"
       ],
-      "stars": 145719,
+      "stars": 145774,
       "stars_delta_7d": 0,
-      "forks": 17348,
+      "forks": 17358,
       "language": "Python",
       "homepage": "https://www.comfy.org/",
       "html_url": "https://github.com/Comfy-Org/ComfyUI",
@@ -516,7 +516,7 @@
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "source": "curated",
       "scene": "AI 画图",
-      "updated_at": "2026-11-08T14:54:44Z"
+      "updated_at": "2026-11-08T20:13:33Z"
     },
     {
       "id": "vercel/next.js",
@@ -549,9 +549,9 @@
         "universal",
         "vercel"
       ],
-      "stars": 143418,
+      "stars": 143428,
       "stars_delta_7d": 0,
-      "forks": 33549,
+      "forks": 33551,
       "language": "JavaScript",
       "homepage": "https://nextjs.org",
       "html_url": "https://github.com/vercel/next.js",
@@ -559,7 +559,7 @@
       "description": "The React Framework",
       "source": "curated",
       "scene": "做网站",
-      "updated_at": "2026-11-08T13:58:40Z"
+      "updated_at": "2026-11-08T20:13:22Z"
     },
     {
       "id": "microsoft/PowerToys",
@@ -589,7 +589,7 @@
         "windows-10",
         "windows-11"
       ],
-      "stars": 140724,
+      "stars": 140732,
       "stars_delta_7d": 0,
       "forks": 8710,
       "language": "C",
@@ -599,7 +599,7 @@
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "source": "curated",
       "scene": "Windows 效率",
-      "updated_at": "2026-11-08T14:41:34Z"
+      "updated_at": "2026-11-08T20:14:23Z"
     },
     {
       "id": "excalidraw/excalidraw",
@@ -624,9 +624,9 @@
         "productivity",
         "whiteboard"
       ],
-      "stars": 135324,
+      "stars": 135335,
       "stars_delta_7d": 0,
-      "forks": 16059,
+      "forks": 16062,
       "language": "TypeScript",
       "homepage": "https://excalidraw.com",
       "html_url": "https://github.com/excalidraw/excalidraw",
@@ -634,7 +634,7 @@
       "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
       "source": "curated",
       "scene": "画草图",
-      "updated_at": "2026-11-08T14:55:28Z"
+      "updated_at": "2026-11-08T20:13:56Z"
     },
     {
       "id": "rustdesk/rustdesk",
@@ -672,9 +672,9 @@
         "wayland",
         "windows"
       ],
-      "stars": 128647,
+      "stars": 128664,
       "stars_delta_7d": 0,
-      "forks": 20443,
+      "forks": 20450,
       "language": "Rust",
       "homepage": "https://rustdesk.com",
       "html_url": "https://github.com/rustdesk/rustdesk",
@@ -682,7 +682,7 @@
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "source": "curated",
       "scene": "远程桌面",
-      "updated_at": "2026-11-08T14:39:19Z"
+      "updated_at": "2026-11-08T20:14:32Z"
     },
     {
       "id": "immich-app/immich",
@@ -717,9 +717,9 @@
         "typescript",
         "videos"
       ],
-      "stars": 118527,
+      "stars": 118562,
       "stars_delta_7d": 0,
-      "forks": 7531,
+      "forks": 7536,
       "language": "TypeScript",
       "homepage": "https://immich.app",
       "html_url": "https://github.com/immich-app/immich",
@@ -727,7 +727,7 @@
       "description": "High performance self-hosted photo and video management solution.",
       "source": "curated",
       "scene": "管照片",
-      "updated_at": "2026-11-08T14:33:44Z"
+      "updated_at": "2026-11-08T20:16:26Z"
     },
     {
       "id": "localsend/localsend",
@@ -750,9 +750,9 @@
         "flutter",
         "flutter-apps"
       ],
-      "stars": 97893,
+      "stars": 97926,
       "stars_delta_7d": 0,
-      "forks": 5576,
+      "forks": 5581,
       "language": "Dart",
       "homepage": "https://localsend.org",
       "html_url": "https://github.com/localsend/localsend",
@@ -760,7 +760,7 @@
       "description": "An open-source cross-platform alternative to AirDrop",
       "source": "curated",
       "scene": "传文件",
-      "updated_at": "2026-11-08T14:54:55Z"
+      "updated_at": "2026-11-08T19:53:20Z"
     },
     {
       "id": "Stirling-Tools/Stirling-PDF",
@@ -792,9 +792,9 @@
         "pdfmerger",
         "self-hosted"
       ],
-      "stars": 96021,
+      "stars": 96044,
       "stars_delta_7d": 0,
-      "forks": 10011,
+      "forks": 10015,
       "language": "TypeScript",
       "homepage": "https://stirling.com",
       "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
@@ -802,7 +802,7 @@
       "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
       "source": "curated",
       "scene": "处理 PDF",
-      "updated_at": "2026-11-08T14:51:57Z"
+      "updated_at": "2026-11-08T20:10:17Z"
     },
     {
       "id": "home-assistant/core",
@@ -828,9 +828,9 @@
         "python",
         "raspberry-pi"
       ],
-      "stars": 92067,
+      "stars": 92069,
       "stars_delta_7d": 0,
-      "forks": 39231,
+      "forks": 39238,
       "language": "Python",
       "homepage": "https://www.home-assistant.io",
       "html_url": "https://github.com/home-assistant/core",
@@ -838,7 +838,7 @@
       "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
       "source": "curated",
       "scene": "智能家居",
-      "updated_at": "2026-11-08T14:55:31Z"
+      "updated_at": "2026-11-08T19:47:46Z"
     },
     {
       "id": "gohugoio/hugo",
@@ -864,7 +864,7 @@
         "hugo",
         "static-site-generator"
       ],
-      "stars": 90415,
+      "stars": 90418,
       "stars_delta_7d": 0,
       "forks": 8443,
       "language": "Go",
@@ -874,7 +874,7 @@
       "description": "The world’s fastest framework for building websites.",
       "source": "curated",
       "scene": "写博客",
-      "updated_at": "2026-11-08T14:09:21Z"
+      "updated_at": "2026-11-08T19:24:50Z"
     },
     {
       "id": "syncthing/syncthing",
@@ -897,7 +897,7 @@
         "peer-to-peer",
         "synchronization"
       ],
-      "stars": 90228,
+      "stars": 90237,
       "stars_delta_7d": 0,
       "forks": 5582,
       "language": "Go",
@@ -907,7 +907,7 @@
       "description": "Open Source Continuous File Synchronization",
       "source": "curated",
       "scene": "同步文件",
-      "updated_at": "2026-11-08T14:14:59Z"
+      "updated_at": "2026-11-08T20:17:31Z"
     },
     {
       "id": "hoppscotch/hoppscotch",
@@ -943,9 +943,9 @@
         "vuejs",
         "websocket"
       ],
-      "stars": 80766,
+      "stars": 80768,
       "stars_delta_7d": 0,
-      "forks": 6236,
+      "forks": 6234,
       "language": "TypeScript",
       "homepage": "https://hoppscotch.io",
       "html_url": "https://github.com/hoppscotch/hoppscotch",
@@ -953,7 +953,7 @@
       "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
       "source": "curated",
       "scene": "测接口",
-      "updated_at": "2026-11-08T14:08:06Z"
+      "updated_at": "2026-11-08T19:54:47Z"
     },
     {
       "id": "anuraghazra/github-readme-stats",
@@ -978,7 +978,7 @@
       ],
       "stars": 79843,
       "stars_delta_7d": 0,
-      "forks": 38262,
+      "forks": 38260,
       "language": "JavaScript",
       "homepage": "https://github-readme-stats.vercel.app",
       "html_url": "https://github.com/anuraghazra/github-readme-stats",
@@ -1016,9 +1016,9 @@
         "team-collaboration",
         "wiki"
       ],
-      "stars": 78452,
+      "stars": 78474,
       "stars_delta_7d": 0,
-      "forks": 6207,
+      "forks": 6211,
       "language": "Dart",
       "homepage": "https://appflowy.com",
       "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
@@ -1026,7 +1026,7 @@
       "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
       "source": "curated",
       "scene": "做文档看板",
-      "updated_at": "2026-11-08T14:49:20Z"
+      "updated_at": "2026-11-08T20:19:40Z"
     },
     {
       "id": "nocodb/nocodb",
@@ -1059,9 +1059,9 @@
         "sqlite",
         "swagger"
       ],
-      "stars": 65448,
+      "stars": 65451,
       "stars_delta_7d": 0,
-      "forks": 5124,
+      "forks": 5125,
       "language": "TypeScript",
       "homepage": "https://nocodb.com",
       "html_url": "https://github.com/nocodb/nocodb",
@@ -1069,7 +1069,7 @@
       "description": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
       "source": "curated",
       "scene": "做表格",
-      "updated_at": "2026-11-08T12:39:06Z"
+      "updated_at": "2026-11-08T19:28:12Z"
     },
     {
       "id": "localstack/localstack",
@@ -1094,7 +1094,7 @@
         "python",
         "testing"
       ],
-      "stars": 65124,
+      "stars": 65123,
       "stars_delta_7d": 0,
       "forks": 4834,
       "language": "Python",
@@ -1104,7 +1104,7 @@
       "description": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
       "source": "curated",
       "scene": "本地云开发",
-      "updated_at": "2026-11-08T12:24:34Z"
+      "updated_at": "2026-11-08T18:12:22Z"
     },
     {
       "id": "withastro/astro",
@@ -1134,7 +1134,7 @@
         "static-site-generator",
         "universal"
       ],
-      "stars": 63815,
+      "stars": 63823,
       "stars_delta_7d": 0,
       "forks": 3921,
       "language": "TypeScript",
@@ -1144,7 +1144,7 @@
       "description": "The web framework for content-driven websites.",
       "source": "curated",
       "scene": "做网站",
-      "updated_at": "2026-11-08T14:44:06Z"
+      "updated_at": "2026-11-08T19:41:46Z"
     },
     {
       "id": "penpot/penpot",
@@ -1169,9 +1169,9 @@
         "ux-design",
         "ux-experience"
       ],
-      "stars": 62181,
+      "stars": 62190,
       "stars_delta_7d": 0,
-      "forks": 4384,
+      "forks": 4386,
       "language": "Clojure",
       "homepage": "https://penpot.app",
       "html_url": "https://github.com/penpot/penpot",
@@ -1179,7 +1179,7 @@
       "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
       "source": "curated",
       "scene": "做界面",
-      "updated_at": "2026-11-08T14:55:26Z"
+      "updated_at": "2026-11-08T20:14:09Z"
     },
     {
       "id": "twentyhq/twenty",
@@ -1214,9 +1214,9 @@
         "typescript",
         "web"
       ],
-      "stars": 60636,
+      "stars": 60651,
       "stars_delta_7d": 0,
-      "forks": 10014,
+      "forks": 10020,
       "language": "TypeScript",
       "homepage": "https://twenty.com",
       "html_url": "https://github.com/twentyhq/twenty",
@@ -1224,7 +1224,7 @@
       "description": "The open alternative to Salesforce, designed for AI.",
       "source": "curated",
       "scene": "管客户",
-      "updated_at": "2026-11-08T14:55:34Z"
+      "updated_at": "2026-11-08T20:20:37Z"
     },
     {
       "id": "maybe-finance/maybe",
@@ -1250,9 +1250,9 @@
         "stimulusjs",
         "turbo"
       ],
-      "stars": 54196,
+      "stars": 54197,
       "stars_delta_7d": 0,
-      "forks": 5665,
+      "forks": 5666,
       "language": "Ruby",
       "homepage": null,
       "html_url": "https://github.com/maybe-finance/maybe",
@@ -1260,7 +1260,7 @@
       "description": "The personal finance app for everyone",
       "source": "curated",
       "scene": "理财",
-      "updated_at": "2026-11-08T13:23:19Z"
+      "updated_at": "2026-11-08T16:36:19Z"
     },
     {
       "id": "calcom/cal.diy",
@@ -1289,9 +1289,9 @@
         "typescript",
         "zod"
       ],
-      "stars": 49795,
+      "stars": 49805,
       "stars_delta_7d": 0,
-      "forks": 15574,
+      "forks": 15577,
       "language": "TypeScript",
       "homepage": "https://cal.diy",
       "html_url": "https://github.com/calcom/cal.diy",
@@ -1299,7 +1299,7 @@
       "description": "Scheduling infrastructure for absolutely everyone.",
       "source": "curated",
       "scene": "约时间",
-      "updated_at": "2026-11-08T14:13:52Z"
+      "updated_at": "2026-11-08T20:18:40Z"
     },
     {
       "id": "janhq/jan",
@@ -1325,9 +1325,9 @@
         "self-hosted",
         "tauri"
       ],
-      "stars": 45591,
+      "stars": 45603,
       "stars_delta_7d": 0,
-      "forks": 3163,
+      "forks": 3164,
       "language": "Rust",
       "homepage": "https://jan.ai/",
       "html_url": "https://github.com/janhq/jan",
@@ -1335,7 +1335,7 @@
       "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
       "source": "curated",
       "scene": "AI 聊天",
-      "updated_at": "2026-11-08T14:34:04Z"
+      "updated_at": "2026-11-08T19:45:51Z"
     },
     {
       "id": "logseq/logseq",
@@ -1365,7 +1365,7 @@
         "org-mode",
         "pkm"
       ],
-      "stars": 45514,
+      "stars": 45518,
       "stars_delta_7d": 0,
       "forks": 2864,
       "language": "Clojure",
@@ -1375,7 +1375,7 @@
       "description": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV",
       "source": "curated",
       "scene": "记笔记",
-      "updated_at": "2026-11-08T14:49:39Z"
+      "updated_at": "2026-11-08T19:16:16Z"
     },
     {
       "id": "ToolJet/ToolJet",
@@ -1412,9 +1412,9 @@
         "web-development-tools",
         "workflow-automation"
       ],
-      "stars": 41209,
+      "stars": 41213,
       "stars_delta_7d": 0,
-      "forks": 5509,
+      "forks": 5508,
       "language": "HTML",
       "homepage": "https://tooljet.com",
       "html_url": "https://github.com/ToolJet/ToolJet",
@@ -1422,7 +1422,7 @@
       "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
       "source": "curated",
       "scene": "搭内部工具",
-      "updated_at": "2026-11-08T11:31:54Z"
+      "updated_at": "2026-11-08T20:00:55Z"
     },
     {
       "id": "outline/outline",
@@ -1448,7 +1448,7 @@
         "slack",
         "wiki"
       ],
-      "stars": 41202,
+      "stars": 41203,
       "stars_delta_7d": 0,
       "forks": 3656,
       "language": "TypeScript",
@@ -1458,7 +1458,7 @@
       "description": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
       "source": "curated",
       "scene": "团队文档",
-      "updated_at": "2026-11-08T13:23:31Z"
+      "updated_at": "2026-11-08T18:46:25Z"
     },
     {
       "id": "appsmithorg/appsmith",
@@ -1497,7 +1497,7 @@
         "webdevelopment",
         "workflows"
       ],
-      "stars": 41189,
+      "stars": 41190,
       "stars_delta_7d": 0,
       "forks": 4826,
       "language": "TypeScript",
@@ -1507,7 +1507,7 @@
       "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
       "source": "curated",
       "scene": "搭内部工具",
-      "updated_at": "2026-11-08T10:54:16Z"
+      "updated_at": "2026-11-08T18:18:21Z"
     },
     {
       "id": "photoprism/photoprism",
@@ -1534,9 +1534,9 @@
         "self-hosted",
         "tensorflow"
       ],
-      "stars": 40423,
+      "stars": 40424,
       "stars_delta_7d": 0,
-      "forks": 2335,
+      "forks": 2336,
       "language": "Go",
       "homepage": "https://www.photoprism.app",
       "html_url": "https://github.com/photoprism/photoprism",
@@ -1544,7 +1544,7 @@
       "description": "AI-Powered Photos App 🌈💎✨",
       "source": "curated",
       "scene": "管照片",
-      "updated_at": "2026-11-08T13:28:43Z"
+      "updated_at": "2026-11-08T17:56:01Z"
     },
     {
       "id": "drawdb-io/drawdb",
@@ -1583,9 +1583,9 @@
         "sql-server",
         "sqlite"
       ],
-      "stars": 40278,
+      "stars": 40280,
       "stars_delta_7d": 0,
-      "forks": 3360,
+      "forks": 3361,
       "language": "JavaScript",
       "homepage": "https://drawdb.app",
       "html_url": "https://github.com/drawdb-io/drawdb",
@@ -1593,7 +1593,7 @@
       "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
       "source": "curated",
       "scene": "画结构图",
-      "updated_at": "2026-11-08T14:05:16Z"
+      "updated_at": "2026-11-08T18:20:16Z"
     },
     {
       "id": "Infisical/infisical",
@@ -1631,7 +1631,7 @@
         "security-tools",
         "vault"
       ],
-      "stars": 30354,
+      "stars": 30357,
       "stars_delta_7d": 0,
       "forks": 2415,
       "language": "TypeScript",
@@ -1641,7 +1641,7 @@
       "description": "Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents.",
       "source": "curated",
       "scene": "管密钥",
-      "updated_at": "2026-11-08T13:50:06Z"
+      "updated_at": "2026-11-08T19:57:21Z"
     },
     {
       "id": "actualbudget/actual",
@@ -1664,9 +1664,9 @@
         "money",
         "personal-finance"
       ],
-      "stars": 30083,
+      "stars": 30091,
       "stars_delta_7d": 0,
-      "forks": 3260,
+      "forks": 3263,
       "language": "TypeScript",
       "homepage": "https://actualbudget.org",
       "html_url": "https://github.com/actualbudget/actual",
@@ -1674,7 +1674,7 @@
       "description": "A local-first personal finance app",
       "source": "curated",
       "scene": "记账",
-      "updated_at": "2026-11-08T14:20:18Z"
+      "updated_at": "2026-11-08T19:22:23Z"
     },
     {
       "id": "activepieces/activepieces",
@@ -1705,9 +1705,9 @@
         "workflow-automation",
         "workflows"
       ],
-      "stars": 25428,
+      "stars": 25435,
       "stars_delta_7d": 0,
-      "forks": 4443,
+      "forks": 4445,
       "language": "TypeScript",
       "homepage": "https://www.activepieces.com",
       "html_url": "https://github.com/activepieces/activepieces",
@@ -1715,7 +1715,7 @@
       "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
       "source": "curated",
       "scene": "自动化",
-      "updated_at": "2026-11-08T14:54:56Z"
+      "updated_at": "2026-11-08T20:16:06Z"
     },
     {
       "id": "knadh/listmonk",
@@ -1747,9 +1747,9 @@
         "smtp",
         "transactional-emails"
       ],
-      "stars": 24195,
+      "stars": 24196,
       "stars_delta_7d": 0,
-      "forks": 2765,
+      "forks": 2767,
       "language": "Go",
       "homepage": "https://listmonk.app",
       "html_url": "https://github.com/knadh/listmonk",
@@ -1757,7 +1757,7 @@
       "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
       "source": "curated",
       "scene": "发邮件通讯",
-      "updated_at": "2026-11-08T14:35:08Z"
+      "updated_at": "2026-11-08T16:57:45Z"
     },
     {
       "id": "obsidianmd/obsidian-releases",
@@ -1782,9 +1782,9 @@
         "obsidian",
         "obsidian-md"
       ],
-      "stars": 23135,
+      "stars": 23146,
       "stars_delta_7d": 0,
-      "forks": 7948,
+      "forks": 7947,
       "language": null,
       "homepage": "https://obsidian.md",
       "html_url": "https://github.com/obsidianmd/obsidian-releases",
@@ -1792,7 +1792,7 @@
       "description": "Community plugins list, theme list, and releases of Obsidian.",
       "source": "curated",
       "scene": "记笔记",
-      "updated_at": "2026-11-08T14:30:10Z"
+      "updated_at": "2026-11-08T20:20:35Z"
     },
     {
       "id": "documenso/documenso",
@@ -1828,9 +1828,9 @@
         "signing",
         "typescript"
       ],
-      "stars": 15689,
+      "stars": 15691,
       "stars_delta_7d": 0,
-      "forks": 3455,
+      "forks": 3458,
       "language": "TypeScript",
       "homepage": "https://documenso.com",
       "html_url": "https://github.com/documenso/documenso",
@@ -1838,7 +1838,7 @@
       "description": "The Open Source DocuSign Alternative.",
       "source": "curated",
       "scene": "电子签名",
-      "updated_at": "2026-11-08T14:31:41Z"
+      "updated_at": "2026-11-08T17:19:32Z"
     },
     {
       "id": "raycast/extensions",
@@ -1855,7 +1855,7 @@
         "productivity"
       ],
       "topics": [],
-      "stars": 7833,
+      "stars": 7832,
       "stars_delta_7d": 0,
       "forks": 7485,
       "language": "TypeScript",
@@ -1865,7 +1865,7 @@
       "description": "Everything you need to extend Raycast.",
       "source": "curated",
       "scene": "Mac 效率",
-      "updated_at": "2026-11-08T03:20:31Z"
+      "updated_at": "2026-11-08T18:50:19Z"
     },
     {
       "id": "steveseguin/vdo.ninja",
@@ -1894,9 +1894,9 @@
         "video",
         "vmix"
       ],
-      "stars": 4142,
+      "stars": 4144,
       "stars_delta_7d": 0,
-      "forks": 1240,
+      "forks": 1241,
       "language": "JavaScript",
       "homepage": "https://vdo.ninja",
       "html_url": "https://github.com/steveseguin/vdo.ninja",
@@ -1904,7 +1904,41 @@
       "description": "VDO.Ninja is a powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.",
       "source": "curated",
       "scene": "直播",
-      "updated_at": "2026-11-07T19:19:55Z"
+      "updated_at": "2026-11-08T16:36:25Z"
+    },
+    {
+      "id": "codecrafters-io/build-your-own-x",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "name": "build-your-own-x",
+      "title_zh": "build-your-own-x",
+      "summary_zh": "build-your-own-x：Master programming by recreating your favorite technologies from scratch.",
+      "bullets_zh": [
+        "已有超过 561,039 人星标，说明很多人在用或关注",
+        "主要使用 Markdown 开发",
+        "标签：awesome-list、free、programming、tutorial-code"
+      ],
+      "category_ids": [
+        "learning"
+      ],
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "stars": 561039,
+      "stars_delta_7d": 0,
+      "forks": 52496,
+      "language": "Markdown",
+      "homepage": "https://codecrafters.io",
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58904235?v=4",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "source": "trending",
+      "scene": null,
+      "updated_at": "2026-11-08T20:15:00Z"
     },
     {
       "id": "public-apis/public-apis",
@@ -1913,7 +1947,7 @@
       "title_zh": "public-apis",
       "summary_zh": "public-apis：A collective list of free APIs",
       "bullets_zh": [
-        "已有超过 497,208 人星标，说明很多人在用或关注",
+        "已有超过 497,281 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：api、apis、dataset、development"
       ],
@@ -1935,9 +1969,9 @@
         "resources",
         "software"
       ],
-      "stars": 497208,
+      "stars": 497281,
       "stars_delta_7d": 0,
-      "forks": 55573,
+      "forks": 55587,
       "language": "Python",
       "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
       "html_url": "https://github.com/public-apis/public-apis",
@@ -1945,7 +1979,7 @@
       "description": "A collective list of free APIs",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:47Z"
+      "updated_at": "2026-11-08T20:21:06Z"
     },
     {
       "id": "morluto/rea",
@@ -1954,7 +1988,7 @@
       "title_zh": "rea",
       "summary_zh": "rea：Reverse engineer anything with agents, from app behavior down to native binar…",
       "bullets_zh": [
-        "已有超过 442,682 人星标，说明很多人在用或关注",
+        "已有超过 443,347 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：agent-skills、ai、android、claude-code"
       ],
@@ -1984,9 +2018,9 @@
         "touhou",
         "typescript"
       ],
-      "stars": 442682,
+      "stars": 443347,
       "stars_delta_7d": 0,
-      "forks": 109439,
+      "forks": 109548,
       "language": "TypeScript",
       "homepage": "https://rea.tools",
       "html_url": "https://github.com/morluto/rea",
@@ -1994,7 +2028,7 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:46Z"
+      "updated_at": "2026-11-08T20:21:39Z"
     },
     {
       "id": "EbookFoundation/free-programming-books",
@@ -2003,7 +2037,7 @@
       "title_zh": "free-programming-books",
       "summary_zh": "free-programming-books：:books: Freely available programming books",
       "bullets_zh": [
-        "已有超过 401,275 人星标，说明很多人在用或关注",
+        "已有超过 401,291 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：books、education、hacktoberfest、list"
       ],
@@ -2017,9 +2051,9 @@
         "list",
         "resource"
       ],
-      "stars": 401275,
+      "stars": 401291,
       "stars_delta_7d": 0,
-      "forks": 67384,
+      "forks": 67408,
       "language": "Python",
       "homepage": "https://ebookfoundation.github.io/free-programming-books/",
       "html_url": "https://github.com/EbookFoundation/free-programming-books",
@@ -2027,7 +2061,7 @@
       "description": ":books: Freely available programming books",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:53:56Z"
+      "updated_at": "2026-11-08T20:08:44Z"
     },
     {
       "id": "openclaw/openclaw",
@@ -2036,7 +2070,7 @@
       "title_zh": "openclaw",
       "summary_zh": "openclaw：The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
       "bullets_zh": [
-        "已有超过 394,182 人星标，说明很多人在用或关注",
+        "已有超过 394,204 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai、assistant、crustacean、molty"
       ],
@@ -2052,9 +2086,9 @@
         "own-your-data",
         "personal"
       ],
-      "stars": 394182,
+      "stars": 394204,
       "stars_delta_7d": 0,
-      "forks": 82835,
+      "forks": 82842,
       "language": "TypeScript",
       "homepage": "https://openclaw.ai",
       "html_url": "https://github.com/openclaw/openclaw",
@@ -2062,7 +2096,7 @@
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:53:37Z"
+      "updated_at": "2026-11-08T20:21:54Z"
     },
     {
       "id": "nilbuild/developer-roadmap",
@@ -2071,7 +2105,7 @@
       "title_zh": "developer-roadmap",
       "summary_zh": "developer-roadmap：Interactive roadmaps, guides and other educational content to help developers…",
       "bullets_zh": [
-        "已有超过 371,542 人星标，说明很多人在用或关注",
+        "已有超过 371,559 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：angular-roadmap、backend-roadmap、blockchain-roadmap、computer-science"
       ],
@@ -2098,9 +2132,9 @@
         "software-architect-roadmap",
         "vue-roadmap"
       ],
-      "stars": 371542,
+      "stars": 371559,
       "stars_delta_7d": 0,
-      "forks": 45505,
+      "forks": 45541,
       "language": "TypeScript",
       "homepage": "https://roadmap.sh",
       "html_url": "https://github.com/nilbuild/developer-roadmap",
@@ -2108,7 +2142,7 @@
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:48:06Z"
+      "updated_at": "2026-11-08T19:58:02Z"
     },
     {
       "id": "jwasham/coding-interview-university",
@@ -2117,7 +2151,7 @@
       "title_zh": "coding-interview-university",
       "summary_zh": "coding-interview-university：A complete computer science study plan to become a software engineer.",
       "bullets_zh": [
-        "已有超过 364,092 人星标，说明很多人在用或关注",
+        "已有超过 364,100 人星标，说明很多人在用或关注",
         "标签：algorithm、algorithms、coding-interview、coding-interviews"
       ],
       "category_ids": [
@@ -2137,9 +2171,9 @@
         "software-engineering",
         "study-plan"
       ],
-      "stars": 364092,
+      "stars": 364100,
       "stars_delta_7d": 0,
-      "forks": 85453,
+      "forks": 85477,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/jwasham/coding-interview-university",
@@ -2147,7 +2181,7 @@
       "description": "A complete computer science study plan to become a software engineer.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:52:26Z"
+      "updated_at": "2026-11-08T20:08:48Z"
     },
     {
       "id": "awesome-selfhosted/awesome-selfhosted",
@@ -2156,7 +2190,7 @@
       "title_zh": "awesome-selfhosted",
       "summary_zh": "awesome-selfhosted：A list of Free Software network services and web applications which can be ho…",
       "bullets_zh": [
-        "已有超过 335,033 人星标，说明很多人在用或关注",
+        "已有超过 335,119 人星标，说明很多人在用或关注",
         "标签：awesome、awesome-list、cloud、free-software"
       ],
       "category_ids": [
@@ -2173,9 +2207,9 @@
         "self-hosted",
         "selfhosted"
       ],
-      "stars": 335033,
+      "stars": 335119,
       "stars_delta_7d": 0,
-      "forks": 15771,
+      "forks": 15773,
       "language": null,
       "homepage": "https://awesome-selfhosted.net/",
       "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
@@ -2183,7 +2217,7 @@
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:53:22Z"
+      "updated_at": "2026-11-08T20:19:34Z"
     },
     {
       "id": "vinta/awesome-python",
@@ -2192,7 +2226,7 @@
       "title_zh": "awesome-python",
       "summary_zh": "awesome-python：The definitive list that answers \"I want to do X in Python, which tool should…",
       "bullets_zh": [
-        "已有超过 333,345 人星标，说明很多人在用或关注",
+        "已有超过 333,406 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：awesome、awesome-list、python、python-frameworks"
       ],
@@ -2207,9 +2241,9 @@
         "python-libraries",
         "python-tools"
       ],
-      "stars": 333345,
+      "stars": 333406,
       "stars_delta_7d": 0,
-      "forks": 29063,
+      "forks": 29065,
       "language": "Python",
       "homepage": "https://awesome-python.com/",
       "html_url": "https://github.com/vinta/awesome-python",
@@ -2217,7 +2251,7 @@
       "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:53:05Z"
+      "updated_at": "2026-11-08T20:19:32Z"
     },
     {
       "id": "mattpocock/skills",
@@ -2226,7 +2260,7 @@
       "title_zh": "skills",
       "summary_zh": "skills：Skills for Real Engineers. Straight from my .agents directory.",
       "bullets_zh": [
-        "已有超过 318,229 人星标，说明很多人在用或关注",
+        "已有超过 318,409 人星标，说明很多人在用或关注",
         "主要使用 Shell 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2234,9 +2268,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 318229,
+      "stars": 318409,
       "stars_delta_7d": 0,
-      "forks": 26631,
+      "forks": 26648,
       "language": "Shell",
       "homepage": "https://aihero.dev/skills",
       "html_url": "https://github.com/mattpocock/skills",
@@ -2244,7 +2278,7 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:51Z"
+      "updated_at": "2026-11-08T20:17:57Z"
     },
     {
       "id": "obra/superpowers",
@@ -2253,7 +2287,7 @@
       "title_zh": "superpowers",
       "summary_zh": "superpowers：An agentic skills framework & software development methodology that works.",
       "bullets_zh": [
-        "已有超过 314,420 人星标，说明很多人在用或关注",
+        "已有超过 314,522 人星标，说明很多人在用或关注",
         "主要使用 Shell 开发",
         "标签：ai、brainstorming、coding、obra"
       ],
@@ -2270,9 +2304,9 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "stars": 314420,
+      "stars": 314522,
       "stars_delta_7d": 0,
-      "forks": 27972,
+      "forks": 27980,
       "language": "Shell",
       "homepage": null,
       "html_url": "https://github.com/obra/superpowers",
@@ -2280,7 +2314,7 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:50Z"
+      "updated_at": "2026-11-08T20:19:42Z"
     },
     {
       "id": "affaan-m/ECC",
@@ -2289,7 +2323,7 @@
       "title_zh": "ECC",
       "summary_zh": "ECC：The agent harness performance optimization system. Skills, instincts, memory,…",
       "bullets_zh": [
-        "已有超过 299,473 人星标，说明很多人在用或关注",
+        "已有超过 299,619 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：ai-agents、anthropic、claude、claude-code"
       ],
@@ -2308,9 +2342,9 @@
         "mcp",
         "productivity"
       ],
-      "stars": 299473,
+      "stars": 299619,
       "stars_delta_7d": 0,
-      "forks": 44245,
+      "forks": 44267,
       "language": "JavaScript",
       "homepage": "https://ecc.tools",
       "html_url": "https://github.com/affaan-m/ECC",
@@ -2318,7 +2352,7 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:59Z"
+      "updated_at": "2026-11-08T20:15:31Z"
     },
     {
       "id": "practical-tutorials/project-based-learning",
@@ -2327,7 +2361,7 @@
       "title_zh": "project-based-learning",
       "summary_zh": "project-based-learning：Curated list of project-based tutorials",
       "bullets_zh": [
-        "已有超过 289,332 人星标，说明很多人在用或关注",
+        "已有超过 289,352 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：beginner-project、cpp、golang、javascript"
       ],
@@ -2344,9 +2378,9 @@
         "tutorial",
         "webdevelopment"
       ],
-      "stars": 289332,
+      "stars": 289352,
       "stars_delta_7d": 0,
-      "forks": 36825,
+      "forks": 36828,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/practical-tutorials/project-based-learning",
@@ -2354,7 +2388,7 @@
       "description": "Curated list of project-based tutorials",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:48:31Z"
+      "updated_at": "2026-11-08T20:15:03Z"
     },
     {
       "id": "deepseek-ai/deepseek-harness",
@@ -2363,7 +2397,7 @@
       "title_zh": "deepseek-harness",
       "summary_zh": "deepseek-harness：DeepSeek Harness: Everything is a Plugin.",
       "bullets_zh": [
-        "已有超过 276,258 人星标，说明很多人在用或关注",
+        "已有超过 276,408 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai-agents、cordis、dsh、dsh-plugin"
       ],
@@ -2376,9 +2410,9 @@
         "dsh",
         "dsh-plugin"
       ],
-      "stars": 276258,
+      "stars": 276408,
       "stars_delta_7d": 0,
-      "forks": 33810,
+      "forks": 33847,
       "language": "TypeScript",
       "homepage": "https://deepseek.com/harness",
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
@@ -2386,7 +2420,7 @@
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:55Z"
+      "updated_at": "2026-11-08T20:20:08Z"
     },
     {
       "id": "NousResearch/hermes-agent",
@@ -2395,7 +2429,7 @@
       "title_zh": "hermes-agent",
       "summary_zh": "hermes-agent：The agent that grows with you",
       "bullets_zh": [
-        "已有超过 261,643 人星标，说明很多人在用或关注",
+        "已有超过 261,719 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：ai、ai-agent、ai-agents、anthropic"
       ],
@@ -2417,9 +2451,9 @@
         "nous-research",
         "openai"
       ],
-      "stars": 261643,
+      "stars": 261719,
       "stars_delta_7d": 0,
-      "forks": 58121,
+      "forks": 58176,
       "language": "Python",
       "homepage": "https://hermes-agent.nousresearch.com",
       "html_url": "https://github.com/NousResearch/hermes-agent",
@@ -2427,7 +2461,7 @@
       "description": "The agent that grows with you",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:55:18Z"
+      "updated_at": "2026-11-08T20:22:03Z"
     },
     {
       "id": "torvalds/linux",
@@ -2436,7 +2470,7 @@
       "title_zh": "linux",
       "summary_zh": "linux：Linux kernel source tree",
       "bullets_zh": [
-        "已有超过 254,848 人星标，说明很多人在用或关注",
+        "已有超过 254,870 人星标，说明很多人在用或关注",
         "主要使用 C 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2444,9 +2478,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 254848,
+      "stars": 254870,
       "stars_delta_7d": 0,
-      "forks": 67329,
+      "forks": 67355,
       "language": "C",
       "homepage": null,
       "html_url": "https://github.com/torvalds/linux",
@@ -2454,7 +2488,7 @@
       "description": "Linux kernel source tree",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:51:40Z"
+      "updated_at": "2026-11-08T20:21:01Z"
     },
     {
       "id": "react/react",
@@ -2463,7 +2497,7 @@
       "title_zh": "react",
       "summary_zh": "react：The library for web and native user interfaces.",
       "bullets_zh": [
-        "已有超过 252,408 人星标，说明很多人在用或关注",
+        "已有超过 252,417 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：declarative、frontend、javascript、library"
       ],
@@ -2478,9 +2512,9 @@
         "react",
         "ui"
       ],
-      "stars": 252408,
+      "stars": 252417,
       "stars_delta_7d": 0,
-      "forks": 51964,
+      "forks": 51983,
       "language": "JavaScript",
       "homepage": "https://react.dev",
       "html_url": "https://github.com/react/react",
@@ -2488,7 +2522,7 @@
       "description": "The library for web and native user interfaces.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T13:35:20Z"
+      "updated_at": "2026-11-08T19:59:25Z"
     },
     {
       "id": "TheAlgorithms/Python",
@@ -2497,7 +2531,7 @@
       "title_zh": "Python",
       "summary_zh": "Python：All Algorithms implemented in Python",
       "bullets_zh": [
-        "已有超过 225,957 人星标，说明很多人在用或关注",
+        "已有超过 225,963 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：algorithm、algorithm-competitions、algorithms-implemented、algos"
       ],
@@ -2520,9 +2554,9 @@
         "sorting-algorithms",
         "sorts"
       ],
-      "stars": 225957,
+      "stars": 225963,
       "stars_delta_7d": 0,
-      "forks": 51271,
+      "forks": 51272,
       "language": "Python",
       "homepage": "https://thealgorithms.github.io/Python/",
       "html_url": "https://github.com/TheAlgorithms/Python",
@@ -2530,7 +2564,7 @@
       "description": "All Algorithms implemented in Python",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:18:20Z"
+      "updated_at": "2026-11-08T20:08:37Z"
     },
     {
       "id": "anomalyco/opencode",
@@ -2539,7 +2573,7 @@
       "title_zh": "opencode",
       "summary_zh": "opencode：The open source coding agent.",
       "bullets_zh": [
-        "已有超过 225,433 人星标，说明很多人在用或关注",
+        "已有超过 225,497 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2547,9 +2581,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 225433,
+      "stars": 225497,
       "stars_delta_7d": 0,
-      "forks": 30445,
+      "forks": 30451,
       "language": "TypeScript",
       "homepage": "https://opencode.ai",
       "html_url": "https://github.com/anomalyco/opencode",
@@ -2557,7 +2591,7 @@
       "description": "The open source coding agent.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:42Z"
+      "updated_at": "2026-11-08T20:13:29Z"
     },
     {
       "id": "ossu/computer-science",
@@ -2566,7 +2600,7 @@
       "title_zh": "computer-science",
       "summary_zh": "computer-science：🎓 Path to a free self-taught education in Computer Science!",
       "bullets_zh": [
-        "已有超过 210,963 人星标，说明很多人在用或关注",
+        "已有超过 210,974 人星标，说明很多人在用或关注",
         "主要使用 HTML 开发",
         "标签：awesome-list、computer-science、courses、curriculum"
       ],
@@ -2579,9 +2613,9 @@
         "courses",
         "curriculum"
       ],
-      "stars": 210963,
+      "stars": 210974,
       "stars_delta_7d": 0,
-      "forks": 26102,
+      "forks": 26107,
       "language": "HTML",
       "homepage": "https://cs.ossu.dev",
       "html_url": "https://github.com/ossu/computer-science",
@@ -2589,7 +2623,7 @@
       "description": "🎓 Path to a free self-taught education in Computer Science!",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:24:14Z"
+      "updated_at": "2026-11-08T20:14:53Z"
     },
     {
       "id": "tensorflow/tensorflow",
@@ -2598,7 +2632,7 @@
       "title_zh": "tensorflow",
       "summary_zh": "tensorflow：An Open Source Machine Learning Framework for Everyone",
       "bullets_zh": [
-        "已有超过 201,399 人星标，说明很多人在用或关注",
+        "已有超过 201,398 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "标签：deep-learning、deep-neural-networks、distributed、machine-learning"
       ],
@@ -2615,9 +2649,9 @@
         "python",
         "tensorflow"
       ],
-      "stars": 201399,
+      "stars": 201398,
       "stars_delta_7d": 0,
-      "forks": 78403,
+      "forks": 78419,
       "language": "C++",
       "homepage": "https://tensorflow.org",
       "html_url": "https://github.com/tensorflow/tensorflow",
@@ -2625,7 +2659,7 @@
       "description": "An Open Source Machine Learning Framework for Everyone",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:08:07Z"
+      "updated_at": "2026-11-08T20:11:20Z"
     },
     {
       "id": "firecrawl/firecrawl",
@@ -2634,7 +2668,7 @@
       "title_zh": "firecrawl",
       "summary_zh": "firecrawl：Supercharge your AI agents with data from the web and beyond. Building the li…",
       "bullets_zh": [
-        "已有超过 199,689 人星标，说明很多人在用或关注",
+        "已有超过 199,761 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai、ai-agents、ai-crawler、ai-scraping"
       ],
@@ -2663,9 +2697,9 @@
         "web-search",
         "webscraping"
       ],
-      "stars": 199689,
+      "stars": 199761,
       "stars_delta_7d": 0,
-      "forks": 10508,
+      "forks": 10514,
       "language": "TypeScript",
       "homepage": "https://firecrawl.dev",
       "html_url": "https://github.com/firecrawl/firecrawl",
@@ -2673,7 +2707,7 @@
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:53:35Z"
+      "updated_at": "2026-11-08T20:20:34Z"
     },
     {
       "id": "storytold/photocraft",
@@ -2682,7 +2716,7 @@
       "title_zh": "photocraft",
       "summary_zh": "photocraft：PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "bullets_zh": [
-        "已有超过 77,893 人星标，说明很多人在用或关注",
+        "已有超过 77,951 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：art、image-editing、image-editing-software、image-editor"
       ],
@@ -2698,9 +2732,9 @@
         "photo-editing",
         "rust"
       ],
-      "stars": 77893,
+      "stars": 77951,
       "stars_delta_7d": 0,
-      "forks": 13784,
+      "forks": 13794,
       "language": "Rust",
       "homepage": "https://getartcraft.com/apps/photocraft",
       "html_url": "https://github.com/storytold/photocraft",
@@ -2708,7 +2742,7 @@
       "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:05Z"
+      "updated_at": "2026-11-08T20:18:50Z"
     },
     {
       "id": "Ebony-Vinyl/dsh-our-free-model",
@@ -2717,7 +2751,7 @@
       "title_zh": "dsh-our-free-model",
       "summary_zh": "dsh-our-free-model：在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型—…",
       "bullets_zh": [
-        "已有超过 66,027 人星标，说明很多人在用或关注",
+        "已有超过 66,126 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：ai-agents、deepseek、deepseek-harness、developer-tools"
       ],
@@ -2737,9 +2771,9 @@
         "model-provider",
         "openai-compatible"
       ],
-      "stars": 66027,
+      "stars": 66126,
       "stars_delta_7d": 0,
-      "forks": 1772,
+      "forks": 1775,
       "language": "JavaScript",
       "homepage": null,
       "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
@@ -2747,7 +2781,7 @@
       "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:53:50Z"
+      "updated_at": "2026-11-08T20:13:27Z"
     },
     {
       "id": "Gathin23/cleanyourtv",
@@ -2756,7 +2790,7 @@
       "title_zh": "cleanyourtv",
       "summary_zh": "cleanyourtv：Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
       "bullets_zh": [
-        "已有超过 54,394 人星标，说明很多人在用或关注",
+        "已有超过 54,624 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：adb、adblock、android-tv、android-tv-launcher"
       ],
@@ -2782,9 +2816,9 @@
         "vibe-coding",
         "xiaomi"
       ],
-      "stars": 54394,
+      "stars": 54624,
       "stars_delta_7d": 0,
-      "forks": 7005,
+      "forks": 7039,
       "language": "Python",
       "homepage": "https://cleanyour.tv",
       "html_url": "https://github.com/Gathin23/cleanyourtv",
@@ -2792,7 +2826,7 @@
       "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:44Z"
+      "updated_at": "2026-11-08T20:19:35Z"
     },
     {
       "id": "Niko1221/Strata",
@@ -2801,7 +2835,7 @@
       "title_zh": "Strata",
       "summary_zh": "Strata：Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / …",
       "bullets_zh": [
-        "已有超过 41,827 人星标，说明很多人在用或关注",
+        "已有超过 41,944 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2809,9 +2843,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 41827,
+      "stars": 41944,
       "stars_delta_7d": 0,
-      "forks": 4584,
+      "forks": 4596,
       "language": "C++",
       "homepage": null,
       "html_url": "https://github.com/Niko1221/Strata",
@@ -2819,7 +2853,7 @@
       "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:30Z"
+      "updated_at": "2026-11-08T20:13:45Z"
     },
     {
       "id": "NandhaKishorM/laya",
@@ -2828,7 +2862,7 @@
       "title_zh": "laya",
       "summary_zh": "laya：Non-autoregressive System 1 decision engine. Typed choice, score and yes/no d…",
       "bullets_zh": [
-        "已有超过 35,209 人星标，说明很多人在用或关注",
+        "已有超过 35,222 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：calibration、classification、decision-model、huggingface"
       ],
@@ -2850,9 +2884,9 @@
         "typed-decisions",
         "zero-shot"
       ],
-      "stars": 35209,
+      "stars": 35222,
       "stars_delta_7d": 0,
-      "forks": 3152,
+      "forks": 3153,
       "language": "Python",
       "homepage": "https://huggingface.co/convaiinnovations/laya",
       "html_url": "https://github.com/NandhaKishorM/laya",
@@ -2860,7 +2894,7 @@
       "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:23:54Z"
+      "updated_at": "2026-11-08T20:10:09Z"
     },
     {
       "id": "yetone/magpie",
@@ -2869,7 +2903,7 @@
       "title_zh": "magpie",
       "summary_zh": "magpie：Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from …",
       "bullets_zh": [
-        "已有超过 32,125 人星标，说明很多人在用或关注",
+        "已有超过 32,254 人星标，说明很多人在用或关注",
         "主要使用 Go 开发",
         "标签：claude-code、codex、deepseek、gemini-cli"
       ],
@@ -2884,9 +2918,9 @@
         "llm",
         "macos"
       ],
-      "stars": 32125,
+      "stars": 32254,
       "stars_delta_7d": 0,
-      "forks": 2834,
+      "forks": 2847,
       "language": "Go",
       "homepage": "https://usemagpie.ai",
       "html_url": "https://github.com/yetone/magpie",
@@ -2894,7 +2928,7 @@
       "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:14Z"
+      "updated_at": "2026-11-08T20:18:03Z"
     },
     {
       "id": "wheresryan22/anatomy",
@@ -2903,7 +2937,7 @@
       "title_zh": "anatomy",
       "summary_zh": "anatomy：An agent skill for creating detailed, interactive isometric illustrations of …",
       "bullets_zh": [
-        "已有超过 25,936 人星标，说明很多人在用或关注",
+        "已有超过 25,989 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：agent-skill、open-source、svg、vizualization"
       ],
@@ -2916,9 +2950,9 @@
         "svg",
         "vizualization"
       ],
-      "stars": 25936,
+      "stars": 25989,
       "stars_delta_7d": 0,
-      "forks": 2178,
+      "forks": 2185,
       "language": "JavaScript",
       "homepage": "https://skills.wheresryan.sh/anatomy",
       "html_url": "https://github.com/wheresryan22/anatomy",
@@ -2926,7 +2960,7 @@
       "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:16Z"
+      "updated_at": "2026-11-08T20:10:14Z"
     },
     {
       "id": "deepseek-ai/DeepInfer",
@@ -2935,7 +2969,7 @@
       "title_zh": "DeepInfer",
       "summary_zh": "DeepInfer：DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
       "bullets_zh": [
-        "已有超过 25,653 人星标，说明很多人在用或关注",
+        "已有超过 25,662 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2943,9 +2977,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 25653,
+      "stars": 25662,
       "stars_delta_7d": 0,
-      "forks": 3142,
+      "forks": 3146,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/deepseek-ai/DeepInfer",
@@ -2953,7 +2987,7 @@
       "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:50:21Z"
+      "updated_at": "2026-11-08T20:10:15Z"
     },
     {
       "id": "browser-use/jev-ultrafast",
@@ -2962,7 +2996,7 @@
       "title_zh": "jev-ultrafast",
       "summary_zh": "jev-ultrafast：Fastest and cheapest web agent",
       "bullets_zh": [
-        "已有超过 24,269 人星标，说明很多人在用或关注",
+        "已有超过 24,274 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2970,7 +3004,7 @@
         "developer"
       ],
       "topics": [],
-      "stars": 24269,
+      "stars": 24274,
       "stars_delta_7d": 0,
       "forks": 1871,
       "language": "Python",
@@ -2980,7 +3014,7 @@
       "description": "Fastest and cheapest web agent",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:27:32Z"
+      "updated_at": "2026-11-08T19:53:08Z"
     },
     {
       "id": "KnifeLemon/Filee",
@@ -2989,7 +3023,7 @@
       "title_zh": "Filee",
       "summary_zh": "Filee：Free, open-source file converter. Convert 263 formats offline by drag & drop …",
       "bullets_zh": [
-        "已有超过 24,063 人星标，说明很多人在用或关注",
+        "已有超过 24,165 人星标，说明很多人在用或关注",
         "主要使用 C# 开发",
         "标签：audio-converter、avalonia、batch-conversion、converter"
       ],
@@ -3018,9 +3052,9 @@
         "video-converter",
         "windows"
       ],
-      "stars": 24063,
+      "stars": 24165,
       "stars_delta_7d": 0,
-      "forks": 1408,
+      "forks": 1411,
       "language": "C#",
       "homepage": "https://filee.sh",
       "html_url": "https://github.com/KnifeLemon/Filee",
@@ -3028,7 +3062,7 @@
       "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:18Z"
+      "updated_at": "2026-11-08T20:14:19Z"
     },
     {
       "id": "google-research/harness2",
@@ -3037,7 +3071,7 @@
       "title_zh": "harness2",
       "summary_zh": "harness2 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "已有超过 23,109 人星标，说明很多人在用或关注",
+        "已有超过 23,128 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3045,9 +3079,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 23109,
+      "stars": 23128,
       "stars_delta_7d": 0,
-      "forks": 2315,
+      "forks": 2318,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/google-research/harness2",
@@ -3055,7 +3089,7 @@
       "description": null,
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:54:18Z"
+      "updated_at": "2026-11-08T20:10:13Z"
     },
     {
       "id": "storytold/craft-anything",
@@ -3064,7 +3098,7 @@
       "title_zh": "craft-anything",
       "summary_zh": "craft-anything：Craft Anything: understand how any software works, and craft your own.",
       "bullets_zh": [
-        "已有超过 22,025 人星标，说明很多人在用或关注",
+        "已有超过 22,401 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3072,9 +3106,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 22025,
+      "stars": 22401,
       "stars_delta_7d": 0,
-      "forks": 4338,
+      "forks": 4422,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/storytold/craft-anything",
@@ -3082,7 +3116,7 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:04Z"
+      "updated_at": "2026-11-08T20:21:49Z"
     },
     {
       "id": "deepseek-ai/dsh-superagent-prototype",
@@ -3091,7 +3125,7 @@
       "title_zh": "dsh-superagent-prototype",
       "summary_zh": "dsh-superagent-prototype：Towards a More Autonomous Agent System",
       "bullets_zh": [
-        "已有超过 21,095 人星标，说明很多人在用或关注",
+        "已有超过 21,161 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3099,9 +3133,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 21095,
+      "stars": 21161,
       "stars_delta_7d": 0,
-      "forks": 2517,
+      "forks": 2528,
       "language": "TypeScript",
       "homepage": null,
       "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
@@ -3109,7 +3143,7 @@
       "description": "Towards a More Autonomous Agent System",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:03Z"
+      "updated_at": "2026-11-08T20:10:19Z"
     },
     {
       "id": "storytold/pdfcraft",
@@ -3118,7 +3152,7 @@
       "title_zh": "pdfcraft",
       "summary_zh": "pdfcraft：PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
       "bullets_zh": [
-        "已有超过 19,992 人星标，说明很多人在用或关注",
+        "已有超过 20,023 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：document-processing、documents、pdf、pdf-generation"
       ],
@@ -3135,9 +3169,9 @@
         "pdf-viewer",
         "rust"
       ],
-      "stars": 19992,
+      "stars": 20023,
       "stars_delta_7d": 0,
-      "forks": 7425,
+      "forks": 7432,
       "language": "Rust",
       "homepage": "https://getartcraft.com/apps/printcraft",
       "html_url": "https://github.com/storytold/pdfcraft",
@@ -3145,7 +3179,7 @@
       "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:12Z"
+      "updated_at": "2026-11-08T20:20:40Z"
     },
     {
       "id": "Droid-Deck/DroidDeck",
@@ -3154,7 +3188,7 @@
       "title_zh": "DroidDeck",
       "summary_zh": "DroidDeck：DroidDeck brings the SteamOS experience to Android",
       "bullets_zh": [
-        "已有超过 18,653 人星标，说明很多人在用或关注",
+        "已有超过 18,720 人星标，说明很多人在用或关注",
         "主要使用 Kotlin 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3162,9 +3196,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 18653,
+      "stars": 18720,
       "stars_delta_7d": 0,
-      "forks": 958,
+      "forks": 961,
       "language": "Kotlin",
       "homepage": null,
       "html_url": "https://github.com/Droid-Deck/DroidDeck",
@@ -3172,7 +3206,7 @@
       "description": "DroidDeck brings the SteamOS experience to Android",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:28Z"
+      "updated_at": "2026-11-08T20:14:38Z"
     },
     {
       "id": "robbietilton/Compositor",
@@ -3181,7 +3215,7 @@
       "title_zh": "Compositor",
       "summary_zh": "Compositor：The Photoshop alternative for Mac",
       "bullets_zh": [
-        "已有超过 18,536 人星标，说明很多人在用或关注",
+        "已有超过 18,538 人星标，说明很多人在用或关注",
         "主要使用 Swift 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3189,7 +3223,7 @@
         "developer"
       ],
       "topics": [],
-      "stars": 18536,
+      "stars": 18538,
       "stars_delta_7d": 0,
       "forks": 1843,
       "language": "Swift",
@@ -3199,7 +3233,7 @@
       "description": "The Photoshop alternative for Mac",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:07:39Z"
+      "updated_at": "2026-11-08T17:16:26Z"
     },
     {
       "id": "Zagitta/gpu-unlock",
@@ -3208,7 +3242,7 @@
       "title_zh": "gpu-unlock",
       "summary_zh": "gpu-unlock：Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. …",
       "bullets_zh": [
-        "已有超过 18,060 人星标，说明很多人在用或关注",
+        "已有超过 18,124 人星标，说明很多人在用或关注",
         "主要使用 C 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3216,9 +3250,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 18060,
+      "stars": 18124,
       "stars_delta_7d": 0,
-      "forks": 1838,
+      "forks": 1847,
       "language": "C",
       "homepage": null,
       "html_url": "https://github.com/Zagitta/gpu-unlock",
@@ -3226,7 +3260,7 @@
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:40Z"
+      "updated_at": "2026-11-08T20:17:37Z"
     },
     {
       "id": "storytold/filmcraft",
@@ -3235,7 +3269,7 @@
       "title_zh": "filmcraft",
       "summary_zh": "filmcraft：FilmCraft: An open-source, nonlinear video editor written by scratch in pure …",
       "bullets_zh": [
-        "已有超过 17,820 人星标，说明很多人在用或关注",
+        "已有超过 17,839 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：art、rust、video、video-editing"
       ],
@@ -3250,9 +3284,9 @@
         "video-editor",
         "video-processing"
       ],
-      "stars": 17820,
+      "stars": 17839,
       "stars_delta_7d": 0,
-      "forks": 7313,
+      "forks": 7318,
       "language": "Rust",
       "homepage": "https://getartcraft.com/apps/filmcraft",
       "html_url": "https://github.com/storytold/filmcraft",
@@ -3260,7 +3294,7 @@
       "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:54:44Z"
+      "updated_at": "2026-11-08T20:19:22Z"
     },
     {
       "id": "storytold/wordcraft",
@@ -3269,7 +3303,7 @@
       "title_zh": "wordcraft",
       "summary_zh": "wordcraft：An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "bullets_zh": [
-        "已有超过 17,591 人星标，说明很多人在用或关注",
+        "已有超过 17,609 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3277,9 +3311,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 17591,
+      "stars": 17609,
       "stars_delta_7d": 0,
-      "forks": 4860,
+      "forks": 4869,
       "language": "Rust",
       "homepage": "https://getartcraft.com/apps/wordcraft",
       "html_url": "https://github.com/storytold/wordcraft",
@@ -3287,7 +3321,7 @@
       "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:41Z"
+      "updated_at": "2026-11-08T20:18:05Z"
     },
     {
       "id": "openai/math",
@@ -3296,7 +3330,7 @@
       "title_zh": "math",
       "summary_zh": "math 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "已有超过 17,446 人星标，说明很多人在用或关注",
+        "已有超过 17,450 人星标，说明很多人在用或关注",
         "主要使用 Lean 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3304,7 +3338,7 @@
         "developer"
       ],
       "topics": [],
-      "stars": 17446,
+      "stars": 17450,
       "stars_delta_7d": 0,
       "forks": 1971,
       "language": "Lean",
@@ -3314,41 +3348,7 @@
       "description": null,
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:52:26Z"
-    },
-    {
-      "id": "storytold/lightcraft",
-      "full_name": "storytold/lightcraft",
-      "name": "lightcraft",
-      "title_zh": "lightcraft",
-      "summary_zh": "lightcraft：LightCraft: An open-source non-destructive photo editor written by scratch in…",
-      "bullets_zh": [
-        "已有超过 15,689 人星标，说明很多人在用或关注",
-        "主要使用 Rust 开发",
-        "标签：art、photography、raw、raw-editor"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "art",
-        "photography",
-        "raw",
-        "raw-editor",
-        "raw-processing",
-        "rust"
-      ],
-      "stars": 15689,
-      "stars_delta_7d": 0,
-      "forks": 6012,
-      "language": "Rust",
-      "homepage": "https://getartcraft.com/apps/lightcraft",
-      "html_url": "https://github.com/storytold/lightcraft",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4",
-      "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
-      "source": "trending",
-      "scene": null,
-      "updated_at": "2026-11-08T14:33:06Z"
+      "updated_at": "2026-11-08T20:14:00Z"
     },
     {
       "id": "ccch1mneyyy/dsh-Go",
@@ -3357,7 +3357,7 @@
       "title_zh": "dsh-Go",
       "summary_zh": "dsh-Go：dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
       "bullets_zh": [
-        "已有超过 15,676 人星标，说明很多人在用或关注",
+        "已有超过 15,979 人星标，说明很多人在用或关注",
         "主要使用 Dart 开发",
         "标签：ai-agent、android、android-app、coding-agent"
       ],
@@ -3377,9 +3377,9 @@
         "flutter",
         "llm"
       ],
-      "stars": 15676,
+      "stars": 15979,
       "stars_delta_7d": 0,
-      "forks": 685,
+      "forks": 693,
       "language": "Dart",
       "homepage": null,
       "html_url": "https://github.com/ccch1mneyyy/dsh-Go",
@@ -3387,7 +3387,41 @@
       "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:57:21Z"
+      "updated_at": "2026-11-08T20:21:51Z"
+    },
+    {
+      "id": "storytold/lightcraft",
+      "full_name": "storytold/lightcraft",
+      "name": "lightcraft",
+      "title_zh": "lightcraft",
+      "summary_zh": "lightcraft：LightCraft: An open-source non-destructive photo editor written by scratch in…",
+      "bullets_zh": [
+        "已有超过 15,711 人星标，说明很多人在用或关注",
+        "主要使用 Rust 开发",
+        "标签：art、photography、raw、raw-editor"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "art",
+        "photography",
+        "raw",
+        "raw-editor",
+        "raw-processing",
+        "rust"
+      ],
+      "stars": 15711,
+      "stars_delta_7d": 0,
+      "forks": 6017,
+      "language": "Rust",
+      "homepage": "https://getartcraft.com/apps/lightcraft",
+      "html_url": "https://github.com/storytold/lightcraft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4",
+      "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
+      "source": "trending",
+      "scene": null,
+      "updated_at": "2026-11-08T20:18:22Z"
     },
     {
       "id": "tangency-labs/solidcraft",
@@ -3396,7 +3430,7 @@
       "title_zh": "solidcraft",
       "summary_zh": "solidcraft：SolidCraft: an open-source parametric 3D CAD application built in pure Rust. …",
       "bullets_zh": [
-        "已有超过 14,930 人星标，说明很多人在用或关注",
+        "已有超过 14,990 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：3d-modeling、brep、cad、egui"
       ],
@@ -3414,9 +3448,9 @@
         "step",
         "wasm"
       ],
-      "stars": 14930,
+      "stars": 14990,
       "stars_delta_7d": 0,
-      "forks": 1995,
+      "forks": 2001,
       "language": "Rust",
       "homepage": "https://solidcraft.io",
       "html_url": "https://github.com/tangency-labs/solidcraft",
@@ -3424,7 +3458,7 @@
       "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:40:39Z"
+      "updated_at": "2026-11-08T20:21:21Z"
     },
     {
       "id": "google/elephant-goldfish-model",
@@ -3433,7 +3467,7 @@
       "title_zh": "elephant-goldfish-model",
       "summary_zh": "elephant-goldfish-model：Open-source plugin for designing and reviewing software with agents",
       "bullets_zh": [
-        "已有超过 14,509 人星标，说明很多人在用或关注",
+        "已有超过 14,843 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：agent-skills、ai-agents、antigravity、claude-code"
       ],
@@ -3459,9 +3493,9 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "stars": 14509,
+      "stars": 14843,
       "stars_delta_7d": 0,
-      "forks": 1064,
+      "forks": 1083,
       "language": "Python",
       "homepage": "https://egm.dev",
       "html_url": "https://github.com/google/elephant-goldfish-model",
@@ -3469,7 +3503,7 @@
       "description": "Open-source plugin for designing and reviewing software with agents",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:56:35Z"
+      "updated_at": "2026-11-08T20:21:54Z"
     },
     {
       "id": "cdyforever/how-to-live-better",
@@ -3478,7 +3512,7 @@
       "title_zh": "how-to-live-better",
       "summary_zh": "how-to-live-better：《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
       "bullets_zh": [
-        "已有超过 14,356 人星标，说明很多人在用或关注",
+        "已有超过 14,361 人星标，说明很多人在用或关注",
         "主要使用 HTML 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3486,9 +3520,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 14356,
+      "stars": 14361,
       "stars_delta_7d": 0,
-      "forks": 1083,
+      "forks": 1084,
       "language": "HTML",
       "homepage": null,
       "html_url": "https://github.com/cdyforever/how-to-live-better",
@@ -3496,7 +3530,7 @@
       "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
       "source": "trending",
       "scene": null,
-      "updated_at": "2026-11-08T14:41:41Z"
+      "updated_at": "2026-11-08T18:23:39Z"
     }
   ]
 }
