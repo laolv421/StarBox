@@ -27,6 +27,8 @@ targets:
         buildPhase: resources
       - path: Starbox/Resources/meta.json
         buildPhase: resources
+      - path: Starbox/Resources/trends.json
+        buildPhase: resources
       - path: Starbox/Assets.xcassets
         buildPhase: resources
     settings:

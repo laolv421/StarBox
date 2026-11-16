@@ -1,12 +1,17 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 struct MeView: View {
     @Environment(FeedStore.self) private var store
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \FavoriteItem.savedAt, order: .reverse) private var favorites: [FavoriteItem]
     @Query(sort: \HistoryItem.viewedAt, order: .reverse) private var history: [HistoryItem]
-    @State private var feedBaseURL = UserDefaults.standard.string(forKey: "feedBaseURL") ?? ""
+    @State private var feedBaseURL = UserDefaults.standard.string(forKey: "feedBaseURL")
+        ?? "https://laolv421.github.io/StarBox/v1"
+    @State private var saveMessage: String?
+    @State private var justSaved = false
+    @FocusState private var urlFieldFocused: Bool
 
     var body: some View {
         NavigationStack {
@@ -14,17 +19,25 @@ struct MeView: View {
                 Section("数据") {
                     LabeledContent("内容更新", value: store.generatedAtLabel)
                     LabeledContent("条目数量", value: "\(store.items.count)")
-                    if store.isLoading {
-                        HStack {
-                            ProgressView()
-                            Text("正在刷新…")
-                                .foregroundStyle(StarboxTheme.muted)
-                        }
-                    } else {
-                        Button("立即刷新") {
-                            Task { await store.load(forceNetwork: true) }
+                    if let err = store.lastError {
+                        Text(err)
+                            .font(.caption)
+                            .foregroundStyle(.orange)
+                    }
+                    Button {
+                        urlFieldFocused = false
+                        Task { await store.load(forceNetwork: true) }
+                    } label: {
+                        if store.isLoading {
+                            HStack {
+                                ProgressView()
+                                Text("正在刷新…")
+                            }
+                        } else {
+                            Text("立即刷新")
                         }
                     }
+                    .disabled(store.isLoading)
                 }
 
                 Section("收藏") {
@@ -38,10 +51,12 @@ struct MeView: View {
                                 NavigationLink(value: item) {
                                     localRow(title: fav.titleZh, subtitle: fav.summaryZh)
                                 }
-                            } else {
-                                Link(destination: URL(string: fav.htmlUrl)!) {
+                            } else if let url = URL(string: fav.htmlUrl) {
+                                Link(destination: url) {
                                     localRow(title: fav.titleZh, subtitle: fav.summaryZh)
                                 }
+                            } else {
+                                localRow(title: fav.titleZh, subtitle: fav.summaryZh)
                             }
                         }
                         .onDelete { indexSet in
@@ -69,23 +84,55 @@ struct MeView: View {
                     }
                 }
 
-                Section("数据源地址") {
-                    TextField("https://…/starbox/v1", text: $feedBaseURL)
+                Section {
+                    TextField("https://…/StarBox/v1", text: $feedBaseURL)
                         .textInputAutocapitalization(.never)
                         .autocorrectionDisabled()
                         .keyboardType(.URL)
-                    Button("保存并刷新") {
-                        let trimmed = feedBaseURL.trimmingCharacters(in: .whitespacesAndNewlines)
-                        if trimmed.isEmpty {
-                            UserDefaults.standard.removeObject(forKey: "feedBaseURL")
-                        } else {
-                            UserDefaults.standard.set(trimmed, forKey: "feedBaseURL")
+                        .textContentType(.URL)
+                        .focused($urlFieldFocused)
+                        .submitLabel(.done)
+                        .onSubmit { saveAndRefresh() }
+
+                    Button {
+                        saveAndRefresh()
+                    } label: {
+                        HStack(spacing: 8) {
+                            if store.isLoading {
+                                ProgressView()
+                                    .tint(.white)
+                                Text("正在刷新…")
+                            } else if justSaved {
+                                Image(systemName: "checkmark.circle.fill")
+                                Text(saveMessage ?? "已保存")
+                            } else {
+                                Image(systemName: "arrow.clockwise.circle.fill")
+                                Text("保存并刷新")
+                            }
                         }
-                        Task { await store.load(forceNetwork: true) }
+                        .font(.headline)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 6)
                     }
-                    Text("部署 GitHub Pages 后，把静态站的 `/v1` 地址填在这里。默认会尝试读取公开 Pages。")
+                    .buttonStyle(.borderedProminent)
+                    .tint(justSaved ? .green : StarboxTheme.accent)
+                    .listRowInsets(EdgeInsets(top: 12, leading: 16, bottom: 12, trailing: 16))
+                    .disabled(store.isLoading)
+                    .animation(.easeInOut(duration: 0.2), value: justSaved)
+                    .animation(.easeInOut(duration: 0.2), value: store.isLoading)
+                    .sensoryFeedback(.success, trigger: justSaved)
+
+                    if let saveMessage, !justSaved || store.isLoading {
+                        Text(saveMessage)
+                            .font(.caption)
+                            .foregroundStyle(StarboxTheme.muted)
+                    }
+
+                    Text("填写 GitHub Pages 的 `/v1` 地址，例如 https://laolv421.github.io/StarBox/v1")
                         .font(.caption)
                         .foregroundStyle(StarboxTheme.muted)
+                } header: {
+                    Text("数据源地址")
                 }
 
                 Section("关于星盒") {
@@ -98,6 +145,50 @@ struct MeView: View {
             .navigationTitle("我的")
             .navigationDestination(for: RepoItem.self) { item in
                 RepoDetailView(item: item)
+            }
+            .scrollDismissesKeyboard(.interactively)
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("完成") {
+                        urlFieldFocused = false
+                    }
+                }
+            }
+        }
+    }
+
+    private func saveAndRefresh() {
+        urlFieldFocused = false
+        justSaved = false
+        let trimmed = feedBaseURL
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .trimmingCharacters(in: CharacterSet(charactersIn: "/"))
+        feedBaseURL = trimmed
+        if trimmed.isEmpty {
+            UserDefaults.standard.removeObject(forKey: "feedBaseURL")
+            saveMessage = "已恢复默认地址，正在刷新…"
+        } else if URL(string: trimmed) == nil {
+            saveMessage = "地址格式不对，请检查后重试"
+            UINotificationFeedbackGenerator().notificationOccurred(.error)
+            return
+        } else {
+            UserDefaults.standard.set(trimmed, forKey: "feedBaseURL")
+            saveMessage = "已保存，正在刷新…"
+        }
+        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+        Task {
+            await store.load(forceNetwork: true)
+            if let err = store.lastError {
+                saveMessage = err
+                justSaved = false
+                UINotificationFeedbackGenerator().notificationOccurred(.error)
+            } else {
+                saveMessage = "刷新成功 · \(store.items.count) 条"
+                justSaved = true
+                UINotificationFeedbackGenerator().notificationOccurred(.success)
+                try? await Task.sleep(nanoseconds: 2_000_000_000)
+                justSaved = false
             }
         }
     }

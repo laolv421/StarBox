@@ -3,22 +3,34 @@ import Foundation
 struct FeedClient: Sendable {
     static let shared = FeedClient()
 
-    /// Set in「我的 → 数据源地址」after GitHub Pages is live.
-    /// Example: https://yourname.github.io/starbox/v1
+    /// Override in「我的 → 数据源地址」; default points at the public Pages site.
     var baseURL: URL {
-        if let override = UserDefaults.standard.string(forKey: "feedBaseURL"),
-           let url = URL(string: override), !override.isEmpty {
+        if let override = UserDefaults.standard.string(forKey: "feedBaseURL")?
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .trimmingCharacters(in: CharacterSet(charactersIn: "/")),
+           !override.isEmpty,
+           let url = URL(string: override) {
             return url
         }
-        // Default Pages URL — change after you push the repo under your account.
-        return URL(string: "https://example.github.io/starbox/v1")!
+        return URL(string: "https://laolv421.github.io/StarBox/v1")!
     }
 
     func fetchAll() async throws -> FeedPayload {
         async let feed: FeedResponse = get("feed.json")
         async let categories: CategoriesResponse = get("categories.json")
         async let meta: MetaResponse = get("meta.json")
-        return try await FeedPayload(feed: feed, categories: categories, meta: meta)
+        let trends: TrendsResponse?
+        do {
+            trends = try await get("trends.json") as TrendsResponse
+        } catch {
+            trends = nil
+        }
+        return try await FeedPayload(
+            feed: feed,
+            categories: categories,
+            meta: meta,
+            trends: trends
+        )
     }
 
     func loadBundled() -> FeedPayload? {
@@ -33,10 +45,16 @@ struct FeedClient: Sendable {
 
         let decoder = JSONDecoder()
         do {
+            var trends: TrendsResponse?
+            if let trendsURL = Bundle.main.url(forResource: "trends", withExtension: "json"),
+               let trendsData = try? Data(contentsOf: trendsURL) {
+                trends = try? decoder.decode(TrendsResponse.self, from: trendsData)
+            }
             return FeedPayload(
                 feed: try decoder.decode(FeedResponse.self, from: feedData),
                 categories: try decoder.decode(CategoriesResponse.self, from: catData),
-                meta: try decoder.decode(MetaResponse.self, from: metaData)
+                meta: try decoder.decode(MetaResponse.self, from: metaData),
+                trends: trends
             )
         } catch {
             return nil

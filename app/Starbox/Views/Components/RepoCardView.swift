@@ -2,9 +2,18 @@ import SwiftUI
 
 struct RepoCardView: View {
     let item: RepoItem
+    var period: TrendPeriod = .week
+    var rank: Int? = nil
 
     var body: some View {
         HStack(alignment: .top, spacing: 14) {
+            if let rank {
+                Text("\(rank)")
+                    .font(.headline.weight(.bold))
+                    .foregroundStyle(rank <= 3 ? StarboxTheme.warm : StarboxTheme.muted)
+                    .frame(width: 24, alignment: .center)
+                    .padding(.top, 12)
+            }
             avatar
             VStack(alignment: .leading, spacing: 6) {
                 HStack(alignment: .firstTextBaseline) {
@@ -23,7 +32,7 @@ struct RepoCardView: View {
                     .foregroundStyle(StarboxTheme.muted)
                     .lineLimit(2)
                 HStack(spacing: 8) {
-                    Text(item.heatPlainZh)
+                    Text(item.heatPlainZh(for: period))
                         .font(.caption)
                         .padding(.horizontal, 8)
                         .padding(.vertical, 4)

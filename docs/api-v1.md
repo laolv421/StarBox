@@ -2,73 +2,54 @@
 
 App clients read only these public JSON files (GitHub Pages or Cloudflare Pages).
 
+Base URL example: `https://laolv421.github.io/StarBox/v1/`
+
 ## `meta.json`
 
 ```json
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T12:00:00Z",
-  "item_count": 42,
+  "generated_at": "2026-11-16T12:00:00Z",
+  "item_count": 90,
+  "trend_counts": { "week": 30, "month": 30, "all": 30 },
+  "refresh_hint_minutes": 60,
   "source": "starbox-pipeline"
 }
 ```
 
+`refresh_hint_minutes`：客户端超过该分钟数应自动再拉一次。
+
 ## `categories.json`
 
-```json
-{
-  "schema_version": 1,
-  "categories": [
-    {
-      "id": "productivity",
-      "name_zh": "效率办公",
-      "subtitle_zh": "把琐事变少，把时间留给重要的事",
-      "icon": "checkmark.circle"
-    }
-  ]
-}
-```
+类目列表（效率办公、AI 等）。
 
 ## `feed.json`
 
-```json
-{
-  "schema_version": 1,
-  "generated_at": "2026-10-31T12:00:00Z",
-  "items": [
-    {
-      "id": "excalidraw/excalidraw",
-      "full_name": "excalidraw/excalidraw",
-      "name": "excalidraw",
-      "title_zh": "Excalidraw",
-      "summary_zh": "手绘风格在线白板…",
-      "bullets_zh": ["打开浏览器就能画", "手绘感，不显得死板", "可分享链接一起改"],
-      "category_ids": ["design"],
-      "topics": ["drawing", "whiteboard"],
-      "stars": 90000,
-      "stars_delta_7d": 120,
-      "forks": 8000,
-      "language": "TypeScript",
-      "homepage": "https://excalidraw.com",
-      "html_url": "https://github.com/excalidraw/excalidraw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/…",
-      "description": "Virtual whiteboard…",
-      "source": "curated",
-      "scene": "画草图",
-      "updated_at": "2026-10-30T00:00:00Z"
-    }
-  ]
-}
-```
+策展工具 + 趋势条目的合集，供分类 / 工具盒 / 详情查找。
 
-### Field notes
+新增可选字段：
 
 | Field | Meaning |
 |-------|---------|
-| `source` | `curated` or `trending` |
-| `stars_delta_7d` | Approximate weekly star gain when available; else `0` |
-| `scene` | Everyday use-case label for “工具盒” filters |
+| `stars_delta_30d` | 近月热度近似 |
+| `trend_periods` | `["week"]` / `["month"]` / `["all"]` 等 |
 
-Base URL (replace after Pages is enabled):
+## `trends.json`
 
-`https://<owner>.github.io/starbox/v1/`
+发现页专用：周 / 月 / 总三份列表。
+
+```json
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-16T12:00:00Z",
+  "week": [ /* RepoItem */ ],
+  "month": [ /* RepoItem */ ],
+  "all": [ /* RepoItem */ ]
+}
+```
+
+- **week**：近 7 天新起势 / 高活跃
+- **month**：近 30 天升温
+- **all**：长期高星综合热度
+
+流水线默认每小时刷新一次（GitHub Actions cron）。

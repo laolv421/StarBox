@@ -6,11 +6,15 @@ import Observation
 final class FeedStore {
     private(set) var items: [RepoItem] = []
     private(set) var categories: [CategoryDTO] = []
+    private(set) var trends: TrendsResponse = .empty
     private(set) var meta: MetaResponse?
     private(set) var isLoading = false
     private(set) var lastError: String?
     private(set) var usedCache = false
     private(set) var usedBundle = false
+    private(set) var lastNetworkAt: Date?
+
+    var selectedTrend: TrendPeriod = .week
 
     private let client: FeedClient
     private let cache: FeedCache
@@ -27,9 +31,32 @@ final class FeedStore {
         return Self.relativeZh(fromISO: raw)
     }
 
-    var discoverItems: [RepoItem] {
-        let trending = items.filter(\.isTrending)
-        if trending.count >= 8 { return trending }
+    var refreshHintMinutes: Int {
+        meta?.refreshHintMinutes ?? 60
+    }
+
+    var needsTimelyRefresh: Bool {
+        guard let raw = meta?.generatedAt else { return true }
+        guard let date = Self.parseISO(raw) else { return true }
+        let minutes = Int(Date().timeIntervalSince(date) / 60)
+        return minutes >= refreshHintMinutes
+    }
+
+    func discoverItems(for period: TrendPeriod) -> [RepoItem] {
+        let list = trends.items(for: period)
+        if !list.isEmpty { return list }
+
+        // Fallback when trends.json missing (old cache / old Pages)
+        switch period {
+        case .week:
+            let weekly = items.filter { $0.starsDelta7d > 0 || $0.trendPeriods.contains("week") }
+            if weekly.count >= 5 { return weekly.sorted { $0.starsDelta7d > $1.starsDelta7d } }
+        case .month:
+            let monthly = items.filter { $0.starsDelta30d > 0 || $0.trendPeriods.contains("month") }
+            if monthly.count >= 5 { return monthly.sorted { $0.starsDelta30d > $1.starsDelta30d } }
+        case .all:
+            break
+        }
         return Array(items.sorted { $0.stars > $1.stars }.prefix(40))
     }
 
@@ -47,7 +74,13 @@ final class FeedStore {
     }
 
     func item(id: String) -> RepoItem? {
-        items.first { $0.id == id }
+        if let hit = items.first(where: { $0.id == id }) { return hit }
+        for period in TrendPeriod.allCases {
+            if let hit = trends.items(for: period).first(where: { $0.id == id }) {
+                return hit
+            }
+        }
+        return nil
     }
 
     func load(forceNetwork: Bool = false) async {
@@ -58,7 +91,6 @@ final class FeedStore {
         usedBundle = false
         defer { isLoading = false }
 
-        // Show something immediately when opening the app offline.
         if items.isEmpty {
             if let cached = cache.load() {
                 apply(cached)
@@ -76,6 +108,7 @@ final class FeedStore {
             usedCache = false
             usedBundle = false
             lastError = nil
+            lastNetworkAt = Date()
         } catch {
             if items.isEmpty {
                 lastError = error.localizedDescription
@@ -90,21 +123,30 @@ final class FeedStore {
         }
     }
 
+    /// Refresh when opening Discover if data is stale.
+    func refreshIfStale() async {
+        if needsTimelyRefresh || trends.week.isEmpty {
+            await load(forceNetwork: true)
+        }
+    }
+
     private func apply(_ payload: FeedPayload) {
         items = payload.feed.items
         categories = payload.categories.categories
+        trends = payload.trends ?? .empty
         meta = payload.meta
     }
 
-    private static func relativeZh(fromISO raw: String) -> String {
+    private static func parseISO(_ raw: String) -> Date? {
         let formatter = ISO8601DateFormatter()
         formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        var date = formatter.date(from: raw)
-        if date == nil {
-            formatter.formatOptions = [.withInternetDateTime]
-            date = formatter.date(from: raw)
-        }
-        guard let date else { return "更新于 \(raw)" }
+        if let date = formatter.date(from: raw) { return date }
+        formatter.formatOptions = [.withInternetDateTime]
+        return formatter.date(from: raw)
+    }
+
+    private static func relativeZh(fromISO raw: String) -> String {
+        guard let date = parseISO(raw) else { return "更新于 \(raw)" }
         let seconds = Int(Date().timeIntervalSince(date))
         if seconds < 60 { return "刚刚更新" }
         if seconds < 3600 { return "\(seconds / 60) 分钟前更新" }
@@ -117,4 +159,5 @@ struct FeedPayload: Codable, Sendable {
     var feed: FeedResponse
     var categories: CategoriesResponse
     var meta: MetaResponse
+    var trends: TrendsResponse?
 }

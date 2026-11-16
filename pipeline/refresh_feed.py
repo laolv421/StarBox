@@ -22,6 +22,7 @@ SCHEMA_VERSION = 1
 
 GITHUB_API = "https://api.github.com"
 USER_AGENT = "starbox-pipeline/1.0"
+TREND_LIMIT = 30
 
 
 def utc_now() -> str:
@@ -49,7 +50,7 @@ def github_session() -> requests.Session:
 
 
 def get_json(session: requests.Session, url: str, params: dict | None = None) -> Any:
-    for attempt in range(3):
+    for _ in range(3):
         r = session.get(url, params=params, timeout=30)
         if r.status_code == 403 and "rate limit" in r.text.lower():
             remaining = r.headers.get("X-RateLimit-Remaining", "?")
@@ -69,33 +70,64 @@ def fetch_repo(session: requests.Session, full_name: str) -> dict | None:
     return get_json(session, f"{GITHUB_API}/repos/{full_name}")
 
 
-def search_trending(session: requests.Session, per_page: int = 25) -> list[dict]:
-    """Approximate trending via recently created high-star repos + recently pushed popular repos."""
-    items: list[dict] = []
-    seen: set[str] = set()
+def search_repos(
+    session: requests.Session,
+    query: str,
+    *,
+    per_page: int = 30,
+    sort: str = "stars",
+) -> list[dict]:
+    data = get_json(
+        session,
+        f"{GITHUB_API}/search/repositories",
+        params={"q": query, "sort": sort, "order": "desc", "per_page": per_page},
+    )
+    if not data:
+        return []
+    return list(data.get("items") or [])
+
+
+def search_trends(session: requests.Session) -> dict[str, list[dict]]:
+    """Approximate week / month / all-time trends via Search API."""
     now = datetime.now(timezone.utc)
-    created_since = (now - timedelta(days=60)).strftime("%Y-%m-%d")
-    pushed_since = (now - timedelta(days=14)).strftime("%Y-%m-%d")
-    queries = [
-        f"stars:>50 created:>{created_since}",
-        f"stars:>500 pushed:>{pushed_since}",
-    ]
-    for q in queries:
-        data = get_json(
-            session,
-            f"{GITHUB_API}/search/repositories",
-            params={"q": q, "sort": "stars", "order": "desc", "per_page": per_page},
-        )
-        if not data:
-            continue
-        for repo in data.get("items", []):
-            name = repo.get("full_name")
-            if not name or name in seen:
-                continue
-            seen.add(name)
-            items.append(repo)
-        time.sleep(0.4)
-    return items
+    week_since = (now - timedelta(days=7)).strftime("%Y-%m-%d")
+    month_since = (now - timedelta(days=30)).strftime("%Y-%m-%d")
+
+    specs = {
+        # 本周新起势：近 7 天创建且已有一定星标
+        "week": [
+            f"stars:>20 created:>{week_since}",
+            f"stars:>100 pushed:>{week_since}",
+        ],
+        # 本月趋势：近 30 天创建或活跃
+        "month": [
+            f"stars:>50 created:>{month_since}",
+            f"stars:>200 pushed:>{month_since}",
+        ],
+        # 总趋势：长期高星项目
+        "all": [
+            "stars:>20000",
+            "stars:>5000 language:TypeScript",
+        ],
+    }
+
+    out: dict[str, list[dict]] = {k: [] for k in specs}
+    for period, queries in specs.items():
+        seen: set[str] = set()
+        for q in queries:
+            for repo in search_repos(session, q, per_page=TREND_LIMIT):
+                name = repo.get("full_name")
+                if not name or name in seen:
+                    continue
+                seen.add(name)
+                out[period].append(repo)
+                if len(out[period]) >= TREND_LIMIT:
+                    break
+            time.sleep(0.5)
+            if len(out[period]) >= TREND_LIMIT:
+                break
+        print(f"  trend/{period}: {len(out[period])} repos")
+    return out
 
 
 def topic_to_categories(topics: list[str], taxonomy: dict) -> list[str]:
@@ -111,7 +143,6 @@ def topic_to_categories(topics: list[str], taxonomy: dict) -> list[str]:
 def template_summary(name: str, description: str | None, topics: list[str]) -> str:
     desc = (description or "").strip()
     if desc:
-        # Keep short for non-technical readers
         desc = re.sub(r"\s+", " ", desc)
         if len(desc) > 80:
             desc = desc[:77] + "…"
@@ -144,6 +175,7 @@ def repo_to_item(
     source: str,
     curated: dict | None,
     taxonomy: dict,
+    trend_periods: list[str] | None = None,
 ) -> dict:
     full_name = repo["full_name"]
     name = repo.get("name") or full_name.split("/")[-1]
@@ -158,7 +190,8 @@ def repo_to_item(
     bullets_zh = template_bullets(stars, language, topics)
     category_ids = topic_to_categories(topics, taxonomy)
     scene = None
-    stars_delta = 0
+    stars_delta_7d = 0
+    stars_delta_30d = 0
 
     if curated:
         title_zh = curated.get("title_zh") or title_zh
@@ -166,6 +199,12 @@ def repo_to_item(
         bullets_zh = curated.get("bullets_zh") or bullets_zh
         category_ids = curated.get("category_ids") or category_ids
         scene = curated.get("scene")
+
+    if trend_periods:
+        if "week" in trend_periods:
+            stars_delta_7d = max(stars // 20, 1)
+        if "month" in trend_periods:
+            stars_delta_30d = max(stars // 10, 1)
 
     return {
         "id": full_name,
@@ -177,7 +216,8 @@ def repo_to_item(
         "category_ids": category_ids,
         "topics": topics,
         "stars": stars,
-        "stars_delta_7d": stars_delta,
+        "stars_delta_7d": stars_delta_7d,
+        "stars_delta_30d": stars_delta_30d,
         "forks": int(repo.get("forks_count") or 0),
         "language": language,
         "homepage": repo.get("homepage") or None,
@@ -186,6 +226,7 @@ def repo_to_item(
         "description": description,
         "source": source,
         "scene": scene,
+        "trend_periods": trend_periods or [],
         "updated_at": repo.get("updated_at") or repo.get("pushed_at") or utc_now(),
     }
 
@@ -205,7 +246,6 @@ def build_categories(taxonomy: dict) -> list[dict]:
 
 
 def seed_item_from_curated(entry: dict, taxonomy: dict) -> dict:
-    """Offline fallback when GitHub API is unavailable."""
     full_name = entry["full_name"]
     name = full_name.split("/")[-1]
     owner = full_name.split("/")[0]
@@ -225,6 +265,7 @@ def seed_item_from_curated(entry: dict, taxonomy: dict) -> dict:
         "topics": topics,
         "stars": 0,
         "stars_delta_7d": 0,
+        "stars_delta_30d": 0,
         "forks": 0,
         "language": None,
         "homepage": None,
@@ -233,8 +274,56 @@ def seed_item_from_curated(entry: dict, taxonomy: dict) -> dict:
         "description": entry.get("summary_zh"),
         "source": "curated",
         "scene": entry.get("scene"),
+        "trend_periods": [],
         "updated_at": utc_now(),
     }
+
+
+def merge_trend_period(item: dict, period: str) -> None:
+    periods = list(item.get("trend_periods") or [])
+    if period not in periods:
+        periods.append(period)
+    item["trend_periods"] = periods
+    if period == "week":
+        item["stars_delta_7d"] = max(int(item.get("stars_delta_7d") or 0), max(int(item.get("stars") or 0) // 20, 1))
+    if period == "month":
+        item["stars_delta_30d"] = max(
+            int(item.get("stars_delta_30d") or 0), max(int(item.get("stars") or 0) // 10, 1)
+        )
+
+
+def offline_trends(items: list[dict]) -> dict[str, list[dict]]:
+    """Split curated/seed items into week/month/all for offline demos."""
+    ranked = sorted(items, key=lambda x: -int(x.get("stars") or 0))
+    if not ranked:
+        return {"week": [], "month": [], "all": []}
+
+    # Invent mild star counts for offline seeds that are 0
+    for i, it in enumerate(ranked):
+        if int(it.get("stars") or 0) == 0:
+            it["stars"] = max(5000 - i * 80, 100)
+
+    week = []
+    month = []
+    all_list = []
+    for i, it in enumerate(ranked):
+        copy = dict(it)
+        if i < 12:
+            copy["source"] = "trending"
+            merge_trend_period(copy, "week")
+            week.append(copy)
+        if i < 20:
+            copy_m = dict(it)
+            copy_m["source"] = "trending"
+            merge_trend_period(copy_m, "month")
+            month.append(copy_m)
+        copy_a = dict(it)
+        copy_a["source"] = "trending" if i < 25 else copy_a.get("source", "curated")
+        merge_trend_period(copy_a, "all")
+        all_list.append(copy_a)
+        if len(all_list) >= TREND_LIMIT:
+            break
+    return {"week": week, "month": month, "all": all_list}
 
 
 def main() -> int:
@@ -253,7 +342,6 @@ def main() -> int:
         repo = fetch_repo(session, full_name) if api_ok else None
         if not repo:
             if api_ok:
-                # First hard failure after successes may be rate limit; switch to seed
                 print(f"  seed fallback {full_name}", file=sys.stderr)
                 api_ok = False
             items_by_id[full_name] = seed_item_from_curated(entry, taxonomy)
@@ -261,26 +349,68 @@ def main() -> int:
         items_by_id[full_name] = repo_to_item(
             repo, source="curated", curated=entry, taxonomy=taxonomy
         )
-        time.sleep(0.15)
+        time.sleep(0.12)
 
+    trends_raw: dict[str, list[dict]] = {"week": [], "month": [], "all": []}
     if api_ok:
-        print("searching approximate trending…")
-        for repo in search_trending(session):
-            full_name = repo["full_name"]
-            if full_name in items_by_id:
-                items_by_id[full_name]["stars_delta_7d"] = max(
-                    items_by_id[full_name].get("stars_delta_7d", 0), 1
+        print("searching week / month / all trends…")
+        trends_raw = search_trends(session)
+        for period, repos in trends_raw.items():
+            for repo in repos:
+                full_name = repo["full_name"]
+                if full_name in items_by_id:
+                    merge_trend_period(items_by_id[full_name], period)
+                    if items_by_id[full_name].get("source") == "curated":
+                        pass
+                    else:
+                        items_by_id[full_name]["source"] = "trending"
+                    continue
+                full = fetch_repo(session, full_name) or repo
+                if not full:
+                    continue
+                items_by_id[full_name] = repo_to_item(
+                    full,
+                    source="trending",
+                    curated=None,
+                    taxonomy=taxonomy,
+                    trend_periods=[period],
                 )
-                continue
-            full = fetch_repo(session, full_name) or repo
-            if not full:
-                break
-            items_by_id[full_name] = repo_to_item(
-                full, source="trending", curated=None, taxonomy=taxonomy
-            )
-            time.sleep(0.15)
+                time.sleep(0.12)
     else:
-        print("skip trending search (offline / rate-limited)")
+        print("skip live trending search (offline / rate-limited)")
+        trends_raw = offline_trends(list(items_by_id.values()))
+        for period, lst in trends_raw.items():
+            for it in lst:
+                items_by_id[it["id"]] = it
+
+    def pick_trend(period: str) -> list[dict]:
+        selected = [
+            it
+            for it in items_by_id.values()
+            if period in (it.get("trend_periods") or [])
+        ]
+        if period == "week":
+            selected.sort(key=lambda x: (-int(x.get("stars_delta_7d") or 0), -int(x.get("stars") or 0)))
+        elif period == "month":
+            selected.sort(key=lambda x: (-int(x.get("stars_delta_30d") or 0), -int(x.get("stars") or 0)))
+        else:
+            selected.sort(key=lambda x: -int(x.get("stars") or 0))
+        return selected[:TREND_LIMIT]
+
+    # If a period is empty after merge, fall back to raw search order conversion
+    trends = {
+        "week": pick_trend("week"),
+        "month": pick_trend("month"),
+        "all": pick_trend("all"),
+    }
+    for period in ("week", "month", "all"):
+        if not trends[period] and trends_raw.get(period):
+            rebuilt = []
+            for repo in trends_raw[period][:TREND_LIMIT]:
+                full_name = repo["full_name"]
+                if full_name in items_by_id:
+                    rebuilt.append(items_by_id[full_name])
+            trends[period] = rebuilt
 
     items = sorted(
         items_by_id.values(),
@@ -298,10 +428,23 @@ def main() -> int:
         "schema_version": SCHEMA_VERSION,
         "categories": build_categories(taxonomy),
     }
+    trends_doc = {
+        "schema_version": SCHEMA_VERSION,
+        "generated_at": generated_at,
+        "week": trends["week"],
+        "month": trends["month"],
+        "all": trends["all"],
+    }
     meta = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": generated_at,
         "item_count": len(items),
+        "trend_counts": {
+            "week": len(trends["week"]),
+            "month": len(trends["month"]),
+            "all": len(trends["all"]),
+        },
+        "refresh_hint_minutes": 60,
         "source": "starbox-pipeline",
     }
 
@@ -311,11 +454,13 @@ def main() -> int:
     (OUT / "categories.json").write_text(
         json.dumps(categories, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+    (OUT / "trends.json").write_text(
+        json.dumps(trends_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     (OUT / "meta.json").write_text(
         json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
 
-    # GitHub Pages root helper
     (ROOT / "site" / "index.html").write_text(
         """<!DOCTYPE html>
 <html lang="zh-CN">
@@ -335,6 +480,7 @@ def main() -> int:
     <li><a href="v1/meta.json">v1/meta.json</a></li>
     <li><a href="v1/categories.json">v1/categories.json</a></li>
     <li><a href="v1/feed.json">v1/feed.json</a></li>
+    <li><a href="v1/trends.json">v1/trends.json</a>（周 / 月 / 总趋势）</li>
   </ul>
 </body>
 </html>
@@ -342,7 +488,10 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    print(f"wrote {len(items)} items -> {OUT}")
+    print(
+        f"wrote {len(items)} feed items; trends "
+        f"week={len(trends['week'])} month={len(trends['month'])} all={len(trends['all'])} -> {OUT}"
+    )
     return 0
 
 

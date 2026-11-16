@@ -26,6 +26,7 @@
 		B235BE7505481CCE32154D9C /* RepoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639F2994ABFE337F14A68A7 /* RepoDetailView.swift */; };
 		D8749E1C88D097F4ADE23180 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE3F5251C55AB34B0ACB578 /* DiscoverView.swift */; };
 		F125F62B79111B757535EE0F /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = BE253035EBA1383568F797A2 /* categories.json */; };
+		FF09FAE16E6542389FB6D55C /* trends.json in Resources */ = {isa = PBXBuildFile; fileRef = B0D4E56BF1EDA15CF2B56F43 /* trends.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		9639F2994ABFE337F14A68A7 /* RepoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailView.swift; sourceTree = "<group>"; };
 		979337EB0EE4EF4632A7C307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A8B3427B8F2DF6FE45B5EA71 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		B0D4E56BF1EDA15CF2B56F43 /* trends.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trends.json; sourceTree = "<group>"; };
 		BCCA2A74E53BD225F3B6CEF3 /* FeedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedClient.swift; sourceTree = "<group>"; };
 		BE253035EBA1383568F797A2 /* categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
 		C3E662B0FA6F408657FED4B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				BE253035EBA1383568F797A2 /* categories.json */,
 				7A96CD9E22653AEE2A0CB7DE /* feed.json */,
 				309470B8614827B455B3525F /* meta.json */,
+				B0D4E56BF1EDA15CF2B56F43 /* trends.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				F125F62B79111B757535EE0F /* categories.json in Resources */,
 				2EDD8D4AF19D0E76642E8C5B /* feed.json in Resources */,
 				8965E01023315F6A5F69FBFC /* meta.json in Resources */,
+				FF09FAE16E6542389FB6D55C /* trends.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

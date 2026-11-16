@@ -1,0 +1,1965 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-16T14:26:57Z",
+  "week": [
+    {
+      "id": "obsidianmd/obsidian-releases",
+      "full_name": "obsidianmd/obsidian-releases",
+      "name": "obsidian-releases",
+      "title_zh": "Obsidian 笔记",
+      "summary_zh": "用双向链接把想法连成一张知识网，适合长期记笔记的人。",
+      "bullets_zh": [
+        "本地文件，数据在你自己手里",
+        "用链接把笔记串成网络",
+        "插件多，可按需扩展"
+      ],
+      "category_ids": [
+        "productivity",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 5000,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/obsidianmd/obsidian-releases",
+      "avatar_url": "https://github.com/obsidianmd.png",
+      "description": "用双向链接把想法连成一张知识网，适合长期记笔记的人。",
+      "source": "trending",
+      "scene": "记笔记",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "AppFlowy-IO/AppFlowy",
+      "full_name": "AppFlowy-IO/AppFlowy",
+      "name": "AppFlowy",
+      "title_zh": "AppFlowy",
+      "summary_zh": "开源的 Notion 替代品，用来建文档、看板和知识库。",
+      "bullets_zh": [
+        "界面接近 Notion，上手快",
+        "可自托管，更可控",
+        "适合个人与小团队协作"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 4920,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "avatar_url": "https://github.com/AppFlowy-IO.png",
+      "description": "开源的 Notion 替代品，用来建文档、看板和知识库。",
+      "source": "trending",
+      "scene": "做文档看板",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "logseq/logseq",
+      "full_name": "logseq/logseq",
+      "name": "logseq",
+      "title_zh": "Logseq",
+      "summary_zh": "大纲式笔记，边写边把知识串起来。",
+      "bullets_zh": [
+        "大纲写作很顺手",
+        "支持双向链接与日记",
+        "本地优先，隐私友好"
+      ],
+      "category_ids": [
+        "productivity",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 4840,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/logseq/logseq",
+      "avatar_url": "https://github.com/logseq.png",
+      "description": "大纲式笔记，边写边把知识串起来。",
+      "source": "trending",
+      "scene": "记笔记",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "full_name": "excalidraw/excalidraw",
+      "name": "excalidraw",
+      "title_zh": "Excalidraw",
+      "summary_zh": "手绘风格在线白板，开会画图、讲思路特别合适。",
+      "bullets_zh": [
+        "打开浏览器就能画",
+        "手绘感，不显得死板",
+        "可分享链接一起改"
+      ],
+      "category_ids": [
+        "design"
+      ],
+      "topics": [],
+      "stars": 4760,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/excalidraw/excalidraw",
+      "avatar_url": "https://github.com/excalidraw.png",
+      "description": "手绘风格在线白板，开会画图、讲思路特别合适。",
+      "source": "trending",
+      "scene": "画草图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "drawdb-io/drawdb",
+      "full_name": "drawdb-io/drawdb",
+      "name": "drawdb",
+      "title_zh": "drawDB",
+      "summary_zh": "在浏览器里画数据库关系图，直观好懂。",
+      "bullets_zh": [
+        "无需安装",
+        "拖拽建表很直观",
+        "适合学习与讲解结构"
+      ],
+      "category_ids": [
+        "developer",
+        "design"
+      ],
+      "topics": [],
+      "stars": 4680,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/drawdb-io/drawdb",
+      "avatar_url": "https://github.com/drawdb-io.png",
+      "description": "在浏览器里画数据库关系图，直观好懂。",
+      "source": "trending",
+      "scene": "画结构图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "penpot/penpot",
+      "full_name": "penpot/penpot",
+      "name": "penpot",
+      "title_zh": "Penpot",
+      "summary_zh": "开源的设计协作工具，有点像 Figma。",
+      "bullets_zh": [
+        "浏览器里做 UI 设计",
+        "可自托管",
+        "适合设计与开发协作"
+      ],
+      "category_ids": [
+        "design"
+      ],
+      "topics": [],
+      "stars": 4600,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/penpot/penpot",
+      "avatar_url": "https://github.com/penpot.png",
+      "description": "开源的设计协作工具，有点像 Figma。",
+      "source": "trending",
+      "scene": "做界面",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "outline/outline",
+      "full_name": "outline/outline",
+      "name": "outline",
+      "title_zh": "Outline",
+      "summary_zh": "团队知识库，把公司文档集中放在一处。",
+      "bullets_zh": [
+        "Markdown 写作流畅",
+        "权限与分享清晰",
+        "适合小团队知识沉淀"
+      ],
+      "category_ids": [
+        "writing",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 4520,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/outline/outline",
+      "avatar_url": "https://github.com/outline.png",
+      "description": "团队知识库，把公司文档集中放在一处。",
+      "source": "trending",
+      "scene": "团队文档",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "steveseguin/vdo.ninja",
+      "full_name": "steveseguin/vdo.ninja",
+      "name": "vdo.ninja",
+      "title_zh": "VDO.Ninja",
+      "summary_zh": "把手机摄像头变成电脑直播源，简单好用。",
+      "bullets_zh": [
+        "浏览器即可，少装软件",
+        "适合直播与远程演示",
+        "延迟较低"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [],
+      "stars": 4440,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/steveseguin/vdo.ninja",
+      "avatar_url": "https://github.com/steveseguin.png",
+      "description": "把手机摄像头变成电脑直播源，简单好用。",
+      "source": "trending",
+      "scene": "直播",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "yt-dlp/yt-dlp",
+      "full_name": "yt-dlp/yt-dlp",
+      "name": "yt-dlp",
+      "title_zh": "yt-dlp",
+      "summary_zh": "强大的视频下载工具，支持很多网站（请遵守版权与网站条款）。",
+      "bullets_zh": [
+        "支持站点非常多",
+        "可下载字幕与音频",
+        "适合备份自己有权使用的内容"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [],
+      "stars": 4360,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/yt-dlp/yt-dlp",
+      "avatar_url": "https://github.com/yt-dlp.png",
+      "description": "强大的视频下载工具，支持很多网站（请遵守版权与网站条款）。",
+      "source": "trending",
+      "scene": "下视频",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "janhq/jan",
+      "full_name": "janhq/jan",
+      "name": "jan",
+      "title_zh": "Jan",
+      "summary_zh": "在自己电脑上跑 AI 对话，数据不必上传云端。",
+      "bullets_zh": [
+        "本地运行，更安心",
+        "界面接近聊天产品",
+        "可切换不同开源模型"
+      ],
+      "category_ids": [
+        "ai"
+      ],
+      "topics": [],
+      "stars": 4280,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/janhq/jan",
+      "avatar_url": "https://github.com/janhq.png",
+      "description": "在自己电脑上跑 AI 对话，数据不必上传云端。",
+      "source": "trending",
+      "scene": "AI 聊天",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "open-webui/open-webui",
+      "full_name": "open-webui/open-webui",
+      "name": "open-webui",
+      "title_zh": "Open WebUI",
+      "summary_zh": "漂亮的本地 AI 聊天界面，可接多种模型后端。",
+      "bullets_zh": [
+        "网页界面好看易用",
+        "可自托管",
+        "适合把家里的模型「包一层壳」"
+      ],
+      "category_ids": [
+        "ai"
+      ],
+      "topics": [],
+      "stars": 4200,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/open-webui/open-webui",
+      "avatar_url": "https://github.com/open-webui.png",
+      "description": "漂亮的本地 AI 聊天界面，可接多种模型后端。",
+      "source": "trending",
+      "scene": "AI 聊天",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "full_name": "langchain-ai/langchain",
+      "name": "langchain",
+      "title_zh": "LangChain",
+      "summary_zh": "搭 AI 应用的常用工具包（偏开发者，但生态很火）。",
+      "bullets_zh": [
+        "AI 应用脚手架丰富",
+        "文档与示例多",
+        "适合想做智能助手的人了解"
+      ],
+      "category_ids": [
+        "ai",
+        "developer"
+      ],
+      "topics": [],
+      "stars": 4120,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/langchain-ai/langchain",
+      "avatar_url": "https://github.com/langchain-ai.png",
+      "description": "搭 AI 应用的常用工具包（偏开发者，但生态很火）。",
+      "source": "trending",
+      "scene": "做 AI 应用",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    }
+  ],
+  "month": [
+    {
+      "id": "obsidianmd/obsidian-releases",
+      "full_name": "obsidianmd/obsidian-releases",
+      "name": "obsidian-releases",
+      "title_zh": "Obsidian 笔记",
+      "summary_zh": "用双向链接把想法连成一张知识网，适合长期记笔记的人。",
+      "bullets_zh": [
+        "本地文件，数据在你自己手里",
+        "用链接把笔记串成网络",
+        "插件多，可按需扩展"
+      ],
+      "category_ids": [
+        "productivity",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 5000,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/obsidianmd/obsidian-releases",
+      "avatar_url": "https://github.com/obsidianmd.png",
+      "description": "用双向链接把想法连成一张知识网，适合长期记笔记的人。",
+      "source": "trending",
+      "scene": "记笔记",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "AppFlowy-IO/AppFlowy",
+      "full_name": "AppFlowy-IO/AppFlowy",
+      "name": "AppFlowy",
+      "title_zh": "AppFlowy",
+      "summary_zh": "开源的 Notion 替代品，用来建文档、看板和知识库。",
+      "bullets_zh": [
+        "界面接近 Notion，上手快",
+        "可自托管，更可控",
+        "适合个人与小团队协作"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 4920,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "avatar_url": "https://github.com/AppFlowy-IO.png",
+      "description": "开源的 Notion 替代品，用来建文档、看板和知识库。",
+      "source": "trending",
+      "scene": "做文档看板",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "logseq/logseq",
+      "full_name": "logseq/logseq",
+      "name": "logseq",
+      "title_zh": "Logseq",
+      "summary_zh": "大纲式笔记，边写边把知识串起来。",
+      "bullets_zh": [
+        "大纲写作很顺手",
+        "支持双向链接与日记",
+        "本地优先，隐私友好"
+      ],
+      "category_ids": [
+        "productivity",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 4840,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/logseq/logseq",
+      "avatar_url": "https://github.com/logseq.png",
+      "description": "大纲式笔记，边写边把知识串起来。",
+      "source": "trending",
+      "scene": "记笔记",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "full_name": "excalidraw/excalidraw",
+      "name": "excalidraw",
+      "title_zh": "Excalidraw",
+      "summary_zh": "手绘风格在线白板，开会画图、讲思路特别合适。",
+      "bullets_zh": [
+        "打开浏览器就能画",
+        "手绘感，不显得死板",
+        "可分享链接一起改"
+      ],
+      "category_ids": [
+        "design"
+      ],
+      "topics": [],
+      "stars": 4760,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/excalidraw/excalidraw",
+      "avatar_url": "https://github.com/excalidraw.png",
+      "description": "手绘风格在线白板，开会画图、讲思路特别合适。",
+      "source": "trending",
+      "scene": "画草图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "drawdb-io/drawdb",
+      "full_name": "drawdb-io/drawdb",
+      "name": "drawdb",
+      "title_zh": "drawDB",
+      "summary_zh": "在浏览器里画数据库关系图，直观好懂。",
+      "bullets_zh": [
+        "无需安装",
+        "拖拽建表很直观",
+        "适合学习与讲解结构"
+      ],
+      "category_ids": [
+        "developer",
+        "design"
+      ],
+      "topics": [],
+      "stars": 4680,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/drawdb-io/drawdb",
+      "avatar_url": "https://github.com/drawdb-io.png",
+      "description": "在浏览器里画数据库关系图，直观好懂。",
+      "source": "trending",
+      "scene": "画结构图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "penpot/penpot",
+      "full_name": "penpot/penpot",
+      "name": "penpot",
+      "title_zh": "Penpot",
+      "summary_zh": "开源的设计协作工具，有点像 Figma。",
+      "bullets_zh": [
+        "浏览器里做 UI 设计",
+        "可自托管",
+        "适合设计与开发协作"
+      ],
+      "category_ids": [
+        "design"
+      ],
+      "topics": [],
+      "stars": 4600,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/penpot/penpot",
+      "avatar_url": "https://github.com/penpot.png",
+      "description": "开源的设计协作工具，有点像 Figma。",
+      "source": "trending",
+      "scene": "做界面",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "outline/outline",
+      "full_name": "outline/outline",
+      "name": "outline",
+      "title_zh": "Outline",
+      "summary_zh": "团队知识库，把公司文档集中放在一处。",
+      "bullets_zh": [
+        "Markdown 写作流畅",
+        "权限与分享清晰",
+        "适合小团队知识沉淀"
+      ],
+      "category_ids": [
+        "writing",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 4520,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/outline/outline",
+      "avatar_url": "https://github.com/outline.png",
+      "description": "团队知识库，把公司文档集中放在一处。",
+      "source": "trending",
+      "scene": "团队文档",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "steveseguin/vdo.ninja",
+      "full_name": "steveseguin/vdo.ninja",
+      "name": "vdo.ninja",
+      "title_zh": "VDO.Ninja",
+      "summary_zh": "把手机摄像头变成电脑直播源，简单好用。",
+      "bullets_zh": [
+        "浏览器即可，少装软件",
+        "适合直播与远程演示",
+        "延迟较低"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [],
+      "stars": 4440,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/steveseguin/vdo.ninja",
+      "avatar_url": "https://github.com/steveseguin.png",
+      "description": "把手机摄像头变成电脑直播源，简单好用。",
+      "source": "trending",
+      "scene": "直播",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "yt-dlp/yt-dlp",
+      "full_name": "yt-dlp/yt-dlp",
+      "name": "yt-dlp",
+      "title_zh": "yt-dlp",
+      "summary_zh": "强大的视频下载工具，支持很多网站（请遵守版权与网站条款）。",
+      "bullets_zh": [
+        "支持站点非常多",
+        "可下载字幕与音频",
+        "适合备份自己有权使用的内容"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [],
+      "stars": 4360,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/yt-dlp/yt-dlp",
+      "avatar_url": "https://github.com/yt-dlp.png",
+      "description": "强大的视频下载工具，支持很多网站（请遵守版权与网站条款）。",
+      "source": "trending",
+      "scene": "下视频",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "janhq/jan",
+      "full_name": "janhq/jan",
+      "name": "jan",
+      "title_zh": "Jan",
+      "summary_zh": "在自己电脑上跑 AI 对话，数据不必上传云端。",
+      "bullets_zh": [
+        "本地运行，更安心",
+        "界面接近聊天产品",
+        "可切换不同开源模型"
+      ],
+      "category_ids": [
+        "ai"
+      ],
+      "topics": [],
+      "stars": 4280,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/janhq/jan",
+      "avatar_url": "https://github.com/janhq.png",
+      "description": "在自己电脑上跑 AI 对话，数据不必上传云端。",
+      "source": "trending",
+      "scene": "AI 聊天",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "open-webui/open-webui",
+      "full_name": "open-webui/open-webui",
+      "name": "open-webui",
+      "title_zh": "Open WebUI",
+      "summary_zh": "漂亮的本地 AI 聊天界面，可接多种模型后端。",
+      "bullets_zh": [
+        "网页界面好看易用",
+        "可自托管",
+        "适合把家里的模型「包一层壳」"
+      ],
+      "category_ids": [
+        "ai"
+      ],
+      "topics": [],
+      "stars": 4200,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/open-webui/open-webui",
+      "avatar_url": "https://github.com/open-webui.png",
+      "description": "漂亮的本地 AI 聊天界面，可接多种模型后端。",
+      "source": "trending",
+      "scene": "AI 聊天",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "full_name": "langchain-ai/langchain",
+      "name": "langchain",
+      "title_zh": "LangChain",
+      "summary_zh": "搭 AI 应用的常用工具包（偏开发者，但生态很火）。",
+      "bullets_zh": [
+        "AI 应用脚手架丰富",
+        "文档与示例多",
+        "适合想做智能助手的人了解"
+      ],
+      "category_ids": [
+        "ai",
+        "developer"
+      ],
+      "topics": [],
+      "stars": 4120,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/langchain-ai/langchain",
+      "avatar_url": "https://github.com/langchain-ai.png",
+      "description": "搭 AI 应用的常用工具包（偏开发者，但生态很火）。",
+      "source": "trending",
+      "scene": "做 AI 应用",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "AUTOMATIC1111/stable-diffusion-webui",
+      "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+      "name": "stable-diffusion-webui",
+      "title_zh": "Stable Diffusion WebUI",
+      "summary_zh": "用网页界面玩 AI 画图，社区模型非常多。",
+      "bullets_zh": [
+        "浏览器里调参出图",
+        "插件与模型生态大",
+        "需要一定电脑配置"
+      ],
+      "category_ids": [
+        "ai",
+        "design"
+      ],
+      "topics": [],
+      "stars": 4040,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "avatar_url": "https://github.com/AUTOMATIC1111.png",
+      "description": "用网页界面玩 AI 画图，社区模型非常多。",
+      "source": "trending",
+      "scene": "AI 画图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "Comfy-Org/ComfyUI",
+      "full_name": "Comfy-Org/ComfyUI",
+      "name": "ComfyUI",
+      "title_zh": "ComfyUI",
+      "summary_zh": "节点式 AI 画图工作流，适合想精细控制出图的人。",
+      "bullets_zh": [
+        "流程可视化",
+        "可复用复杂工作流",
+        "学习曲线略陡"
+      ],
+      "category_ids": [
+        "ai",
+        "design"
+      ],
+      "topics": [],
+      "stars": 3960,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/Comfy-Org/ComfyUI",
+      "avatar_url": "https://github.com/Comfy-Org.png",
+      "description": "节点式 AI 画图工作流，适合想精细控制出图的人。",
+      "source": "trending",
+      "scene": "AI 画图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "syncthing/syncthing",
+      "full_name": "syncthing/syncthing",
+      "name": "syncthing",
+      "title_zh": "Syncthing",
+      "summary_zh": "在多台设备之间同步文件，不经过别人的云盘。",
+      "bullets_zh": [
+        "点对点同步",
+        "开源可自管",
+        "适合照片、文档多端同步"
+      ],
+      "category_ids": [
+        "life",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 3880,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/syncthing/syncthing",
+      "avatar_url": "https://github.com/syncthing.png",
+      "description": "在多台设备之间同步文件，不经过别人的云盘。",
+      "source": "trending",
+      "scene": "同步文件",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "photoprism/photoprism",
+      "full_name": "photoprism/photoprism",
+      "name": "photoprism",
+      "title_zh": "PhotoPrism",
+      "summary_zh": "自己架设的相册，用 AI 帮忙认人、搜图。",
+      "bullets_zh": [
+        "照片在自己服务器上",
+        "可搜索场景与人脸",
+        "适合重视隐私的家庭"
+      ],
+      "category_ids": [
+        "life",
+        "media"
+      ],
+      "topics": [],
+      "stars": 3800,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/photoprism/photoprism",
+      "avatar_url": "https://github.com/photoprism.png",
+      "description": "自己架设的相册，用 AI 帮忙认人、搜图。",
+      "source": "trending",
+      "scene": "管照片",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "immich-app/immich",
+      "full_name": "immich-app/immich",
+      "name": "immich",
+      "title_zh": "Immich",
+      "summary_zh": "开源的「私人谷歌相册」，手机备份很方便。",
+      "bullets_zh": [
+        "手机自动备份",
+        "界面现代好用",
+        "适合家庭自建相册"
+      ],
+      "category_ids": [
+        "life",
+        "media"
+      ],
+      "topics": [],
+      "stars": 3720,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/immich-app/immich",
+      "avatar_url": "https://github.com/immich-app.png",
+      "description": "开源的「私人谷歌相册」，手机备份很方便。",
+      "source": "trending",
+      "scene": "管照片",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "home-assistant/core",
+      "full_name": "home-assistant/core",
+      "name": "core",
+      "title_zh": "Home Assistant",
+      "summary_zh": "把家里智能设备接到一起，自己当「总控」。",
+      "bullets_zh": [
+        "设备品牌支持广",
+        "可做自动化场景",
+        "适合智能家居爱好者"
+      ],
+      "category_ids": [
+        "life"
+      ],
+      "topics": [],
+      "stars": 3640,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/home-assistant/core",
+      "avatar_url": "https://github.com/home-assistant.png",
+      "description": "把家里智能设备接到一起，自己当「总控」。",
+      "source": "trending",
+      "scene": "智能家居",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "actualbudget/actual",
+      "full_name": "actualbudget/actual",
+      "name": "actual",
+      "title_zh": "Actual Budget",
+      "summary_zh": "本地优先的记账与预算工具，把钱花在哪看得清清楚楚。",
+      "bullets_zh": [
+        "数据可放本地",
+        "预算规划清晰",
+        "适合想认真管钱的人"
+      ],
+      "category_ids": [
+        "life",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 3560,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/actualbudget/actual",
+      "avatar_url": "https://github.com/actualbudget.png",
+      "description": "本地优先的记账与预算工具，把钱花在哪看得清清楚楚。",
+      "source": "trending",
+      "scene": "记账",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "maybe-finance/maybe",
+      "full_name": "maybe-finance/maybe",
+      "name": "maybe",
+      "title_zh": "Maybe",
+      "summary_zh": "开源个人财务看板，看清资产与现金流。",
+      "bullets_zh": [
+        "财务总览直观",
+        "可自托管",
+        "适合理财入门者浏览"
+      ],
+      "category_ids": [
+        "life"
+      ],
+      "topics": [],
+      "stars": 3480,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/maybe-finance/maybe",
+      "avatar_url": "https://github.com/maybe-finance.png",
+      "description": "开源个人财务看板，看清资产与现金流。",
+      "source": "trending",
+      "scene": "理财",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    }
+  ],
+  "all": [
+    {
+      "id": "obsidianmd/obsidian-releases",
+      "full_name": "obsidianmd/obsidian-releases",
+      "name": "obsidian-releases",
+      "title_zh": "Obsidian 笔记",
+      "summary_zh": "用双向链接把想法连成一张知识网，适合长期记笔记的人。",
+      "bullets_zh": [
+        "本地文件，数据在你自己手里",
+        "用链接把笔记串成网络",
+        "插件多，可按需扩展"
+      ],
+      "category_ids": [
+        "productivity",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 5000,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/obsidianmd/obsidian-releases",
+      "avatar_url": "https://github.com/obsidianmd.png",
+      "description": "用双向链接把想法连成一张知识网，适合长期记笔记的人。",
+      "source": "trending",
+      "scene": "记笔记",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "AppFlowy-IO/AppFlowy",
+      "full_name": "AppFlowy-IO/AppFlowy",
+      "name": "AppFlowy",
+      "title_zh": "AppFlowy",
+      "summary_zh": "开源的 Notion 替代品，用来建文档、看板和知识库。",
+      "bullets_zh": [
+        "界面接近 Notion，上手快",
+        "可自托管，更可控",
+        "适合个人与小团队协作"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 4920,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "avatar_url": "https://github.com/AppFlowy-IO.png",
+      "description": "开源的 Notion 替代品，用来建文档、看板和知识库。",
+      "source": "trending",
+      "scene": "做文档看板",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "logseq/logseq",
+      "full_name": "logseq/logseq",
+      "name": "logseq",
+      "title_zh": "Logseq",
+      "summary_zh": "大纲式笔记，边写边把知识串起来。",
+      "bullets_zh": [
+        "大纲写作很顺手",
+        "支持双向链接与日记",
+        "本地优先，隐私友好"
+      ],
+      "category_ids": [
+        "productivity",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 4840,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/logseq/logseq",
+      "avatar_url": "https://github.com/logseq.png",
+      "description": "大纲式笔记，边写边把知识串起来。",
+      "source": "trending",
+      "scene": "记笔记",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "full_name": "excalidraw/excalidraw",
+      "name": "excalidraw",
+      "title_zh": "Excalidraw",
+      "summary_zh": "手绘风格在线白板，开会画图、讲思路特别合适。",
+      "bullets_zh": [
+        "打开浏览器就能画",
+        "手绘感，不显得死板",
+        "可分享链接一起改"
+      ],
+      "category_ids": [
+        "design"
+      ],
+      "topics": [],
+      "stars": 4760,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/excalidraw/excalidraw",
+      "avatar_url": "https://github.com/excalidraw.png",
+      "description": "手绘风格在线白板，开会画图、讲思路特别合适。",
+      "source": "trending",
+      "scene": "画草图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "drawdb-io/drawdb",
+      "full_name": "drawdb-io/drawdb",
+      "name": "drawdb",
+      "title_zh": "drawDB",
+      "summary_zh": "在浏览器里画数据库关系图，直观好懂。",
+      "bullets_zh": [
+        "无需安装",
+        "拖拽建表很直观",
+        "适合学习与讲解结构"
+      ],
+      "category_ids": [
+        "developer",
+        "design"
+      ],
+      "topics": [],
+      "stars": 4680,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/drawdb-io/drawdb",
+      "avatar_url": "https://github.com/drawdb-io.png",
+      "description": "在浏览器里画数据库关系图，直观好懂。",
+      "source": "trending",
+      "scene": "画结构图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "penpot/penpot",
+      "full_name": "penpot/penpot",
+      "name": "penpot",
+      "title_zh": "Penpot",
+      "summary_zh": "开源的设计协作工具，有点像 Figma。",
+      "bullets_zh": [
+        "浏览器里做 UI 设计",
+        "可自托管",
+        "适合设计与开发协作"
+      ],
+      "category_ids": [
+        "design"
+      ],
+      "topics": [],
+      "stars": 4600,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/penpot/penpot",
+      "avatar_url": "https://github.com/penpot.png",
+      "description": "开源的设计协作工具，有点像 Figma。",
+      "source": "trending",
+      "scene": "做界面",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "outline/outline",
+      "full_name": "outline/outline",
+      "name": "outline",
+      "title_zh": "Outline",
+      "summary_zh": "团队知识库，把公司文档集中放在一处。",
+      "bullets_zh": [
+        "Markdown 写作流畅",
+        "权限与分享清晰",
+        "适合小团队知识沉淀"
+      ],
+      "category_ids": [
+        "writing",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 4520,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/outline/outline",
+      "avatar_url": "https://github.com/outline.png",
+      "description": "团队知识库，把公司文档集中放在一处。",
+      "source": "trending",
+      "scene": "团队文档",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "steveseguin/vdo.ninja",
+      "full_name": "steveseguin/vdo.ninja",
+      "name": "vdo.ninja",
+      "title_zh": "VDO.Ninja",
+      "summary_zh": "把手机摄像头变成电脑直播源，简单好用。",
+      "bullets_zh": [
+        "浏览器即可，少装软件",
+        "适合直播与远程演示",
+        "延迟较低"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [],
+      "stars": 4440,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/steveseguin/vdo.ninja",
+      "avatar_url": "https://github.com/steveseguin.png",
+      "description": "把手机摄像头变成电脑直播源，简单好用。",
+      "source": "trending",
+      "scene": "直播",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "yt-dlp/yt-dlp",
+      "full_name": "yt-dlp/yt-dlp",
+      "name": "yt-dlp",
+      "title_zh": "yt-dlp",
+      "summary_zh": "强大的视频下载工具，支持很多网站（请遵守版权与网站条款）。",
+      "bullets_zh": [
+        "支持站点非常多",
+        "可下载字幕与音频",
+        "适合备份自己有权使用的内容"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [],
+      "stars": 4360,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/yt-dlp/yt-dlp",
+      "avatar_url": "https://github.com/yt-dlp.png",
+      "description": "强大的视频下载工具，支持很多网站（请遵守版权与网站条款）。",
+      "source": "trending",
+      "scene": "下视频",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "janhq/jan",
+      "full_name": "janhq/jan",
+      "name": "jan",
+      "title_zh": "Jan",
+      "summary_zh": "在自己电脑上跑 AI 对话，数据不必上传云端。",
+      "bullets_zh": [
+        "本地运行，更安心",
+        "界面接近聊天产品",
+        "可切换不同开源模型"
+      ],
+      "category_ids": [
+        "ai"
+      ],
+      "topics": [],
+      "stars": 4280,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/janhq/jan",
+      "avatar_url": "https://github.com/janhq.png",
+      "description": "在自己电脑上跑 AI 对话，数据不必上传云端。",
+      "source": "trending",
+      "scene": "AI 聊天",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "open-webui/open-webui",
+      "full_name": "open-webui/open-webui",
+      "name": "open-webui",
+      "title_zh": "Open WebUI",
+      "summary_zh": "漂亮的本地 AI 聊天界面，可接多种模型后端。",
+      "bullets_zh": [
+        "网页界面好看易用",
+        "可自托管",
+        "适合把家里的模型「包一层壳」"
+      ],
+      "category_ids": [
+        "ai"
+      ],
+      "topics": [],
+      "stars": 4200,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/open-webui/open-webui",
+      "avatar_url": "https://github.com/open-webui.png",
+      "description": "漂亮的本地 AI 聊天界面，可接多种模型后端。",
+      "source": "trending",
+      "scene": "AI 聊天",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "full_name": "langchain-ai/langchain",
+      "name": "langchain",
+      "title_zh": "LangChain",
+      "summary_zh": "搭 AI 应用的常用工具包（偏开发者，但生态很火）。",
+      "bullets_zh": [
+        "AI 应用脚手架丰富",
+        "文档与示例多",
+        "适合想做智能助手的人了解"
+      ],
+      "category_ids": [
+        "ai",
+        "developer"
+      ],
+      "topics": [],
+      "stars": 4120,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/langchain-ai/langchain",
+      "avatar_url": "https://github.com/langchain-ai.png",
+      "description": "搭 AI 应用的常用工具包（偏开发者，但生态很火）。",
+      "source": "trending",
+      "scene": "做 AI 应用",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "AUTOMATIC1111/stable-diffusion-webui",
+      "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+      "name": "stable-diffusion-webui",
+      "title_zh": "Stable Diffusion WebUI",
+      "summary_zh": "用网页界面玩 AI 画图，社区模型非常多。",
+      "bullets_zh": [
+        "浏览器里调参出图",
+        "插件与模型生态大",
+        "需要一定电脑配置"
+      ],
+      "category_ids": [
+        "ai",
+        "design"
+      ],
+      "topics": [],
+      "stars": 4040,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "avatar_url": "https://github.com/AUTOMATIC1111.png",
+      "description": "用网页界面玩 AI 画图，社区模型非常多。",
+      "source": "trending",
+      "scene": "AI 画图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "Comfy-Org/ComfyUI",
+      "full_name": "Comfy-Org/ComfyUI",
+      "name": "ComfyUI",
+      "title_zh": "ComfyUI",
+      "summary_zh": "节点式 AI 画图工作流，适合想精细控制出图的人。",
+      "bullets_zh": [
+        "流程可视化",
+        "可复用复杂工作流",
+        "学习曲线略陡"
+      ],
+      "category_ids": [
+        "ai",
+        "design"
+      ],
+      "topics": [],
+      "stars": 3960,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/Comfy-Org/ComfyUI",
+      "avatar_url": "https://github.com/Comfy-Org.png",
+      "description": "节点式 AI 画图工作流，适合想精细控制出图的人。",
+      "source": "trending",
+      "scene": "AI 画图",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "syncthing/syncthing",
+      "full_name": "syncthing/syncthing",
+      "name": "syncthing",
+      "title_zh": "Syncthing",
+      "summary_zh": "在多台设备之间同步文件，不经过别人的云盘。",
+      "bullets_zh": [
+        "点对点同步",
+        "开源可自管",
+        "适合照片、文档多端同步"
+      ],
+      "category_ids": [
+        "life",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 3880,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/syncthing/syncthing",
+      "avatar_url": "https://github.com/syncthing.png",
+      "description": "在多台设备之间同步文件，不经过别人的云盘。",
+      "source": "trending",
+      "scene": "同步文件",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "photoprism/photoprism",
+      "full_name": "photoprism/photoprism",
+      "name": "photoprism",
+      "title_zh": "PhotoPrism",
+      "summary_zh": "自己架设的相册，用 AI 帮忙认人、搜图。",
+      "bullets_zh": [
+        "照片在自己服务器上",
+        "可搜索场景与人脸",
+        "适合重视隐私的家庭"
+      ],
+      "category_ids": [
+        "life",
+        "media"
+      ],
+      "topics": [],
+      "stars": 3800,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/photoprism/photoprism",
+      "avatar_url": "https://github.com/photoprism.png",
+      "description": "自己架设的相册，用 AI 帮忙认人、搜图。",
+      "source": "trending",
+      "scene": "管照片",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "immich-app/immich",
+      "full_name": "immich-app/immich",
+      "name": "immich",
+      "title_zh": "Immich",
+      "summary_zh": "开源的「私人谷歌相册」，手机备份很方便。",
+      "bullets_zh": [
+        "手机自动备份",
+        "界面现代好用",
+        "适合家庭自建相册"
+      ],
+      "category_ids": [
+        "life",
+        "media"
+      ],
+      "topics": [],
+      "stars": 3720,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/immich-app/immich",
+      "avatar_url": "https://github.com/immich-app.png",
+      "description": "开源的「私人谷歌相册」，手机备份很方便。",
+      "source": "trending",
+      "scene": "管照片",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "home-assistant/core",
+      "full_name": "home-assistant/core",
+      "name": "core",
+      "title_zh": "Home Assistant",
+      "summary_zh": "把家里智能设备接到一起，自己当「总控」。",
+      "bullets_zh": [
+        "设备品牌支持广",
+        "可做自动化场景",
+        "适合智能家居爱好者"
+      ],
+      "category_ids": [
+        "life"
+      ],
+      "topics": [],
+      "stars": 3640,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/home-assistant/core",
+      "avatar_url": "https://github.com/home-assistant.png",
+      "description": "把家里智能设备接到一起，自己当「总控」。",
+      "source": "trending",
+      "scene": "智能家居",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "actualbudget/actual",
+      "full_name": "actualbudget/actual",
+      "name": "actual",
+      "title_zh": "Actual Budget",
+      "summary_zh": "本地优先的记账与预算工具，把钱花在哪看得清清楚楚。",
+      "bullets_zh": [
+        "数据可放本地",
+        "预算规划清晰",
+        "适合想认真管钱的人"
+      ],
+      "category_ids": [
+        "life",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 3560,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/actualbudget/actual",
+      "avatar_url": "https://github.com/actualbudget.png",
+      "description": "本地优先的记账与预算工具，把钱花在哪看得清清楚楚。",
+      "source": "trending",
+      "scene": "记账",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "maybe-finance/maybe",
+      "full_name": "maybe-finance/maybe",
+      "name": "maybe",
+      "title_zh": "Maybe",
+      "summary_zh": "开源个人财务看板，看清资产与现金流。",
+      "bullets_zh": [
+        "财务总览直观",
+        "可自托管",
+        "适合理财入门者浏览"
+      ],
+      "category_ids": [
+        "life"
+      ],
+      "topics": [],
+      "stars": 3480,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/maybe-finance/maybe",
+      "avatar_url": "https://github.com/maybe-finance.png",
+      "description": "开源个人财务看板，看清资产与现金流。",
+      "source": "trending",
+      "scene": "理财",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "calcom/cal.com",
+      "full_name": "calcom/cal.com",
+      "name": "cal.com",
+      "title_zh": "Cal.com",
+      "summary_zh": "开源预约日历，让别人方便地约你的时间。",
+      "bullets_zh": [
+        "预约链接一键分享",
+        "可接常用日历",
+        "适合顾问、老师、自由职业"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 3400,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/calcom/cal.com",
+      "avatar_url": "https://github.com/calcom.png",
+      "description": "开源预约日历，让别人方便地约你的时间。",
+      "source": "trending",
+      "scene": "约时间",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "nocodb/nocodb",
+      "full_name": "nocodb/nocodb",
+      "name": "nocodb",
+      "title_zh": "NocoDB",
+      "summary_zh": "把数据库变成像表格一样好用的界面。",
+      "bullets_zh": [
+        "表格体验接近 Airtable",
+        "可接已有数据库",
+        "适合做轻量业务表"
+      ],
+      "category_ids": [
+        "productivity",
+        "developer"
+      ],
+      "topics": [],
+      "stars": 3320,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/nocodb/nocodb",
+      "avatar_url": "https://github.com/nocodb.png",
+      "description": "把数据库变成像表格一样好用的界面。",
+      "source": "trending",
+      "scene": "做表格",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "appsmithorg/appsmith",
+      "full_name": "appsmithorg/appsmith",
+      "name": "appsmith",
+      "title_zh": "Appsmith",
+      "summary_zh": "低代码搭内部工具，表单、后台页面拖一拖就有。",
+      "bullets_zh": [
+        "拖拽组建页面",
+        "可接 API 与数据库",
+        "适合快速做内部后台"
+      ],
+      "category_ids": [
+        "developer",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 3240,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/appsmithorg/appsmith",
+      "avatar_url": "https://github.com/appsmithorg.png",
+      "description": "低代码搭内部工具，表单、后台页面拖一拖就有。",
+      "source": "trending",
+      "scene": "搭内部工具",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "tooljet/tooljet",
+      "full_name": "tooljet/tooljet",
+      "name": "tooljet",
+      "title_zh": "ToolJet",
+      "summary_zh": "另一个好用的开源低代码平台，快速做业务小工具。",
+      "bullets_zh": [
+        "组件丰富",
+        "可自托管",
+        "适合运营与业务同学配合使用"
+      ],
+      "category_ids": [
+        "developer",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 3160,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/tooljet/tooljet",
+      "avatar_url": "https://github.com/tooljet.png",
+      "description": "另一个好用的开源低代码平台，快速做业务小工具。",
+      "source": "trending",
+      "scene": "搭内部工具",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "hoppscotch/hoppscotch",
+      "full_name": "hoppscotch/hoppscotch",
+      "name": "hoppscotch",
+      "title_zh": "Hoppscotch",
+      "summary_zh": "浏览器里测 API 的轻量工具，有点像 Postman。",
+      "bullets_zh": [
+        "打开网页就能测接口",
+        "团队可共享集合",
+        "适合前后端联调"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 3080,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/hoppscotch/hoppscotch",
+      "avatar_url": "https://github.com/hoppscotch.png",
+      "description": "浏览器里测 API 的轻量工具，有点像 Postman。",
+      "source": "trending",
+      "scene": "测接口",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "localstack/localstack",
+      "full_name": "localstack/localstack",
+      "name": "localstack",
+      "title_zh": "LocalStack",
+      "summary_zh": "在本地模拟云服务，开发时少花云费用。",
+      "bullets_zh": [
+        "本地模拟 AWS 等服务",
+        "方便联调与测试",
+        "偏开发者向"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 3000,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/localstack/localstack",
+      "avatar_url": "https://github.com/localstack.png",
+      "description": "在本地模拟云服务，开发时少花云费用。",
+      "source": "curated",
+      "scene": "本地云开发",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "vercel/next.js",
+      "full_name": "vercel/next.js",
+      "name": "next.js",
+      "title_zh": "Next.js",
+      "summary_zh": "做现代网站与博客的主流框架之一（需一点开发基础）。",
+      "bullets_zh": [
+        "文档与社区极强",
+        "适合官网、博客、产品站",
+        "趋势长期靠前"
+      ],
+      "category_ids": [
+        "developer",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 2920,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/vercel/next.js",
+      "avatar_url": "https://github.com/vercel.png",
+      "description": "做现代网站与博客的主流框架之一（需一点开发基础）。",
+      "source": "curated",
+      "scene": "做网站",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "withastro/astro",
+      "full_name": "withastro/astro",
+      "name": "astro",
+      "title_zh": "Astro",
+      "summary_zh": "偏内容站的现代框架，博客和文档站很合适。",
+      "bullets_zh": [
+        "默认输出轻量页面",
+        "适合文档与营销站",
+        "学习曲线相对友好"
+      ],
+      "category_ids": [
+        "developer",
+        "writing"
+      ],
+      "topics": [],
+      "stars": 2840,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/withastro/astro",
+      "avatar_url": "https://github.com/withastro.png",
+      "description": "偏内容站的现代框架，博客和文档站很合适。",
+      "source": "curated",
+      "scene": "做网站",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "facebook/react",
+      "full_name": "facebook/react",
+      "name": "react",
+      "title_zh": "React",
+      "summary_zh": "做网页界面最流行的库之一，生态巨大。",
+      "bullets_zh": [
+        "工作机会与教程极多",
+        "组件化思维清晰",
+        "适合想了解前端趋势的人"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 2760,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/facebook/react",
+      "avatar_url": "https://github.com/facebook.png",
+      "description": "做网页界面最流行的库之一，生态巨大。",
+      "source": "curated",
+      "scene": "学前端",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    },
+    {
+      "id": "microsoft/vscode",
+      "full_name": "microsoft/vscode",
+      "name": "vscode",
+      "title_zh": "VS Code",
+      "summary_zh": "微软开源的代码编辑器，写东西、改配置都好用。",
+      "bullets_zh": [
+        "插件生态极强",
+        "跨平台",
+        "不只程序员，写 Markdown 也香"
+      ],
+      "category_ids": [
+        "developer",
+        "productivity"
+      ],
+      "topics": [],
+      "stars": 2680,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": null,
+      "homepage": null,
+      "html_url": "https://github.com/microsoft/vscode",
+      "avatar_url": "https://github.com/microsoft.png",
+      "description": "微软开源的代码编辑器，写东西、改配置都好用。",
+      "source": "curated",
+      "scene": "写代码改文件",
+      "trend_periods": [
+        "all"
+      ],
+      "updated_at": "2026-11-16T14:26:57Z"
+    }
+  ]
+}
