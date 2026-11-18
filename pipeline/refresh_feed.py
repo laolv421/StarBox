@@ -87,36 +87,57 @@ def search_repos(
     return list(data.get("items") or [])
 
 
+def parse_gh_time(raw: str | None) -> datetime | None:
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
 def search_trends(session: requests.Session) -> dict[str, list[dict]]:
     """Approximate week / month / all-time trends via Search API."""
     now = datetime.now(timezone.utc)
     week_since = (now - timedelta(days=7)).strftime("%Y-%m-%d")
     month_since = (now - timedelta(days=30)).strftime("%Y-%m-%d")
+    week_cut = now - timedelta(days=7)
+    month_cut = now - timedelta(days=30)
 
     specs = {
-        # 周趋势：只看近 7 天「新建」的仓库，避免和大仓活跃推送撞车
+        # 周趋势：只看近 7 天「新建」的仓库
         "week": [
             f"stars:>10 created:>{week_since}",
         ],
-        # 月趋势：近 30 天新建（排除本周已收录的由客户端/合并逻辑再去重观感）
+        # 月趋势：近 30 天新建；优先「本周之前」那一段，避免和周榜完全重叠
         "month": [
             f"stars:>30 created:>{month_since} created:<{week_since}",
             f"stars:>50 created:>{month_since}",
         ],
-        # 总趋势：长期高星，和「新建热」完全不同维度
+        # 总趋势：长期高星
         "all": [
             "stars:>50000",
             "stars:>20000",
         ],
     }
 
+    def accept(period: str, repo: dict) -> bool:
+        created = parse_gh_time(repo.get("created_at"))
+        if period == "week":
+            return bool(created and created >= week_cut)
+        if period == "month":
+            return bool(created and created >= month_cut)
+        return True
+
     out: dict[str, list[dict]] = {k: [] for k in specs}
     for period, queries in specs.items():
         seen: set[str] = set()
         for q in queries:
-            for repo in search_repos(session, q, per_page=TREND_LIMIT):
+            for repo in search_repos(session, q, per_page=min(TREND_LIMIT * 2, 50)):
                 name = repo.get("full_name")
                 if not name or name in seen:
+                    continue
+                if not accept(period, repo):
                     continue
                 seen.add(name)
                 out[period].append(repo)
@@ -318,18 +339,17 @@ def offline_trends(items: list[dict]) -> dict[str, list[dict]]:
             guard += 1
         return out
 
-    # Disjoint-ish windows so the first screen is obviously different
-    week = take(0, min(12, n), "week")
-    month = take(max(n // 3, 1), min(20, n), "month")
-    all_list = take(max(n // 2, 0), min(TREND_LIMIT, n), "all")
-    # Prefer true high-star order for "all"
+    # Keep first screens obviously different in offline/demo mode.
+    # week: mid-pack "rising"; month: later pack; all: true high-star ranking
+    week = take(max(n // 4, 1), min(12, n), "week")
+    month = take(max(n // 2, 1), min(20, n), "month")
     all_true = []
     for it in ranked[:TREND_LIMIT]:
         copy = dict(it)
         copy["source"] = "trending"
         merge_trend_period(copy, "all")
         all_true.append(copy)
-    return {"week": week, "month": month, "all": all_true or all_list}
+    return {"week": week, "month": month, "all": all_true}
 
 
 def main() -> int:
@@ -358,65 +378,64 @@ def main() -> int:
         time.sleep(0.12)
 
     trends_raw: dict[str, list[dict]] = {"week": [], "month": [], "all": []}
+    # Period -> ordered item dicts used ONLY for trends.json (keep lists independent)
+    trends: dict[str, list[dict]] = {"week": [], "month": [], "all": []}
+
     if api_ok:
         print("searching week / month / all trends…")
         trends_raw = search_trends(session)
         for period, repos in trends_raw.items():
+            seen_period: set[str] = set()
             for repo in repos:
                 full_name = repo["full_name"]
-                if full_name in items_by_id:
+                if not full_name or full_name in seen_period:
+                    continue
+                seen_period.add(full_name)
+
+                if full_name not in items_by_id:
+                    full = fetch_repo(session, full_name) or repo
+                    if not full:
+                        continue
+                    items_by_id[full_name] = repo_to_item(
+                        full,
+                        source="trending",
+                        curated=None,
+                        taxonomy=taxonomy,
+                        trend_periods=[period],
+                    )
+                    time.sleep(0.12)
+                else:
                     merge_trend_period(items_by_id[full_name], period)
-                    if items_by_id[full_name].get("source") == "curated":
-                        pass
-                    else:
+                    if items_by_id[full_name].get("source") != "curated":
                         items_by_id[full_name]["source"] = "trending"
-                    continue
-                full = fetch_repo(session, full_name) or repo
-                if not full:
-                    continue
-                items_by_id[full_name] = repo_to_item(
-                    full,
-                    source="trending",
-                    curated=None,
-                    taxonomy=taxonomy,
-                    trend_periods=[period],
-                )
-                time.sleep(0.12)
+
+                # Deep-ish copy for this period only — do not share list identity across tabs
+                entry = dict(items_by_id[full_name])
+                entry["trend_periods"] = [period]
+                entry["source"] = "trending"
+                if period == "week":
+                    entry["stars_delta_7d"] = max(int(entry.get("stars_delta_7d") or 0), max(int(entry.get("stars") or 0) // 20, 1))
+                    entry["stars_delta_30d"] = int(entry.get("stars_delta_30d") or 0)
+                elif period == "month":
+                    entry["stars_delta_30d"] = max(int(entry.get("stars_delta_30d") or 0), max(int(entry.get("stars") or 0) // 10, 1))
+                trends[period].append(entry)
+                if len(trends[period]) >= TREND_LIMIT:
+                    break
     else:
         print("skip live trending search (offline / rate-limited)")
-        trends_raw = offline_trends(list(items_by_id.values()))
-        for period, lst in trends_raw.items():
+        trends = offline_trends(list(items_by_id.values()))
+        for period, lst in trends.items():
             for it in lst:
-                items_by_id[it["id"]] = it
+                base = dict(it)
+                # Keep feed index filled, but trends lists stay as produced (already distinct)
+                existing = items_by_id.get(it["id"])
+                if existing:
+                    merge_trend_period(existing, period)
+                else:
+                    items_by_id[it["id"]] = base
 
-    def pick_trend(period: str) -> list[dict]:
-        selected = [
-            it
-            for it in items_by_id.values()
-            if period in (it.get("trend_periods") or [])
-        ]
-        if period == "week":
-            selected.sort(key=lambda x: (-int(x.get("stars_delta_7d") or 0), -int(x.get("stars") or 0)))
-        elif period == "month":
-            selected.sort(key=lambda x: (-int(x.get("stars_delta_30d") or 0), -int(x.get("stars") or 0)))
-        else:
-            selected.sort(key=lambda x: -int(x.get("stars") or 0))
-        return selected[:TREND_LIMIT]
-
-    # If a period is empty after merge, fall back to raw search order conversion
-    trends = {
-        "week": pick_trend("week"),
-        "month": pick_trend("month"),
-        "all": pick_trend("all"),
-    }
     for period in ("week", "month", "all"):
-        if not trends[period] and trends_raw.get(period):
-            rebuilt = []
-            for repo in trends_raw[period][:TREND_LIMIT]:
-                full_name = repo["full_name"]
-                if full_name in items_by_id:
-                    rebuilt.append(items_by_id[full_name])
-            trends[period] = rebuilt
+        print(f"  final trend/{period}: {len(trends[period])} (unique lists)")
 
     items = sorted(
         items_by_id.values(),
