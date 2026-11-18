@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T10:17:40Z",
-  "item_count": 48,
+  "generated_at": "2026-11-18T10:20:09Z",
+  "item_count": 134,
   "trend_counts": {
-    "week": 12,
-    "month": 20,
+    "week": 30,
+    "month": 30,
     "all": 30
   },
   "refresh_hint_minutes": 60,
