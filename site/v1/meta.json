@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T07:00:11Z",
-  "item_count": 95,
-  "source": "starbox-pipeline",
+  "generated_at": "2026-11-18T09:20:01Z",
+  "item_count": 134,
   "trend_counts": {
-    "week": 12,
-    "month": 20,
+    "week": 30,
+    "month": 30,
     "all": 30
   },
-  "refresh_hint_minutes": 60
+  "refresh_hint_minutes": 60,
+  "source": "starbox-pipeline"
 }
