@@ -42,22 +42,36 @@ final class FeedStore {
         return minutes >= refreshHintMinutes
     }
 
+    var hasTrendLists: Bool {
+        !trends.week.isEmpty || !trends.month.isEmpty || !trends.all.isEmpty
+    }
+
     func discoverItems(for period: TrendPeriod) -> [RepoItem] {
         let list = trends.items(for: period)
         if !list.isEmpty { return list }
 
-        // Fallback when trends.json missing (old cache / old Pages)
+        // Fallback when trends.json missing: keep three tabs visually distinct
+        let ranked = items.sorted { $0.stars > $1.stars }
+        guard !ranked.isEmpty else { return [] }
         switch period {
         case .week:
             let weekly = items.filter { $0.starsDelta7d > 0 || $0.trendPeriods.contains("week") }
-            if weekly.count >= 5 { return weekly.sorted { $0.starsDelta7d > $1.starsDelta7d } }
+            if weekly.count >= 5 {
+                return weekly.sorted { $0.starsDelta7d > $1.starsDelta7d }
+            }
+            // Mid slice — rising / mid-tier, not the all-time top
+            let start = min(ranked.count / 3, max(ranked.count - 12, 0))
+            return Array(ranked[start..<min(start + 12, ranked.count)])
         case .month:
             let monthly = items.filter { $0.starsDelta30d > 0 || $0.trendPeriods.contains("month") }
-            if monthly.count >= 5 { return monthly.sorted { $0.starsDelta30d > $1.starsDelta30d } }
+            if monthly.count >= 5 {
+                return monthly.sorted { $0.starsDelta30d > $1.starsDelta30d }
+            }
+            let start = min(ranked.count / 5, max(ranked.count - 20, 0))
+            return Array(ranked[start..<min(start + 20, ranked.count)])
         case .all:
-            break
+            return Array(ranked.prefix(40))
         }
-        return Array(items.sorted { $0.stars > $1.stars }.prefix(40))
     }
 
     var toolboxItems: [RepoItem] {
@@ -123,9 +137,9 @@ final class FeedStore {
         }
     }
 
-    /// Refresh when opening Discover if data is stale.
+    /// Refresh when opening Discover if data is stale or trend lists are missing.
     func refreshIfStale() async {
-        if needsTimelyRefresh || trends.week.isEmpty {
+        if needsTimelyRefresh || !hasTrendLists {
             await load(forceNetwork: true)
         }
     }

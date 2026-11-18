@@ -94,20 +94,19 @@ def search_trends(session: requests.Session) -> dict[str, list[dict]]:
     month_since = (now - timedelta(days=30)).strftime("%Y-%m-%d")
 
     specs = {
-        # 本周新起势：近 7 天创建且已有一定星标
+        # 周趋势：只看近 7 天「新建」的仓库，避免和大仓活跃推送撞车
         "week": [
-            f"stars:>20 created:>{week_since}",
-            f"stars:>100 pushed:>{week_since}",
+            f"stars:>10 created:>{week_since}",
         ],
-        # 本月趋势：近 30 天创建或活跃
+        # 月趋势：近 30 天新建（排除本周已收录的由客户端/合并逻辑再去重观感）
         "month": [
+            f"stars:>30 created:>{month_since} created:<{week_since}",
             f"stars:>50 created:>{month_since}",
-            f"stars:>200 pushed:>{month_since}",
         ],
-        # 总趋势：长期高星项目
+        # 总趋势：长期高星，和「新建热」完全不同维度
         "all": [
+            "stars:>50000",
             "stars:>20000",
-            "stars:>5000 language:TypeScript",
         ],
     }
 
@@ -293,37 +292,44 @@ def merge_trend_period(item: dict, period: str) -> None:
 
 
 def offline_trends(items: list[dict]) -> dict[str, list[dict]]:
-    """Split curated/seed items into week/month/all for offline demos."""
+    """Build clearly distinct week/month/all lists for offline demos."""
     ranked = sorted(items, key=lambda x: -int(x.get("stars") or 0))
     if not ranked:
         return {"week": [], "month": [], "all": []}
 
-    # Invent mild star counts for offline seeds that are 0
     for i, it in enumerate(ranked):
         if int(it.get("stars") or 0) == 0:
-            it["stars"] = max(5000 - i * 80, 100)
+            it["stars"] = max(8000 - i * 120, 120)
 
-    week = []
-    month = []
-    all_list = []
-    for i, it in enumerate(ranked):
-        copy = dict(it)
-        if i < 12:
+    n = len(ranked)
+
+    def take(start: int, count: int, period: str) -> list[dict]:
+        out: list[dict] = []
+        if n == 0:
+            return out
+        idx = start % n
+        guard = 0
+        while len(out) < count and guard < n * 2:
+            copy = dict(ranked[idx])
             copy["source"] = "trending"
-            merge_trend_period(copy, "week")
-            week.append(copy)
-        if i < 20:
-            copy_m = dict(it)
-            copy_m["source"] = "trending"
-            merge_trend_period(copy_m, "month")
-            month.append(copy_m)
-        copy_a = dict(it)
-        copy_a["source"] = "trending" if i < 25 else copy_a.get("source", "curated")
-        merge_trend_period(copy_a, "all")
-        all_list.append(copy_a)
-        if len(all_list) >= TREND_LIMIT:
-            break
-    return {"week": week, "month": month, "all": all_list}
+            merge_trend_period(copy, period)
+            out.append(copy)
+            idx = (idx + 1) % n
+            guard += 1
+        return out
+
+    # Disjoint-ish windows so the first screen is obviously different
+    week = take(0, min(12, n), "week")
+    month = take(max(n // 3, 1), min(20, n), "month")
+    all_list = take(max(n // 2, 0), min(TREND_LIMIT, n), "all")
+    # Prefer true high-star order for "all"
+    all_true = []
+    for it in ranked[:TREND_LIMIT]:
+        copy = dict(it)
+        copy["source"] = "trending"
+        merge_trend_period(copy, "all")
+        all_true.append(copy)
+    return {"week": week, "month": month, "all": all_true or all_list}
 
 
 def main() -> int:
