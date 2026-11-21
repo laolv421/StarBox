@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T18:29:03Z",
+  "generated_at": "2026-11-21T23:40:07Z",
   "week": [
     {
       "id": "erkamyaman/rust-anything",
@@ -9,7 +9,7 @@
       "title_zh": "rust-anything",
       "summary_zh": "rust-anything：Rewrite your whole app in Rust, one piece at a time, checked against the orig…",
       "bullets_zh": [
-        "已有超过 7,260 人星标，说明很多人在用或关注",
+        "已有超过 7,395 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：agent-skills、claude-code、cli、code-migration"
       ],
@@ -38,10 +38,10 @@
         "rust",
         "typescript"
       ],
-      "stars": 7260,
-      "stars_delta_7d": 363,
+      "stars": 7395,
+      "stars_delta_7d": 369,
       "stars_delta_30d": 0,
-      "forks": 583,
+      "forks": 588,
       "language": "Rust",
       "homepage": "https://www.npmjs.com/package/rust-anything",
       "html_url": "https://github.com/erkamyaman/rust-anything",
@@ -52,7 +52,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T18:25:23Z"
+      "updated_at": "2026-11-21T23:36:48Z"
     },
     {
       "id": "krisgfx9/Wireless-Device-Battery-Monitor",
@@ -61,7 +61,7 @@
       "title_zh": "Wireless-Device-Battery-Monitor",
       "summary_zh": "Wireless-Device-Battery-Monitor：Show the battery level of wireless mice, headsets, keyboards and controllers …",
       "bullets_zh": [
-        "已有超过 5,738 人星标，说明很多人在用或关注",
+        "已有超过 5,800 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -69,10 +69,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 5738,
-      "stars_delta_7d": 286,
+      "stars": 5800,
+      "stars_delta_7d": 290,
       "stars_delta_30d": 0,
-      "forks": 481,
+      "forks": 488,
       "language": "C++",
       "homepage": null,
       "html_url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
@@ -83,7 +83,38 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T18:27:25Z"
+      "updated_at": "2026-11-21T23:37:55Z"
+    },
+    {
+      "id": "ItsNotRexed/Leonida",
+      "full_name": "ItsNotRexed/Leonida",
+      "name": "Leonida",
+      "title_zh": "Leonida",
+      "summary_zh": "Leonida：Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "bullets_zh": [
+        "已有超过 4,892 人星标，说明很多人在用或关注",
+        "主要使用 Python 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 4892,
+      "stars_delta_7d": 244,
+      "stars_delta_30d": 0,
+      "forks": 338,
+      "language": "Python",
+      "homepage": null,
+      "html_url": "https://github.com/ItsNotRexed/Leonida",
+      "avatar_url": "https://avatars.githubusercontent.com/u/300290919?v=4",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-21T23:39:32Z"
     },
     {
       "id": "gylive/google-ultra",
@@ -92,7 +123,7 @@
       "title_zh": "google-ultra",
       "summary_zh": "google-ultra 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "已有超过 2,582 人星标，说明很多人在用或关注",
+        "已有超过 2,598 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -100,10 +131,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 2582,
+      "stars": 2598,
       "stars_delta_7d": 129,
       "stars_delta_30d": 0,
-      "forks": 75,
+      "forks": 78,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/gylive/google-ultra",
@@ -114,38 +145,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T17:21:16Z"
-    },
-    {
-      "id": "Hut-hzf/ung220z-tool",
-      "full_name": "Hut-hzf/ung220z-tool",
-      "name": "ung220z-tool",
-      "title_zh": "ung220z-tool",
-      "summary_zh": "ung220z-tool：ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码…",
-      "bullets_zh": [
-        "已有超过 2,209 人星标，说明很多人在用或关注",
-        "主要使用 Python 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 2209,
-      "stars_delta_7d": 110,
-      "stars_delta_30d": 0,
-      "forks": 501,
-      "language": "Python",
-      "homepage": null,
-      "html_url": "https://github.com/Hut-hzf/ung220z-tool",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192405006?v=4",
-      "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-21T18:25:06Z"
+      "updated_at": "2026-11-21T23:15:54Z"
     },
     {
       "id": "bookwjitchieni1986/blender-ai-mcp-addon",
@@ -154,7 +154,7 @@
       "title_zh": "blender-ai-mcp-addon",
       "summary_zh": "blender-ai-mcp-addon：AI assistant and MCP server for Blender: visual chat, scene tools, multi-agen…",
       "bullets_zh": [
-        "已有超过 2,113 人星标，说明很多人在用或关注",
+        "已有超过 2,358 人星标，说明很多人在用或关注",
         "标签：ai-agents、ai-assistant、blender、blender-addon"
       ],
       "category_ids": [
@@ -182,10 +182,10 @@
         "ollama",
         "opencode"
       ],
-      "stars": 2113,
-      "stars_delta_7d": 105,
+      "stars": 2358,
+      "stars_delta_7d": 117,
       "stars_delta_30d": 0,
-      "forks": 31,
+      "forks": 32,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
@@ -196,7 +196,38 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T18:28:34Z"
+      "updated_at": "2026-11-21T23:39:24Z"
+    },
+    {
+      "id": "Hut-hzf/ung220z-tool",
+      "full_name": "Hut-hzf/ung220z-tool",
+      "name": "ung220z-tool",
+      "title_zh": "ung220z-tool",
+      "summary_zh": "ung220z-tool：ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码…",
+      "bullets_zh": [
+        "已有超过 2,216 人星标，说明很多人在用或关注",
+        "主要使用 Python 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 2216,
+      "stars_delta_7d": 110,
+      "stars_delta_30d": 0,
+      "forks": 502,
+      "language": "Python",
+      "homepage": null,
+      "html_url": "https://github.com/Hut-hzf/ung220z-tool",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192405006?v=4",
+      "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-21T23:22:13Z"
     },
     {
       "id": "iamajmeena/neonclipping",
@@ -205,7 +236,7 @@
       "title_zh": "neonclipping",
       "summary_zh": "neonclipping：Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source cl…",
       "bullets_zh": [
-        "已有超过 1,683 人星标，说明很多人在用或关注",
+        "已有超过 1,732 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：ai-video-clipper、clipping、faster-whisper、ffmpeg"
       ],
@@ -230,10 +261,10 @@
         "youtube-shorts-generator",
         "yt-dlp"
       ],
-      "stars": 1683,
-      "stars_delta_7d": 84,
+      "stars": 1732,
+      "stars_delta_7d": 86,
       "stars_delta_30d": 0,
-      "forks": 82,
+      "forks": 85,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/iamajmeena/neonclipping",
@@ -244,7 +275,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T18:28:19Z"
+      "updated_at": "2026-11-21T23:18:23Z"
     },
     {
       "id": "sybil-solutions/inference-optimisation-skill",
@@ -253,7 +284,7 @@
       "title_zh": "inference-optimisation-skill",
       "summary_zh": "inference-optimisation-skill：Agent skill for hill-climbing local LLM serving speed (decode, speculative de…",
       "bullets_zh": [
-        "已有超过 1,447 人星标，说明很多人在用或关注",
+        "已有超过 1,612 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：agent-skill、benchmarking、claude-code、inference"
       ],
@@ -268,10 +299,10 @@
         "llm",
         "speculative-decoding"
       ],
-      "stars": 1447,
-      "stars_delta_7d": 72,
+      "stars": 1612,
+      "stars_delta_7d": 80,
       "stars_delta_30d": 0,
-      "forks": 134,
+      "forks": 146,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
@@ -282,7 +313,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T18:24:29Z"
+      "updated_at": "2026-11-21T23:36:49Z"
     },
     {
       "id": "joshpuckett/allo",
@@ -291,7 +322,7 @@
       "title_zh": "allo",
       "summary_zh": "allo：Allo is your friendly neighborhood typeface, free and open source",
       "bullets_zh": [
-        "已有超过 1,301 人星标，说明很多人在用或关注",
+        "已有超过 1,346 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -299,8 +330,8 @@
         "developer"
       ],
       "topics": [],
-      "stars": 1301,
-      "stars_delta_7d": 65,
+      "stars": 1346,
+      "stars_delta_7d": 67,
       "stars_delta_30d": 0,
       "forks": 38,
       "language": "Python",
@@ -313,7 +344,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T18:27:26Z"
+      "updated_at": "2026-11-21T23:22:26Z"
     },
     {
       "id": "chuanqisun/spaceship",
@@ -322,7 +353,7 @@
       "title_zh": "spaceship",
       "summary_zh": "spaceship：Steer ideas like a space pilot!",
       "bullets_zh": [
-        "已有超过 1,014 人星标，说明很多人在用或关注",
+        "已有超过 1,021 人星标，说明很多人在用或关注",
         "主要使用 HTML 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -330,8 +361,8 @@
         "developer"
       ],
       "topics": [],
-      "stars": 1014,
-      "stars_delta_7d": 50,
+      "stars": 1021,
+      "stars_delta_7d": 51,
       "stars_delta_30d": 0,
       "forks": 109,
       "language": "HTML",
@@ -344,100 +375,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T17:15:21Z"
-    },
-    {
-      "id": "ItsNotRexed/Leonida",
-      "full_name": "ItsNotRexed/Leonida",
-      "name": "Leonida",
-      "title_zh": "Leonida",
-      "summary_zh": "Leonida：Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-      "bullets_zh": [
-        "目前约有 982 个星标",
-        "主要使用 Python 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 982,
-      "stars_delta_7d": 49,
-      "stars_delta_30d": 0,
-      "forks": 76,
-      "language": "Python",
-      "homepage": null,
-      "html_url": "https://github.com/ItsNotRexed/Leonida",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300290919?v=4",
-      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-21T18:28:39Z"
-    },
-    {
-      "id": "siliconjungle/shapeshift-labs-ink-studio",
-      "full_name": "siliconjungle/shapeshift-labs-ink-studio",
-      "name": "shapeshift-labs-ink-studio",
-      "title_zh": "shapeshift-labs-ink-studio",
-      "summary_zh": "shapeshift-labs-ink-studio：Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
-      "bullets_zh": [
-        "目前约有 949 个星标",
-        "主要使用 JavaScript 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 949,
-      "stars_delta_7d": 47,
-      "stars_delta_30d": 0,
-      "forks": 76,
-      "language": "JavaScript",
-      "homepage": null,
-      "html_url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71357672?v=4",
-      "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-21T18:28:07Z"
-    },
-    {
-      "id": "Lemxy/WinRust",
-      "full_name": "Lemxy/WinRust",
-      "name": "WinRust",
-      "title_zh": "WinRust",
-      "summary_zh": "WinRust：Windows shell replacement in Rust: taskbar, file manager, NTFS search, task m…",
-      "bullets_zh": [
-        "目前约有 912 个星标",
-        "主要使用 Rust 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 912,
-      "stars_delta_7d": 45,
-      "stars_delta_30d": 0,
-      "forks": 47,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/Lemxy/WinRust",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183076981?v=4",
-      "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-21T18:27:30Z"
+      "updated_at": "2026-11-21T23:16:26Z"
     },
     {
       "id": "hatsunemiku-ai/google-one-tools",
@@ -446,7 +384,7 @@
       "title_zh": "google-one-tools",
       "summary_zh": "google-one-tools 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "目前约有 911 个星标",
+        "已有超过 1,016 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -454,10 +392,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 911,
-      "stars_delta_7d": 45,
+      "stars": 1016,
+      "stars_delta_7d": 50,
       "stars_delta_30d": 0,
-      "forks": 480,
+      "forks": 508,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/hatsunemiku-ai/google-one-tools",
@@ -468,7 +406,108 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T18:26:47Z"
+      "updated_at": "2026-11-21T23:34:23Z"
+    },
+    {
+      "id": "siliconjungle/shapeshift-labs-ink-studio",
+      "full_name": "siliconjungle/shapeshift-labs-ink-studio",
+      "name": "shapeshift-labs-ink-studio",
+      "title_zh": "shapeshift-labs-ink-studio",
+      "summary_zh": "shapeshift-labs-ink-studio：Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+      "bullets_zh": [
+        "目前约有 957 个星标",
+        "主要使用 JavaScript 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 957,
+      "stars_delta_7d": 47,
+      "stars_delta_30d": 0,
+      "forks": 80,
+      "language": "JavaScript",
+      "homepage": null,
+      "html_url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71357672?v=4",
+      "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-21T23:18:08Z"
+    },
+    {
+      "id": "Lemxy/WinRust",
+      "full_name": "Lemxy/WinRust",
+      "name": "WinRust",
+      "title_zh": "WinRust",
+      "summary_zh": "WinRust：Windows shell replacement in Rust: taskbar, file manager, NTFS search, task m…",
+      "bullets_zh": [
+        "目前约有 956 个星标",
+        "主要使用 Rust 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 956,
+      "stars_delta_7d": 47,
+      "stars_delta_30d": 0,
+      "forks": 49,
+      "language": "Rust",
+      "homepage": null,
+      "html_url": "https://github.com/Lemxy/WinRust",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183076981?v=4",
+      "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-21T23:28:42Z"
+    },
+    {
+      "id": "R0Y00/Xbox2Windows",
+      "full_name": "R0Y00/Xbox2Windows",
+      "name": "Xbox2Windows",
+      "title_zh": "Xbox2Windows",
+      "summary_zh": "Xbox2Windows：Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, …",
+      "bullets_zh": [
+        "目前约有 892 个星标",
+        "主要使用 Python 开发",
+        "标签：d3d12、directx-raytracing、scarlett、static-recompilation"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "d3d12",
+        "directx-raytracing",
+        "scarlett",
+        "static-recompilation",
+        "windows",
+        "xbox",
+        "xbox-series-x"
+      ],
+      "stars": 892,
+      "stars_delta_7d": 44,
+      "stars_delta_30d": 0,
+      "forks": 83,
+      "language": "Python",
+      "homepage": null,
+      "html_url": "https://github.com/R0Y00/Xbox2Windows",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128987794?v=4",
+      "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-21T23:36:38Z"
     },
     {
       "id": "boringmarketer/boring-marketing-skills",
@@ -477,7 +516,7 @@
       "title_zh": "boring-marketing-skills",
       "summary_zh": "boring-marketing-skills：32 free marketing skills for your AI agent: research, positioning, copy, page…",
       "bullets_zh": [
-        "目前约有 767 个星标",
+        "目前约有 772 个星标",
         "主要使用 Python 开发",
         "标签：agent-skills、ai-agents、claude-code、codex"
       ],
@@ -494,7 +533,7 @@
         "marketing",
         "seo"
       ],
-      "stars": 767,
+      "stars": 772,
       "stars_delta_7d": 38,
       "stars_delta_30d": 0,
       "forks": 279,
@@ -508,7 +547,38 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T17:56:15Z"
+      "updated_at": "2026-11-21T23:18:34Z"
+    },
+    {
+      "id": "omonkeyz/xbox-emulator",
+      "full_name": "omonkeyz/xbox-emulator",
+      "name": "xbox-emulator",
+      "title_zh": "xbox-emulator",
+      "summary_zh": "xbox-emulator：Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "bullets_zh": [
+        "目前约有 738 个星标",
+        "主要使用 Rust 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 738,
+      "stars_delta_7d": 36,
+      "stars_delta_30d": 0,
+      "forks": 37,
+      "language": "Rust",
+      "homepage": null,
+      "html_url": "https://github.com/omonkeyz/xbox-emulator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246595960?v=4",
+      "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-21T23:38:05Z"
     },
     {
       "id": "MSNightmare/FastUnlock",
@@ -517,17 +587,17 @@
       "title_zh": "FastUnlock",
       "summary_zh": "FastUnlock：FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
       "bullets_zh": [
-        "目前约有 639 个星标",
+        "目前约有 644 个星标",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 639,
-      "stars_delta_7d": 31,
+      "stars": 644,
+      "stars_delta_7d": 32,
       "stars_delta_30d": 0,
-      "forks": 103,
+      "forks": 106,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/MSNightmare/FastUnlock",
@@ -538,46 +608,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T17:57:31Z"
-    },
-    {
-      "id": "R0Y00/Xbox2Windows",
-      "full_name": "R0Y00/Xbox2Windows",
-      "name": "Xbox2Windows",
-      "title_zh": "Xbox2Windows",
-      "summary_zh": "Xbox2Windows：Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, …",
-      "bullets_zh": [
-        "目前约有 624 个星标",
-        "主要使用 Python 开发",
-        "标签：d3d12、directx-raytracing、scarlett、static-recompilation"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "d3d12",
-        "directx-raytracing",
-        "scarlett",
-        "static-recompilation",
-        "windows",
-        "xbox",
-        "xbox-series-x"
-      ],
-      "stars": 624,
-      "stars_delta_7d": 31,
-      "stars_delta_30d": 0,
-      "forks": 58,
-      "language": "Python",
-      "homepage": null,
-      "html_url": "https://github.com/R0Y00/Xbox2Windows",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128987794?v=4",
-      "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-21T18:27:35Z"
+      "updated_at": "2026-11-21T22:53:26Z"
     },
     {
       "id": "0xkaka/homeport",
@@ -586,7 +617,7 @@
       "title_zh": "homeport",
       "summary_zh": "homeport 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "目前约有 614 个星标",
+        "目前约有 615 个星标",
         "主要使用 HTML 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -594,7 +625,7 @@
         "developer"
       ],
       "topics": [],
-      "stars": 614,
+      "stars": 615,
       "stars_delta_7d": 30,
       "stars_delta_30d": 0,
       "forks": 107,
@@ -608,7 +639,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T17:18:58Z"
+      "updated_at": "2026-11-21T21:40:55Z"
     },
     {
       "id": "nilbuild/stick-scene",
@@ -617,7 +648,7 @@
       "title_zh": "stick-scene",
       "summary_zh": "stick-scene：Skill to draw stick figure animated visuals",
       "bullets_zh": [
-        "目前约有 554 个星标",
+        "目前约有 557 个星标",
         "主要使用 JavaScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -625,10 +656,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 554,
+      "stars": 557,
       "stars_delta_7d": 27,
       "stars_delta_30d": 0,
-      "forks": 62,
+      "forks": 63,
       "language": "JavaScript",
       "homepage": "https://kamran.fyi/stick-scene",
       "html_url": "https://github.com/nilbuild/stick-scene",
@@ -639,7 +670,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T17:18:20Z"
+      "updated_at": "2026-11-21T23:15:06Z"
     },
     {
       "id": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
@@ -648,7 +679,7 @@
       "title_zh": "Open-Source-Face-Recognition-Ultimate",
       "summary_zh": "Open-Source-Face-Recognition-Ultimate：Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection…",
       "bullets_zh": [
-        "目前约有 517 个星标",
+        "目前约有 523 个星标",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -656,10 +687,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 517,
-      "stars_delta_7d": 25,
+      "stars": 523,
+      "stars_delta_7d": 26,
       "stars_delta_30d": 0,
-      "forks": 422,
+      "forks": 426,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
@@ -670,7 +701,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:28:00Z"
+      "updated_at": "2026-11-21T23:27:47Z"
     },
     {
       "id": "replit/datacat",
@@ -679,7 +710,7 @@
       "title_zh": "datacat",
       "summary_zh": "datacat：Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stor…",
       "bullets_zh": [
-        "目前约有 490 个星标",
+        "目前约有 493 个星标",
         "主要使用 TypeScript 开发",
         "标签：alerting、apm、clickhouse、dashboards"
       ],
@@ -700,7 +731,7 @@
         "self-hosted",
         "tracing"
       ],
-      "stars": 490,
+      "stars": 493,
       "stars_delta_7d": 24,
       "stars_delta_30d": 0,
       "forks": 52,
@@ -714,61 +745,11 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T17:19:38Z"
+      "updated_at": "2026-11-21T22:21:01Z"
     },
     {
       "id": "YellowLaborerMarket/Gemini-Config-Checker-",
       "full_name": "YellowLaborerMarket/Gemini-Config-Checker-",
-      "name": "Gemini-Config-Checker-",
-      "title_zh": "Gemini-Config-Checker-",
-      "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
-      "bullets_zh": [
-        "目前约有 472 个星标",
-        "主要使用 Makefile 开发",
-        "标签：ai、ai-search、aichecker、chatgpt"
-      ],
-      "category_ids": [
-        "ai",
-        "developer"
-      ],
-      "topics": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server",
-        "nextjs",
-        "open-code",
-        "seo-checker",
-        "seo-tool",
-        "typescript"
-      ],
-      "stars": 472,
-      "stars_delta_7d": 23,
-      "stars_delta_30d": 0,
-      "forks": 0,
-      "language": "Makefile",
-      "homepage": null,
-      "html_url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-      "avatar_url": "https://avatars.githubusercontent.com/u/342271578?v=4",
-      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-21T15:32:09Z"
-    },
-    {
-      "id": "weightcashiercupola/Gemini-Config-Checker-",
-      "full_name": "weightcashiercupola/Gemini-Config-Checker-",
       "name": "Gemini-Config-Checker-",
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
@@ -806,19 +787,19 @@
       "forks": 0,
       "language": "Makefile",
       "homepage": null,
-      "html_url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
-      "avatar_url": "https://avatars.githubusercontent.com/u/342286399?v=4",
+      "html_url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+      "avatar_url": "https://avatars.githubusercontent.com/u/342271578?v=4",
       "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:27Z"
+      "updated_at": "2026-11-21T19:02:59Z"
     },
     {
-      "id": "WindGatorRise37/Gemini-Config-Checker-",
-      "full_name": "WindGatorRise37/Gemini-Config-Checker-",
+      "id": "weightcashiercupola/Gemini-Config-Checker-",
+      "full_name": "weightcashiercupola/Gemini-Config-Checker-",
       "name": "Gemini-Config-Checker-",
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
@@ -851,6 +832,56 @@
         "typescript"
       ],
       "stars": 470,
+      "stars_delta_7d": 23,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "Makefile",
+      "homepage": null,
+      "html_url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+      "avatar_url": "https://avatars.githubusercontent.com/u/342286399?v=4",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-21T19:37:39Z"
+    },
+    {
+      "id": "WindGatorRise37/Gemini-Config-Checker-",
+      "full_name": "WindGatorRise37/Gemini-Config-Checker-",
+      "name": "Gemini-Config-Checker-",
+      "title_zh": "Gemini-Config-Checker-",
+      "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
+      "bullets_zh": [
+        "目前约有 469 个星标",
+        "主要使用 Makefile 开发",
+        "标签：ai、ai-search、aichecker、chatgpt"
+      ],
+      "category_ids": [
+        "ai",
+        "developer"
+      ],
+      "topics": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server",
+        "nextjs",
+        "open-code",
+        "seo-checker",
+        "seo-tool",
+        "typescript"
+      ],
+      "stars": 469,
       "stars_delta_7d": 23,
       "stars_delta_30d": 0,
       "forks": 0,
@@ -864,7 +895,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:22Z"
+      "updated_at": "2026-11-21T19:09:36Z"
     },
     {
       "id": "WyrmClimberManacle/Gemini-Config-Checker-",
@@ -873,7 +904,7 @@
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
       "bullets_zh": [
-        "目前约有 470 个星标",
+        "目前约有 469 个星标",
         "主要使用 Makefile 开发",
         "标签：ai、ai-search、aichecker、chatgpt"
       ],
@@ -900,7 +931,7 @@
         "seo-tool",
         "typescript"
       ],
-      "stars": 470,
+      "stars": 469,
       "stars_delta_7d": 23,
       "stars_delta_30d": 0,
       "forks": 1,
@@ -914,7 +945,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:08Z"
+      "updated_at": "2026-11-21T19:03:00Z"
     },
     {
       "id": "TurtleReside/Gemini-Config-Checker-",
@@ -923,7 +954,7 @@
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
       "bullets_zh": [
-        "目前约有 470 个星标",
+        "目前约有 469 个星标",
         "主要使用 Go 开发",
         "标签：ai、ai-search、aichecker、chatgpt"
       ],
@@ -950,7 +981,7 @@
         "seo-tool",
         "typescript"
       ],
-      "stars": 470,
+      "stars": 469,
       "stars_delta_7d": 23,
       "stars_delta_30d": 0,
       "forks": 0,
@@ -964,7 +995,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:35Z"
+      "updated_at": "2026-11-21T19:37:43Z"
     },
     {
       "id": "weldbladesmithwharf/Gemini-Config-Checker-",
@@ -973,7 +1004,7 @@
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
       "bullets_zh": [
-        "目前约有 470 个星标",
+        "目前约有 469 个星标",
         "主要使用 Makefile 开发",
         "标签：ai、ai-search、aichecker、chatgpt"
       ],
@@ -1000,7 +1031,7 @@
         "seo-tool",
         "typescript"
       ],
-      "stars": 470,
+      "stars": 469,
       "stars_delta_7d": 23,
       "stars_delta_30d": 0,
       "forks": 0,
@@ -1014,57 +1045,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:26Z"
-    },
-    {
-      "id": "WerewolfEmuHub/Gemini-Config-Checker-",
-      "full_name": "WerewolfEmuHub/Gemini-Config-Checker-",
-      "name": "Gemini-Config-Checker-",
-      "title_zh": "Gemini-Config-Checker-",
-      "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
-      "bullets_zh": [
-        "目前约有 470 个星标",
-        "主要使用 Go 开发",
-        "标签：ai、ai-search、aichecker、chatgpt"
-      ],
-      "category_ids": [
-        "ai",
-        "developer"
-      ],
-      "topics": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server",
-        "nextjs",
-        "open-code",
-        "seo-checker",
-        "seo-tool",
-        "typescript"
-      ],
-      "stars": 470,
-      "stars_delta_7d": 23,
-      "stars_delta_30d": 0,
-      "forks": 0,
-      "language": "Go",
-      "homepage": null,
-      "html_url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
-      "avatar_url": "https://avatars.githubusercontent.com/u/342276157?v=4",
-      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-21T15:32:24Z"
+      "updated_at": "2026-11-21T19:37:39Z"
     },
     {
       "id": "WindowStaffGate11/Gemini-Config-Checker-",
@@ -1073,7 +1054,7 @@
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
       "bullets_zh": [
-        "目前约有 470 个星标",
+        "目前约有 469 个星标",
         "主要使用 Makefile 开发",
         "标签：ai、ai-search、aichecker、chatgpt"
       ],
@@ -1100,7 +1081,7 @@
         "seo-tool",
         "typescript"
       ],
-      "stars": 470,
+      "stars": 469,
       "stars_delta_7d": 23,
       "stars_delta_30d": 0,
       "forks": 0,
@@ -1114,16 +1095,16 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:20Z"
+      "updated_at": "2026-11-21T19:09:34Z"
     },
     {
-      "id": "Violetnyudress/Gemini-Config-Checker-",
-      "full_name": "Violetnyudress/Gemini-Config-Checker-",
+      "id": "WerewolfEmuHub/Gemini-Config-Checker-",
+      "full_name": "WerewolfEmuHub/Gemini-Config-Checker-",
       "name": "Gemini-Config-Checker-",
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
       "bullets_zh": [
-        "目前约有 470 个星标",
+        "目前约有 469 个星标",
         "主要使用 Go 开发",
         "标签：ai、ai-search、aichecker、chatgpt"
       ],
@@ -1150,31 +1131,31 @@
         "seo-tool",
         "typescript"
       ],
-      "stars": 470,
+      "stars": 469,
       "stars_delta_7d": 23,
       "stars_delta_30d": 0,
       "forks": 0,
       "language": "Go",
       "homepage": null,
-      "html_url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
-      "avatar_url": "https://avatars.githubusercontent.com/u/342297401?v=4",
+      "html_url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
+      "avatar_url": "https://avatars.githubusercontent.com/u/342276157?v=4",
       "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:34Z"
+      "updated_at": "2026-11-21T19:10:07Z"
     },
     {
-      "id": "TrooperFilter/Gemini-Config-Checker-",
-      "full_name": "TrooperFilter/Gemini-Config-Checker-",
+      "id": "Violetnyudress/Gemini-Config-Checker-",
+      "full_name": "Violetnyudress/Gemini-Config-Checker-",
       "name": "Gemini-Config-Checker-",
       "title_zh": "Gemini-Config-Checker-",
       "summary_zh": "Gemini-Config-Checker-：Chain region scanner: find proxy configs that get you into Google AI Studio a…",
       "bullets_zh": [
-        "目前约有 470 个星标",
-        "主要使用 Makefile 开发",
+        "目前约有 469 个星标",
+        "主要使用 Go 开发",
         "标签：ai、ai-search、aichecker、chatgpt"
       ],
       "category_ids": [
@@ -1200,21 +1181,21 @@
         "seo-tool",
         "typescript"
       ],
-      "stars": 470,
+      "stars": 469,
       "stars_delta_7d": 23,
       "stars_delta_30d": 0,
       "forks": 0,
-      "language": "Makefile",
+      "language": "Go",
       "homepage": null,
-      "html_url": "https://github.com/TrooperFilter/Gemini-Config-Checker-",
-      "avatar_url": "https://avatars.githubusercontent.com/u/342293980?v=4",
+      "html_url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+      "avatar_url": "https://avatars.githubusercontent.com/u/342297401?v=4",
       "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-21T15:32:29Z"
+      "updated_at": "2026-11-21T19:37:43Z"
     }
   ],
   "month": [
@@ -1225,7 +1206,7 @@
       "title_zh": "craft-anything",
       "summary_zh": "craft-anything：Craft Anything: understand how any software works, and craft your own.",
       "bullets_zh": [
-        "已有超过 40,138 人星标，说明很多人在用或关注",
+        "已有超过 40,304 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1233,10 +1214,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 40138,
+      "stars": 40304,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 4013,
-      "forks": 8006,
+      "stars_delta_30d": 4030,
+      "forks": 8036,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/storytold/craft-anything",
@@ -1247,7 +1228,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:28:05Z"
+      "updated_at": "2026-11-21T23:39:25Z"
     },
     {
       "id": "ccch1mneyyy/dsh-Go",
@@ -1256,7 +1237,7 @@
       "title_zh": "dsh-Go",
       "summary_zh": "dsh-Go：dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
       "bullets_zh": [
-        "已有超过 29,536 人星标，说明很多人在用或关注",
+        "已有超过 29,587 人星标，说明很多人在用或关注",
         "主要使用 Dart 开发",
         "标签：ai-agent、android、android-app、coding-agent"
       ],
@@ -1276,10 +1257,10 @@
         "flutter",
         "llm"
       ],
-      "stars": 29536,
+      "stars": 29587,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 2953,
-      "forks": 1414,
+      "stars_delta_30d": 2958,
+      "forks": 1415,
       "language": "Dart",
       "homepage": null,
       "html_url": "https://github.com/ccch1mneyyy/dsh-Go",
@@ -1290,7 +1271,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:28:17Z"
+      "updated_at": "2026-11-21T23:31:58Z"
     },
     {
       "id": "deepseek-ai/dsh-superagent-prototype",
@@ -1299,7 +1280,7 @@
       "title_zh": "dsh-superagent-prototype",
       "summary_zh": "dsh-superagent-prototype：Towards a More Autonomous Agent System",
       "bullets_zh": [
-        "已有超过 24,149 人星标，说明很多人在用或关注",
+        "已有超过 24,158 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1307,10 +1288,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 24149,
+      "stars": 24158,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 2414,
-      "forks": 3004,
+      "stars_delta_30d": 2415,
+      "forks": 3005,
       "language": "TypeScript",
       "homepage": null,
       "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
@@ -1321,7 +1302,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:26:12Z"
+      "updated_at": "2026-11-21T23:18:43Z"
     },
     {
       "id": "heydamir/unslop",
@@ -1330,7 +1311,7 @@
       "title_zh": "unslop",
       "summary_zh": "unslop：A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
       "bullets_zh": [
-        "已有超过 19,683 人星标，说明很多人在用或关注",
+        "已有超过 19,767 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1338,10 +1319,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 19683,
+      "stars": 19767,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1968,
-      "forks": 1192,
+      "stars_delta_30d": 1976,
+      "forks": 1199,
       "language": "JavaScript",
       "homepage": null,
       "html_url": "https://github.com/heydamir/unslop",
@@ -1352,7 +1333,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:26:28Z"
+      "updated_at": "2026-11-21T23:33:01Z"
     },
     {
       "id": "anefzaoui/misterdownloadmanager",
@@ -1361,7 +1342,7 @@
       "title_zh": "misterdownloadmanager",
       "summary_zh": "misterdownloadmanager：misterdownloadmanager: The ultimate open-source, clean-room download manager …",
       "bullets_zh": [
-        "已有超过 15,423 人星标，说明很多人在用或关注",
+        "已有超过 15,504 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：bittorrent-client、debrid、download-accelerator、download-manager"
       ],
@@ -1390,10 +1371,10 @@
         "youtube-downloader",
         "yt-dlp"
       ],
-      "stars": 15423,
+      "stars": 15504,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1542,
-      "forks": 1323,
+      "stars_delta_30d": 1550,
+      "forks": 1329,
       "language": "Rust",
       "homepage": "https://misterdownloadmanager.com",
       "html_url": "https://github.com/anefzaoui/misterdownloadmanager",
@@ -1404,7 +1385,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:28:01Z"
+      "updated_at": "2026-11-21T23:39:47Z"
     },
     {
       "id": "libracoder/kiri",
@@ -1413,7 +1394,7 @@
       "title_zh": "kiri",
       "summary_zh": "kiri：A small, fast container runtime for macOS, Windows and Linux with free Ngrok …",
       "bullets_zh": [
-        "已有超过 11,983 人星标，说明很多人在用或关注",
+        "已有超过 12,042 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：containers、docker、kubernetes、linux"
       ],
@@ -1429,10 +1410,10 @@
         "oci",
         "windows"
       ],
-      "stars": 11983,
+      "stars": 12042,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1198,
-      "forks": 568,
+      "stars_delta_30d": 1204,
+      "forks": 575,
       "language": "Rust",
       "homepage": "https://runkiri.com",
       "html_url": "https://github.com/libracoder/kiri",
@@ -1443,7 +1424,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:26:36Z"
+      "updated_at": "2026-11-21T23:39:00Z"
     },
     {
       "id": "JuneYaooo/rea-video",
@@ -1452,7 +1433,7 @@
       "title_zh": "rea-video",
       "summary_zh": "rea-video：Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and …",
       "bullets_zh": [
-        "已有超过 11,704 人星标，说明很多人在用或关注",
+        "已有超过 11,794 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：agent-skills、ai-video、aigc-detection、claude-code"
       ],
@@ -1479,10 +1460,10 @@
         "videomd",
         "vlm"
       ],
-      "stars": 11704,
+      "stars": 11794,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1170,
-      "forks": 1734,
+      "stars_delta_30d": 1179,
+      "forks": 1743,
       "language": "Python",
       "homepage": "https://www.reavideo.ai/",
       "html_url": "https://github.com/JuneYaooo/rea-video",
@@ -1493,7 +1474,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:25:00Z"
+      "updated_at": "2026-11-21T23:39:17Z"
     },
     {
       "id": "Minireel/HGhub",
@@ -1502,7 +1483,7 @@
       "title_zh": "HGhub",
       "summary_zh": "HGhub：Plug-in media player",
       "bullets_zh": [
-        "已有超过 10,941 人星标，说明很多人在用或关注",
+        "已有超过 11,030 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：android、drama、free、movie-web-app"
       ],
@@ -1517,10 +1498,10 @@
         "reels",
         "windows"
       ],
-      "stars": 10941,
+      "stars": 11030,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1094,
-      "forks": 8914,
+      "stars_delta_30d": 1103,
+      "forks": 8937,
       "language": "Rust",
       "homepage": "https://minireel.github.io/HGhub/",
       "html_url": "https://github.com/Minireel/HGhub",
@@ -1531,7 +1512,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:27:03Z"
+      "updated_at": "2026-11-21T23:37:40Z"
     },
     {
       "id": "janestreet/agent_skills",
@@ -1540,17 +1521,17 @@
       "title_zh": "agent_skills",
       "summary_zh": "agent_skills：Agent skills",
       "bullets_zh": [
-        "已有超过 10,532 人星标，说明很多人在用或关注",
+        "已有超过 10,550 人星标，说明很多人在用或关注",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 10532,
+      "stars": 10550,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1053,
-      "forks": 727,
+      "stars_delta_30d": 1055,
+      "forks": 730,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/janestreet/agent_skills",
@@ -1561,7 +1542,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:25:49Z"
+      "updated_at": "2026-11-21T23:35:08Z"
     },
     {
       "id": "zortos293/Lichii",
@@ -1570,7 +1551,7 @@
       "title_zh": "Lichii",
       "summary_zh": "Lichii：VERY experimental Nintendo Switch 2 emulator",
       "bullets_zh": [
-        "已有超过 9,962 人星标，说明很多人在用或关注",
+        "已有超过 9,982 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1578,9 +1559,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 9962,
+      "stars": 9982,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 996,
+      "stars_delta_30d": 998,
       "forks": 1589,
       "language": "C++",
       "homepage": null,
@@ -1592,7 +1573,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:25:38Z"
+      "updated_at": "2026-11-21T23:37:33Z"
     },
     {
       "id": "wangzan101/Mika",
@@ -1601,7 +1582,7 @@
       "title_zh": "Mika",
       "summary_zh": "Mika：An on-device AI agent for Android that operates apps and the web to get thing…",
       "bullets_zh": [
-        "已有超过 9,420 人星标，说明很多人在用或关注",
+        "已有超过 9,448 人星标，说明很多人在用或关注",
         "主要使用 Kotlin 开发",
         "标签：accessibility、ai-agent、android、automation"
       ],
@@ -1618,10 +1599,10 @@
         "llm",
         "mobile-agent"
       ],
-      "stars": 9420,
+      "stars": 9448,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 942,
-      "forks": 2119,
+      "stars_delta_30d": 944,
+      "forks": 2127,
       "language": "Kotlin",
       "homepage": "https://mikaphone.com",
       "html_url": "https://github.com/wangzan101/Mika",
@@ -1632,7 +1613,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:27:50Z"
+      "updated_at": "2026-11-21T23:25:10Z"
     },
     {
       "id": "RoutineMiku/apkstart",
@@ -1641,7 +1622,7 @@
       "title_zh": "apkstart",
       "summary_zh": "apkstart：Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
       "bullets_zh": [
-        "已有超过 8,950 人星标，说明很多人在用或关注",
+        "已有超过 8,987 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：android、android-x86、apk、electron"
       ],
@@ -1659,10 +1640,10 @@
         "windows",
         "wsa"
       ],
-      "stars": 8950,
+      "stars": 8987,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 895,
-      "forks": 856,
+      "stars_delta_30d": 898,
+      "forks": 858,
       "language": "JavaScript",
       "homepage": null,
       "html_url": "https://github.com/RoutineMiku/apkstart",
@@ -1673,7 +1654,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:23:16Z"
+      "updated_at": "2026-11-21T23:28:33Z"
     },
     {
       "id": "huami1314/GestaltX",
@@ -1682,7 +1663,7 @@
       "title_zh": "GestaltX",
       "summary_zh": "GestaltX：An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device pr…",
       "bullets_zh": [
-        "已有超过 8,722 人星标，说明很多人在用或关注",
+        "已有超过 8,729 人星标，说明很多人在用或关注",
         "主要使用 Swift 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1690,7 +1671,7 @@
         "developer"
       ],
       "topics": [],
-      "stars": 8722,
+      "stars": 8729,
       "stars_delta_7d": 0,
       "stars_delta_30d": 872,
       "forks": 2751,
@@ -1704,7 +1685,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:18:42Z"
+      "updated_at": "2026-11-21T22:27:31Z"
     },
     {
       "id": "rddmwmddr/android-ad-cleaner",
@@ -1713,7 +1694,7 @@
       "title_zh": "android-ad-cleaner",
       "summary_zh": "android-ad-cleaner：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
       "bullets_zh": [
-        "已有超过 8,636 人星标，说明很多人在用或关注",
+        "已有超过 8,645 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：adb、ai-agent、android、coloros"
       ],
@@ -1730,10 +1711,10 @@
         "magicos",
         "originos"
       ],
-      "stars": 8636,
+      "stars": 8645,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 863,
-      "forks": 751,
+      "stars_delta_30d": 864,
+      "forks": 752,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/rddmwmddr/android-ad-cleaner",
@@ -1744,7 +1725,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:24:34Z"
+      "updated_at": "2026-11-21T22:36:52Z"
     },
     {
       "id": "patch-gg/pixelfx",
@@ -1753,7 +1734,7 @@
       "title_zh": "pixelfx",
       "summary_zh": "pixelfx：244 pixel art effects, every one a small piece of code. Plus a Claude Code sk…",
       "bullets_zh": [
-        "已有超过 8,596 人星标，说明很多人在用或关注",
+        "已有超过 8,613 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：agent-skills、animation、canvas、claude-code-plugin"
       ],
@@ -1770,10 +1751,10 @@
         "sprite-sheet",
         "vfx"
       ],
-      "stars": 8596,
+      "stars": 8613,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 859,
-      "forks": 1126,
+      "stars_delta_30d": 861,
+      "forks": 1130,
       "language": "JavaScript",
       "homepage": "https://patch-gg.github.io/pixelfx/",
       "html_url": "https://github.com/patch-gg/pixelfx",
@@ -1784,7 +1765,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:27:50Z"
+      "updated_at": "2026-11-21T23:22:08Z"
     },
     {
       "id": "unclebob/ub-mode",
@@ -1793,17 +1774,17 @@
       "title_zh": "ub-mode",
       "summary_zh": "ub-mode 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "已有超过 8,300 人星标，说明很多人在用或关注",
+        "已有超过 8,306 人星标，说明很多人在用或关注",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 8300,
+      "stars": 8306,
       "stars_delta_7d": 0,
       "stars_delta_30d": 830,
-      "forks": 470,
+      "forks": 471,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/unclebob/ub-mode",
@@ -1814,7 +1795,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:11:32Z"
+      "updated_at": "2026-11-21T22:13:04Z"
     },
     {
       "id": "valentderah/totk-pc-recomp",
@@ -1823,7 +1804,7 @@
       "title_zh": "totk-pc-recomp",
       "summary_zh": "totk-pc-recomp：Static recompilation of The Legend of Zelda: Tears of the Kingdom to native W…",
       "bullets_zh": [
-        "已有超过 7,906 人星标，说明很多人在用或关注",
+        "已有超过 7,923 人星标，说明很多人在用或关注",
         "主要使用 C 开发",
         "标签：game、linux、port、recompilation"
       ],
@@ -1837,10 +1818,10 @@
         "recompilation",
         "windows"
       ],
-      "stars": 7906,
+      "stars": 7923,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 790,
-      "forks": 632,
+      "stars_delta_30d": 792,
+      "forks": 634,
       "language": "C",
       "homepage": null,
       "html_url": "https://github.com/valentderah/totk-pc-recomp",
@@ -1851,7 +1832,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T17:56:52Z"
+      "updated_at": "2026-11-21T23:33:02Z"
     },
     {
       "id": "anhao/ai-pose-gallery-zh",
@@ -1860,7 +1841,7 @@
       "title_zh": "ai-pose-gallery-zh",
       "summary_zh": "ai-pose-gallery-zh：中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
       "bullets_zh": [
-        "已有超过 7,747 人星标，说明很多人在用或关注",
+        "已有超过 7,759 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai-art、chinese、cloudflare-pages、gallery"
       ],
@@ -1877,10 +1858,10 @@
         "reference-images",
         "static-site"
       ],
-      "stars": 7747,
+      "stars": 7759,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 774,
-      "forks": 2004,
+      "stars_delta_30d": 775,
+      "forks": 2008,
       "language": "TypeScript",
       "homepage": "https://ai-pose-gallery.anhao.app",
       "html_url": "https://github.com/anhao/ai-pose-gallery-zh",
@@ -1891,38 +1872,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:26:58Z"
-    },
-    {
-      "id": "Lee-xeo/Claude-Cage",
-      "full_name": "Lee-xeo/Claude-Cage",
-      "name": "Claude-Cage",
-      "title_zh": "Claude-Cage",
-      "summary_zh": "Claude-Cage：Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
-      "bullets_zh": [
-        "已有超过 7,343 人星标，说明很多人在用或关注",
-        "主要使用 Go 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 7343,
-      "stars_delta_7d": 0,
-      "stars_delta_30d": 734,
-      "forks": 854,
-      "language": "Go",
-      "homepage": "https://lee-xeo.github.io/Claude-Cage/",
-      "html_url": "https://github.com/Lee-xeo/Claude-Cage",
-      "avatar_url": "https://avatars.githubusercontent.com/u/120454108?v=4",
-      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "month"
-      ],
-      "updated_at": "2026-11-21T18:27:15Z"
+      "updated_at": "2026-11-21T23:35:26Z"
     },
     {
       "id": "erkamyaman/rust-anything",
@@ -1931,7 +1881,7 @@
       "title_zh": "rust-anything",
       "summary_zh": "rust-anything：Rewrite your whole app in Rust, one piece at a time, checked against the orig…",
       "bullets_zh": [
-        "已有超过 7,260 人星标，说明很多人在用或关注",
+        "已有超过 7,395 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：agent-skills、claude-code、cli、code-migration"
       ],
@@ -1960,10 +1910,10 @@
         "rust",
         "typescript"
       ],
-      "stars": 7260,
-      "stars_delta_7d": 363,
-      "stars_delta_30d": 726,
-      "forks": 583,
+      "stars": 7395,
+      "stars_delta_7d": 369,
+      "stars_delta_30d": 739,
+      "forks": 588,
       "language": "Rust",
       "homepage": "https://www.npmjs.com/package/rust-anything",
       "html_url": "https://github.com/erkamyaman/rust-anything",
@@ -1974,55 +1924,38 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:25:23Z"
+      "updated_at": "2026-11-21T23:36:48Z"
     },
     {
-      "id": "vercel-labs/ui",
-      "full_name": "vercel-labs/ui",
-      "name": "ui",
-      "title_zh": "ui",
-      "summary_zh": "ui：A library of behaviors for agents to build the next generation of user interf…",
+      "id": "Lee-xeo/Claude-Cage",
+      "full_name": "Lee-xeo/Claude-Cage",
+      "name": "Claude-Cage",
+      "title_zh": "Claude-Cage",
+      "summary_zh": "Claude-Cage：Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
       "bullets_zh": [
-        "已有超过 6,395 人星标，说明很多人在用或关注",
-        "主要使用 TypeScript 开发",
-        "标签：accessibility、agent、agents、ai"
+        "已有超过 7,358 人星标，说明很多人在用或关注",
+        "主要使用 Go 开发",
+        "打开项目主页可了解详细用法"
       ],
       "category_ids": [
-        "ai"
+        "developer"
       ],
-      "topics": [
-        "accessibility",
-        "agent",
-        "agents",
-        "ai",
-        "aria",
-        "behaviors",
-        "component",
-        "component-library",
-        "headless",
-        "mcp",
-        "react",
-        "solid",
-        "svelte",
-        "vue",
-        "web-components",
-        "webmcp"
-      ],
-      "stars": 6395,
+      "topics": [],
+      "stars": 7358,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 639,
-      "forks": 223,
-      "language": "TypeScript",
-      "homepage": "https://ui-sdk.dev",
-      "html_url": "https://github.com/vercel-labs/ui",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "stars_delta_30d": 735,
+      "forks": 856,
+      "language": "Go",
+      "homepage": "https://lee-xeo.github.io/Claude-Cage/",
+      "html_url": "https://github.com/Lee-xeo/Claude-Cage",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120454108?v=4",
+      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:27:11Z"
+      "updated_at": "2026-11-21T23:34:47Z"
     },
     {
       "id": "mdiri-ai/SoduWork",
@@ -2031,7 +1964,7 @@
       "title_zh": "SoduWork",
       "summary_zh": "SoduWork：The AI-native engine for teams and their agents. Multi-harness, multi-agent, …",
       "bullets_zh": [
-        "已有超过 6,390 人星标，说明很多人在用或关注",
+        "已有超过 6,440 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：agent-harness、agent-orchestration、agent-workflows、ai-agents"
       ],
@@ -2061,10 +1994,10 @@
         "self-hosted",
         "team-collaboration"
       ],
-      "stars": 6390,
+      "stars": 6440,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 639,
-      "forks": 502,
+      "stars_delta_30d": 644,
+      "forks": 507,
       "language": "JavaScript",
       "homepage": "https://www.soduwork.ai",
       "html_url": "https://github.com/mdiri-ai/SoduWork",
@@ -2075,7 +2008,55 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:24:48Z"
+      "updated_at": "2026-11-21T23:39:17Z"
+    },
+    {
+      "id": "vercel-labs/ui",
+      "full_name": "vercel-labs/ui",
+      "name": "ui",
+      "title_zh": "ui",
+      "summary_zh": "ui：A library of behaviors for agents to build the next generation of user interf…",
+      "bullets_zh": [
+        "已有超过 6,436 人星标，说明很多人在用或关注",
+        "主要使用 TypeScript 开发",
+        "标签：accessibility、agent、agents、ai"
+      ],
+      "category_ids": [
+        "ai"
+      ],
+      "topics": [
+        "accessibility",
+        "agent",
+        "agents",
+        "ai",
+        "aria",
+        "behaviors",
+        "component",
+        "component-library",
+        "headless",
+        "mcp",
+        "react",
+        "solid",
+        "svelte",
+        "vue",
+        "web-components",
+        "webmcp"
+      ],
+      "stars": 6436,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 643,
+      "forks": 226,
+      "language": "TypeScript",
+      "homepage": "https://ui-sdk.dev",
+      "html_url": "https://github.com/vercel-labs/ui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "month"
+      ],
+      "updated_at": "2026-11-21T23:36:59Z"
     },
     {
       "id": "qybaihe/bla",
@@ -2084,7 +2065,7 @@
       "title_zh": "bla",
       "summary_zh": "bla：🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server …",
       "bullets_zh": [
-        "已有超过 6,373 人星标，说明很多人在用或关注",
+        "已有超过 6,378 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：adversarial-ai、ai-security、android-security、binary-protection"
       ],
@@ -2112,7 +2093,7 @@
         "software-protection",
         "webassembly"
       ],
-      "stars": 6373,
+      "stars": 6378,
       "stars_delta_7d": 0,
       "stars_delta_30d": 637,
       "forks": 789,
@@ -2126,7 +2107,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:26:22Z"
+      "updated_at": "2026-11-21T23:00:45Z"
     },
     {
       "id": "KKKKhazix/agent-autoloop",
@@ -2135,7 +2116,7 @@
       "title_zh": "agent-autoloop",
       "summary_zh": "agent-autoloop：让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
       "bullets_zh": [
-        "已有超过 6,192 人星标，说明很多人在用或关注",
+        "已有超过 6,201 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai-agents、automation、claude-code、cli"
       ],
@@ -2156,10 +2137,10 @@
         "typescript",
         "workflow"
       ],
-      "stars": 6192,
+      "stars": 6201,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 619,
-      "forks": 1147,
+      "stars_delta_30d": 620,
+      "forks": 1152,
       "language": "TypeScript",
       "homepage": null,
       "html_url": "https://github.com/KKKKhazix/agent-autoloop",
@@ -2170,38 +2151,43 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:13:30Z"
+      "updated_at": "2026-11-21T23:34:50Z"
     },
     {
       "id": "Eglantine-Community/Eglantine",
       "full_name": "Eglantine-Community/Eglantine",
       "name": "Eglantine",
       "title_zh": "Eglantine",
-      "summary_zh": "Eglantine：VERY experimental Nintendo Switch 2 emulator",
+      "summary_zh": "Eglantine：An experimental Switch 2 Emulator built for Windows, Linux and MacOS.",
       "bullets_zh": [
-        "已有超过 6,186 人星标，说明很多人在用或关注",
+        "已有超过 6,192 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
-        "打开项目主页可了解详细用法"
+        "标签：eden、emulator、switch2、switch2-emulator"
       ],
       "category_ids": [
         "developer"
       ],
-      "topics": [],
-      "stars": 6186,
+      "topics": [
+        "eden",
+        "emulator",
+        "switch2",
+        "switch2-emulator"
+      ],
+      "stars": 6192,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 618,
-      "forks": 667,
+      "stars_delta_30d": 619,
+      "forks": 668,
       "language": "C++",
       "homepage": "https://eglantine-emu.org/",
       "html_url": "https://github.com/Eglantine-Community/Eglantine",
       "avatar_url": "https://avatars.githubusercontent.com/u/353829115?v=4",
-      "description": "VERY experimental Nintendo Switch 2 emulator",
+      "description": "An experimental Switch 2 Emulator built for Windows, Linux and MacOS.",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:08:26Z"
+      "updated_at": "2026-11-21T23:37:17Z"
     },
     {
       "id": "haydenschmitty/floorplan",
@@ -2210,7 +2196,7 @@
       "title_zh": "floorplan",
       "summary_zh": "floorplan：See how your app actually fits together. An interactive, plain-English map of…",
       "bullets_zh": [
-        "已有超过 5,902 人星标，说明很多人在用或关注",
+        "已有超过 5,967 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：ai-coding、architecture-diagram、claude、claude-code"
       ],
@@ -2232,10 +2218,10 @@
         "openai",
         "vibe-coding"
       ],
-      "stars": 5902,
+      "stars": 5967,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 590,
-      "forks": 511,
+      "stars_delta_30d": 596,
+      "forks": 517,
       "language": "JavaScript",
       "homepage": "https://haydenschmitty.github.io/floorplan-demo/",
       "html_url": "https://github.com/haydenschmitty/floorplan",
@@ -2246,7 +2232,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:28:25Z"
+      "updated_at": "2026-11-21T23:38:50Z"
     },
     {
       "id": "krisgfx9/Wireless-Device-Battery-Monitor",
@@ -2255,7 +2241,7 @@
       "title_zh": "Wireless-Device-Battery-Monitor",
       "summary_zh": "Wireless-Device-Battery-Monitor：Show the battery level of wireless mice, headsets, keyboards and controllers …",
       "bullets_zh": [
-        "已有超过 5,738 人星标，说明很多人在用或关注",
+        "已有超过 5,800 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2263,10 +2249,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 5738,
-      "stars_delta_7d": 286,
-      "stars_delta_30d": 573,
-      "forks": 481,
+      "stars": 5800,
+      "stars_delta_7d": 290,
+      "stars_delta_30d": 580,
+      "forks": 488,
       "language": "C++",
       "homepage": null,
       "html_url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
@@ -2277,7 +2263,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:27:25Z"
+      "updated_at": "2026-11-21T23:37:55Z"
     },
     {
       "id": "interplains/Zero-Breach-Toolkit",
@@ -2286,7 +2272,7 @@
       "title_zh": "Zero-Breach-Toolkit",
       "summary_zh": "Zero-Breach-Toolkit：Free, offline checks for known mercenary spyware on Windows, Mac, Linux, iPho…",
       "bullets_zh": [
-        "已有超过 5,268 人星标，说明很多人在用或关注",
+        "已有超过 5,270 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2294,10 +2280,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 5268,
+      "stars": 5270,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 526,
-      "forks": 541,
+      "stars_delta_30d": 527,
+      "forks": 543,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/interplains/Zero-Breach-Toolkit",
@@ -2308,7 +2294,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:17:41Z"
+      "updated_at": "2026-11-21T22:41:23Z"
     },
     {
       "id": "deepseek-ai/chat-demo",
@@ -2317,7 +2303,7 @@
       "title_zh": "chat-demo",
       "summary_zh": "chat-demo：Chat Demo",
       "bullets_zh": [
-        "已有超过 5,209 人星标，说明很多人在用或关注",
+        "已有超过 5,213 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2325,10 +2311,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 5209,
+      "stars": 5213,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 520,
-      "forks": 1216,
+      "stars_delta_30d": 521,
+      "forks": 1218,
       "language": "TypeScript",
       "homepage": "https://deepseek-ai.github.io/chat-demo/",
       "html_url": "https://github.com/deepseek-ai/chat-demo",
@@ -2339,7 +2325,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T18:23:45Z"
+      "updated_at": "2026-11-21T23:06:23Z"
     },
     {
       "id": "designfuchen/word-atlas",
@@ -2348,7 +2334,7 @@
       "title_zh": "word-atlas",
       "summary_zh": "word-atlas：词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio …",
       "bullets_zh": [
-        "已有超过 5,163 人星标，说明很多人在用或关注",
+        "已有超过 5,167 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：chinese、dataset、english-learning、flashcards"
       ],
@@ -2369,10 +2355,10 @@
         "vocabulary",
         "webgl"
       ],
-      "stars": 5163,
+      "stars": 5167,
       "stars_delta_7d": 0,
       "stars_delta_30d": 516,
-      "forks": 1101,
+      "forks": 1102,
       "language": "TypeScript",
       "homepage": "https://0xlei.tech/words/",
       "html_url": "https://github.com/designfuchen/word-atlas",
@@ -2383,7 +2369,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-21T16:26:35Z"
+      "updated_at": "2026-11-21T21:45:19Z"
     }
   ],
   "all": [
@@ -2394,7 +2380,7 @@
       "title_zh": "build-your-own-x",
       "summary_zh": "build-your-own-x：Master programming by recreating your favorite technologies from scratch.",
       "bullets_zh": [
-        "已有超过 564,384 人星标，说明很多人在用或关注",
+        "已有超过 564,468 人星标，说明很多人在用或关注",
         "主要使用 Markdown 开发",
         "标签：awesome-list、free、programming、tutorial-code"
       ],
@@ -2409,10 +2395,10 @@
         "tutorial-exercises",
         "tutorials"
       ],
-      "stars": 564384,
+      "stars": 564468,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 52754,
+      "forks": 52756,
       "language": "Markdown",
       "homepage": "https://codecrafters.io",
       "html_url": "https://github.com/codecrafters-io/build-your-own-x",
@@ -2423,7 +2409,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:22:08Z"
+      "updated_at": "2026-11-21T23:37:53Z"
     },
     {
       "id": "sindresorhus/awesome",
@@ -2446,10 +2432,10 @@
         "resources",
         "unicorns"
       ],
-      "stars": 540424,
+      "stars": 540521,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 38568,
+      "forks": 38573,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/sindresorhus/awesome",
@@ -2460,7 +2446,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:25:02Z"
+      "updated_at": "2026-11-21T23:36:57Z"
     },
     {
       "id": "public-apis/public-apis",
@@ -2469,7 +2455,7 @@
       "title_zh": "public-apis",
       "summary_zh": "public-apis：A collective list of free APIs",
       "bullets_zh": [
-        "已有超过 500,627 人星标，说明很多人在用或关注",
+        "已有超过 500,651 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：api、apis、dataset、development"
       ],
@@ -2491,10 +2477,10 @@
         "resources",
         "software"
       ],
-      "stars": 500627,
+      "stars": 500651,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 56208,
+      "forks": 56214,
       "language": "Python",
       "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
       "html_url": "https://github.com/public-apis/public-apis",
@@ -2505,7 +2491,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:19:09Z"
+      "updated_at": "2026-11-21T23:35:39Z"
     },
     {
       "id": "morluto/rea",
@@ -2514,7 +2500,7 @@
       "title_zh": "rea",
       "summary_zh": "rea：Reverse engineer anything with agents, from app behavior down to native binar…",
       "bullets_zh": [
-        "已有超过 472,543 人星标，说明很多人在用或关注",
+        "已有超过 472,754 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：agent-skills、ai、android、claude-code"
       ],
@@ -2544,10 +2530,10 @@
         "touhou",
         "typescript"
       ],
-      "stars": 472543,
+      "stars": 472754,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 115335,
+      "forks": 115390,
       "language": "TypeScript",
       "homepage": "https://rea.tools",
       "html_url": "https://github.com/morluto/rea",
@@ -2558,7 +2544,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:28:55Z"
+      "updated_at": "2026-11-21T23:39:46Z"
     },
     {
       "id": "freeCodeCamp/freeCodeCamp",
@@ -2591,7 +2577,7 @@
         "react",
         "teachers"
       ],
-      "stars": 459436,
+      "stars": 459441,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
       "forks": 47405,
@@ -2605,7 +2591,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T17:49:09Z"
+      "updated_at": "2026-11-21T23:38:49Z"
     },
     {
       "id": "EbookFoundation/free-programming-books",
@@ -2614,7 +2600,7 @@
       "title_zh": "free-programming-books",
       "summary_zh": "free-programming-books：:books: Freely available programming books",
       "bullets_zh": [
-        "已有超过 402,020 人星标，说明很多人在用或关注",
+        "已有超过 402,031 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：books、education、hacktoberfest、list"
       ],
@@ -2628,10 +2614,10 @@
         "list",
         "resource"
       ],
-      "stars": 402020,
+      "stars": 402031,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 67227,
+      "forks": 67228,
       "language": "Python",
       "homepage": "https://ebookfoundation.github.io/free-programming-books/",
       "html_url": "https://github.com/EbookFoundation/free-programming-books",
@@ -2642,7 +2628,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:21:52Z"
+      "updated_at": "2026-11-21T22:54:16Z"
     },
     {
       "id": "openclaw/openclaw",
@@ -2651,7 +2637,7 @@
       "title_zh": "openclaw",
       "summary_zh": "openclaw：The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
       "bullets_zh": [
-        "已有超过 394,974 人星标，说明很多人在用或关注",
+        "已有超过 394,990 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai、assistant、crustacean、molty"
       ],
@@ -2667,10 +2653,10 @@
         "own-your-data",
         "personal"
       ],
-      "stars": 394974,
+      "stars": 394990,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 82944,
+      "forks": 82949,
       "language": "TypeScript",
       "homepage": "https://openclaw.ai",
       "html_url": "https://github.com/openclaw/openclaw",
@@ -2681,7 +2667,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:25:00Z"
+      "updated_at": "2026-11-21T23:39:52Z"
     },
     {
       "id": "donnemartin/system-design-primer",
@@ -2690,7 +2676,7 @@
       "title_zh": "system-design-primer",
       "summary_zh": "system-design-primer：Learn how to design large-scale systems. Prep for the system design interview…",
       "bullets_zh": [
-        "已有超过 378,718 人星标，说明很多人在用或关注",
+        "已有超过 378,729 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：design、design-patterns、design-system、development"
       ],
@@ -2712,10 +2698,10 @@
         "web-application",
         "webapp"
       ],
-      "stars": 378718,
+      "stars": 378729,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 59335,
+      "forks": 59334,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/donnemartin/system-design-primer",
@@ -2726,7 +2712,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T17:59:08Z"
+      "updated_at": "2026-11-21T23:07:58Z"
     },
     {
       "id": "nilbuild/developer-roadmap",
@@ -2735,7 +2721,7 @@
       "title_zh": "developer-roadmap",
       "summary_zh": "developer-roadmap：Interactive roadmaps, guides and other educational content to help developers…",
       "bullets_zh": [
-        "已有超过 372,499 人星标，说明很多人在用或关注",
+        "已有超过 372,510 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：angular-roadmap、backend-roadmap、blockchain-roadmap、computer-science"
       ],
@@ -2762,7 +2748,7 @@
         "software-architect-roadmap",
         "vue-roadmap"
       ],
-      "stars": 372499,
+      "stars": 372510,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
       "forks": 45376,
@@ -2776,7 +2762,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:18:24Z"
+      "updated_at": "2026-11-21T23:27:51Z"
     },
     {
       "id": "jwasham/coding-interview-university",
@@ -2785,7 +2771,7 @@
       "title_zh": "coding-interview-university",
       "summary_zh": "coding-interview-university：A complete computer science study plan to become a software engineer.",
       "bullets_zh": [
-        "已有超过 364,737 人星标，说明很多人在用或关注",
+        "已有超过 364,742 人星标，说明很多人在用或关注",
         "标签：algorithm、algorithms、coding-interview、coding-interviews"
       ],
       "category_ids": [
@@ -2805,10 +2791,10 @@
         "software-engineering",
         "study-plan"
       ],
-      "stars": 364737,
+      "stars": 364742,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 85199,
+      "forks": 85197,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/jwasham/coding-interview-university",
@@ -2819,7 +2805,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T17:51:23Z"
+      "updated_at": "2026-11-21T22:52:05Z"
     },
     {
       "id": "awesome-selfhosted/awesome-selfhosted",
@@ -2828,7 +2814,7 @@
       "title_zh": "awesome-selfhosted",
       "summary_zh": "awesome-selfhosted：A list of Free Software network services and web applications which can be ho…",
       "bullets_zh": [
-        "已有超过 339,199 人星标，说明很多人在用或关注",
+        "已有超过 339,260 人星标，说明很多人在用或关注",
         "标签：awesome、awesome-list、cloud、free-software"
       ],
       "category_ids": [
@@ -2845,10 +2831,10 @@
         "self-hosted",
         "selfhosted"
       ],
-      "stars": 339199,
+      "stars": 339260,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 15899,
+      "forks": 15901,
       "language": null,
       "homepage": "https://awesome-selfhosted.net/",
       "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
@@ -2859,7 +2845,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:28:41Z"
+      "updated_at": "2026-11-21T23:29:51Z"
     },
     {
       "id": "vinta/awesome-python",
@@ -2868,7 +2854,7 @@
       "title_zh": "awesome-python",
       "summary_zh": "awesome-python：The definitive list that answers \"I want to do X in Python, which tool should…",
       "bullets_zh": [
-        "已有超过 336,220 人星标，说明很多人在用或关注",
+        "已有超过 336,268 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：awesome、awesome-list、python、python-frameworks"
       ],
@@ -2883,10 +2869,10 @@
         "python-libraries",
         "python-tools"
       ],
-      "stars": 336220,
+      "stars": 336268,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 29134,
+      "forks": 29139,
       "language": "Python",
       "homepage": "https://awesome-python.com/",
       "html_url": "https://github.com/vinta/awesome-python",
@@ -2897,7 +2883,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:27:54Z"
+      "updated_at": "2026-11-21T23:33:27Z"
     },
     {
       "id": "mattpocock/skills",
@@ -2906,7 +2892,7 @@
       "title_zh": "skills",
       "summary_zh": "skills：Skills for Real Engineers. Straight from my .agents directory.",
       "bullets_zh": [
-        "已有超过 329,617 人星标，说明很多人在用或关注",
+        "已有超过 329,755 人星标，说明很多人在用或关注",
         "主要使用 Shell 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2914,10 +2900,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 329617,
+      "stars": 329755,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 27696,
+      "forks": 27708,
       "language": "Shell",
       "homepage": "https://aihero.dev/skills",
       "html_url": "https://github.com/mattpocock/skills",
@@ -2928,7 +2914,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:26:15Z"
+      "updated_at": "2026-11-21T23:39:37Z"
     },
     {
       "id": "obra/superpowers",
@@ -2937,7 +2923,7 @@
       "title_zh": "superpowers",
       "summary_zh": "superpowers：An agentic skills framework & software development methodology that works.",
       "bullets_zh": [
-        "已有超过 323,557 人星标，说明很多人在用或关注",
+        "已有超过 323,704 人星标，说明很多人在用或关注",
         "主要使用 Shell 开发",
         "标签：ai、brainstorming、coding、obra"
       ],
@@ -2954,10 +2940,10 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "stars": 323557,
+      "stars": 323704,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 28704,
+      "forks": 28712,
       "language": "Shell",
       "homepage": null,
       "html_url": "https://github.com/obra/superpowers",
@@ -2968,7 +2954,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:26:48Z"
+      "updated_at": "2026-11-21T23:37:55Z"
     },
     {
       "id": "affaan-m/ECC",
@@ -2977,7 +2963,7 @@
       "title_zh": "ECC",
       "summary_zh": "ECC：The agent harness performance optimization system. Skills, instincts, memory,…",
       "bullets_zh": [
-        "已有超过 308,239 人星标，说明很多人在用或关注",
+        "已有超过 308,362 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：ai-agents、anthropic、claude、claude-code"
       ],
@@ -2996,10 +2982,10 @@
         "mcp",
         "productivity"
       ],
-      "stars": 308239,
+      "stars": 308362,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 45360,
+      "forks": 45380,
       "language": "JavaScript",
       "homepage": "https://ecc.tools",
       "html_url": "https://github.com/affaan-m/ECC",
@@ -3010,7 +2996,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:28:25Z"
+      "updated_at": "2026-11-21T23:36:17Z"
     },
     {
       "id": "practical-tutorials/project-based-learning",
@@ -3019,7 +3005,7 @@
       "title_zh": "project-based-learning",
       "summary_zh": "project-based-learning：Curated list of project-based tutorials",
       "bullets_zh": [
-        "已有超过 290,188 人星标，说明很多人在用或关注",
+        "已有超过 290,211 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：beginner-project、cpp、golang、javascript"
       ],
@@ -3036,7 +3022,7 @@
         "tutorial",
         "webdevelopment"
       ],
-      "stars": 290188,
+      "stars": 290211,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
       "forks": 36849,
@@ -3050,7 +3036,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:24:59Z"
+      "updated_at": "2026-11-21T23:27:39Z"
     },
     {
       "id": "deepseek-ai/deepseek-harness",
@@ -3059,7 +3045,7 @@
       "title_zh": "deepseek-harness",
       "summary_zh": "deepseek-harness：DeepSeek Harness: Everything is a Plugin.",
       "bullets_zh": [
-        "已有超过 285,034 人星标，说明很多人在用或关注",
+        "已有超过 285,071 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai-agents、cordis、dsh、dsh-plugin"
       ],
@@ -3072,10 +3058,10 @@
         "dsh",
         "dsh-plugin"
       ],
-      "stars": 285034,
+      "stars": 285071,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 35432,
+      "forks": 35438,
       "language": "TypeScript",
       "homepage": "https://deepseek.com/harness",
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
@@ -3086,7 +3072,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:28:52Z"
+      "updated_at": "2026-11-21T23:38:01Z"
     },
     {
       "id": "996icu/996.ICU",
@@ -3105,7 +3091,7 @@
       "stars": 277252,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 20624,
+      "forks": 20623,
       "language": null,
       "homepage": "https://996.icu",
       "html_url": "https://github.com/996icu/996.ICU",
@@ -3125,7 +3111,7 @@
       "title_zh": "hermes-agent",
       "summary_zh": "hermes-agent：The agent that grows with you",
       "bullets_zh": [
-        "已有超过 265,154 人星标，说明很多人在用或关注",
+        "已有超过 265,197 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：ai、ai-agent、ai-agents、anthropic"
       ],
@@ -3147,10 +3133,10 @@
         "nous-research",
         "openai"
       ],
-      "stars": 265154,
+      "stars": 265197,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 59922,
+      "forks": 59945,
       "language": "Python",
       "homepage": "https://hermes-agent.nousresearch.com",
       "html_url": "https://github.com/NousResearch/hermes-agent",
@@ -3161,7 +3147,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:23:28Z"
+      "updated_at": "2026-11-21T23:31:56Z"
     },
     {
       "id": "trimstray/the-book-of-secret-knowledge",
@@ -3170,7 +3156,7 @@
       "title_zh": "the-book-of-secret-knowledge",
       "summary_zh": "the-book-of-secret-knowledge：A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-line…",
       "bullets_zh": [
-        "已有超过 260,224 人星标，说明很多人在用或关注",
+        "已有超过 260,281 人星标，说明很多人在用或关注",
         "标签：awesome、awesome-list、bsd、cheatsheets"
       ],
       "category_ids": [
@@ -3198,7 +3184,7 @@
         "security-researchers",
         "sysops"
       ],
-      "stars": 260224,
+      "stars": 260281,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
       "forks": 14929,
@@ -3212,7 +3198,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:27:31Z"
+      "updated_at": "2026-11-21T23:33:39Z"
     },
     {
       "id": "torvalds/linux",
@@ -3221,7 +3207,7 @@
       "title_zh": "linux",
       "summary_zh": "linux：Linux kernel source tree",
       "bullets_zh": [
-        "已有超过 256,322 人星标，说明很多人在用或关注",
+        "已有超过 256,324 人星标，说明很多人在用或关注",
         "主要使用 C 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3229,10 +3215,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 256322,
+      "stars": 256324,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 66665,
+      "forks": 66675,
       "language": "C",
       "homepage": null,
       "html_url": "https://github.com/torvalds/linux",
@@ -3243,7 +3229,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T17:59:44Z"
+      "updated_at": "2026-11-21T23:39:22Z"
     },
     {
       "id": "react/react",
@@ -3252,7 +3238,7 @@
       "title_zh": "react",
       "summary_zh": "react：The library for web and native user interfaces.",
       "bullets_zh": [
-        "已有超过 252,843 人星标，说明很多人在用或关注",
+        "已有超过 252,835 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：declarative、frontend、javascript、library"
       ],
@@ -3267,10 +3253,10 @@
         "react",
         "ui"
       ],
-      "stars": 252843,
+      "stars": 252835,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 51804,
+      "forks": 51806,
       "language": "JavaScript",
       "homepage": "https://react.dev",
       "html_url": "https://github.com/react/react",
@@ -3281,7 +3267,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T14:15:55Z"
+      "updated_at": "2026-11-21T23:39:22Z"
     },
     {
       "id": "multica-ai/andrej-karpathy-skills",
@@ -3290,17 +3276,17 @@
       "title_zh": "andrej-karpathy-skills",
       "summary_zh": "andrej-karpathy-skills：A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej …",
       "bullets_zh": [
-        "已有超过 234,888 人星标，说明很多人在用或关注",
+        "已有超过 234,915 人星标，说明很多人在用或关注",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 234888,
+      "stars": 234915,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 23312,
+      "forks": 23315,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
@@ -3311,7 +3297,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:18:41Z"
+      "updated_at": "2026-11-21T23:33:32Z"
     },
     {
       "id": "anomalyco/opencode",
@@ -3320,7 +3306,7 @@
       "title_zh": "opencode",
       "summary_zh": "opencode：The open source coding agent.",
       "bullets_zh": [
-        "已有超过 228,388 人星标，说明很多人在用或关注",
+        "已有超过 228,424 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3328,10 +3314,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 228388,
+      "stars": 228424,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 31026,
+      "forks": 31040,
       "language": "TypeScript",
       "homepage": "https://opencode.ai",
       "html_url": "https://github.com/anomalyco/opencode",
@@ -3342,7 +3328,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:23:55Z"
+      "updated_at": "2026-11-21T23:37:39Z"
     },
     {
       "id": "TheAlgorithms/Python",
@@ -3351,7 +3337,7 @@
       "title_zh": "Python",
       "summary_zh": "Python：All Algorithms implemented in Python",
       "bullets_zh": [
-        "已有超过 226,363 人星标，说明很多人在用或关注",
+        "已有超过 226,364 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：algorithm、algorithm-competitions、algorithms-implemented、algos"
       ],
@@ -3374,10 +3360,10 @@
         "sorting-algorithms",
         "sorts"
       ],
-      "stars": 226363,
+      "stars": 226364,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 51340,
+      "forks": 51341,
       "language": "Python",
       "homepage": "https://thealgorithms.github.io/Python/",
       "html_url": "https://github.com/TheAlgorithms/Python",
@@ -3388,7 +3374,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T17:12:48Z"
+      "updated_at": "2026-11-21T23:20:23Z"
     },
     {
       "id": "vuejs/vue",
@@ -3397,7 +3383,7 @@
       "title_zh": "vue",
       "summary_zh": "vue：This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
       "bullets_zh": [
-        "已有超过 212,515 人星标，说明很多人在用或关注",
+        "已有超过 212,516 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：framework、frontend、javascript、vue"
       ],
@@ -3410,7 +3396,7 @@
         "javascript",
         "vue"
       ],
-      "stars": 212515,
+      "stars": 212516,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
       "forks": 33653,
@@ -3424,7 +3410,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T17:52:57Z"
+      "updated_at": "2026-11-21T22:34:58Z"
     },
     {
       "id": "n8n-io/n8n",
@@ -3463,10 +3449,10 @@
         "workflow",
         "workflow-automation"
       ],
-      "stars": 211620,
+      "stars": 211648,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 61605,
+      "forks": 61611,
       "language": "TypeScript",
       "homepage": "https://n8n.io",
       "html_url": "https://github.com/n8n-io/n8n",
@@ -3477,7 +3463,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:27:17Z"
+      "updated_at": "2026-11-21T23:29:38Z"
     },
     {
       "id": "ossu/computer-science",
@@ -3486,7 +3472,7 @@
       "title_zh": "computer-science",
       "summary_zh": "computer-science：🎓 Path to a free self-taught education in Computer Science!",
       "bullets_zh": [
-        "已有超过 211,388 人星标，说明很多人在用或关注",
+        "已有超过 211,394 人星标，说明很多人在用或关注",
         "主要使用 HTML 开发",
         "标签：awesome-list、computer-science、courses、curriculum"
       ],
@@ -3499,10 +3485,10 @@
         "courses",
         "curriculum"
       ],
-      "stars": 211388,
+      "stars": 211394,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 26151,
+      "forks": 26154,
       "language": "HTML",
       "homepage": "https://cs.ossu.dev",
       "html_url": "https://github.com/ossu/computer-science",
@@ -3513,7 +3499,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:23:55Z"
+      "updated_at": "2026-11-21T23:39:16Z"
     },
     {
       "id": "yt-dlp/yt-dlp",
@@ -3538,10 +3524,10 @@
         "youtube-downloader",
         "yt-dlp"
       ],
-      "stars": 209623,
+      "stars": 209668,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 18515,
+      "forks": 18524,
       "language": "Python",
       "homepage": "https://discord.gg/H5MNcFW63r",
       "html_url": "https://github.com/yt-dlp/yt-dlp",
@@ -3552,7 +3538,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:21:16Z"
+      "updated_at": "2026-11-21T23:39:04Z"
     },
     {
       "id": "DigitalPlatDev/FreeDomain",
@@ -3561,7 +3547,7 @@
       "title_zh": "FreeDomain",
       "summary_zh": "FreeDomain：Free domain registration and practical DNS learning resources for everyone.",
       "bullets_zh": [
-        "已有超过 208,874 人星标，说明很多人在用或关注",
+        "已有超过 208,887 人星标，说明很多人在用或关注",
         "主要使用 Markdown 开发",
         "标签：digitalplat、dns、dns-tutorial、documentation"
       ],
@@ -3586,7 +3572,7 @@
         "internet-infrastructure",
         "nameserver"
       ],
-      "stars": 208874,
+      "stars": 208887,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
       "forks": 4689,
@@ -3600,7 +3586,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-21T18:25:12Z"
+      "updated_at": "2026-11-21T23:23:31Z"
     }
   ]
 }
