@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T05:36:30Z",
+  "generated_at": "2026-11-28T14:47:13Z",
   "week": [
     {
       "id": "Marvisak/VIctory",
@@ -9,7 +9,7 @@
       "title_zh": "VIctory",
       "summary_zh": "VIctory：An attempt at running GTA VI on PC",
       "bullets_zh": [
-        "已有超过 13,864 人星标，说明很多人在用或关注",
+        "已有超过 14,023 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -17,10 +17,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 13864,
-      "stars_delta_7d": 693,
+      "stars": 14023,
+      "stars_delta_7d": 701,
       "stars_delta_30d": 0,
-      "forks": 2405,
+      "forks": 2457,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/Marvisak/VIctory",
@@ -31,7 +31,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:23:31Z"
+      "updated_at": "2026-11-28T14:45:50Z"
     },
     {
       "id": "trustno1-coder/VIctory-NVIDIA",
@@ -40,7 +40,7 @@
       "title_zh": "VIctory-NVIDIA",
       "summary_zh": "VIctory-NVIDIA：VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series …",
       "bullets_zh": [
-        "已有超过 4,059 人星标，说明很多人在用或关注",
+        "已有超过 5,616 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：compatibility-layer、directx-12、dlss、frame-generation"
       ],
@@ -55,10 +55,10 @@
         "nvidia",
         "rust"
       ],
-      "stars": 4059,
-      "stars_delta_7d": 202,
+      "stars": 5616,
+      "stars_delta_7d": 280,
       "stars_delta_30d": 0,
-      "forks": 1454,
+      "forks": 1932,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
@@ -69,7 +69,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:35:03Z"
+      "updated_at": "2026-11-28T14:46:43Z"
     },
     {
       "id": "fxceless/victory-fork",
@@ -78,7 +78,7 @@
       "title_zh": "victory-fork",
       "summary_zh": "victory-fork：Work-in-progress fork of VIctory: getting an Xbox Series title to render and …",
       "bullets_zh": [
-        "已有超过 3,365 人星标，说明很多人在用或关注",
+        "已有超过 3,378 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -86,10 +86,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 3365,
+      "stars": 3378,
       "stars_delta_7d": 168,
       "stars_delta_30d": 0,
-      "forks": 1016,
+      "forks": 1014,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/fxceless/victory-fork",
@@ -100,7 +100,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:30:35Z"
+      "updated_at": "2026-11-28T14:36:36Z"
     },
     {
       "id": "ProjectLeonida/mandy",
@@ -109,7 +109,7 @@
       "title_zh": "mandy",
       "summary_zh": "mandy：A continuation of Leonida, the Xbox > PC port interface for GTA VI",
       "bullets_zh": [
-        "已有超过 2,985 人星标，说明很多人在用或关注",
+        "已有超过 3,146 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -117,10 +117,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 2985,
-      "stars_delta_7d": 149,
+      "stars": 3146,
+      "stars_delta_7d": 157,
       "stars_delta_30d": 0,
-      "forks": 649,
+      "forks": 678,
       "language": "Python",
       "homepage": "https://leonida.now",
       "html_url": "https://github.com/ProjectLeonida/mandy",
@@ -131,7 +131,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:30:08Z"
+      "updated_at": "2026-11-28T14:46:02Z"
     },
     {
       "id": "nexu-io/opengame",
@@ -140,7 +140,7 @@
       "title_zh": "opengame",
       "summary_zh": "opengame：The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral game…",
       "bullets_zh": [
-        "已有超过 2,431 人星标，说明很多人在用或关注",
+        "已有超过 2,760 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：agent-skills、ai-agents、ai-game-generator、claude-code"
       ],
@@ -169,10 +169,10 @@
         "vibe-coding",
         "wechat-minigame"
       ],
-      "stars": 2431,
-      "stars_delta_7d": 121,
+      "stars": 2760,
+      "stars_delta_7d": 138,
       "stars_delta_30d": 0,
-      "forks": 386,
+      "forks": 427,
       "language": "TypeScript",
       "homepage": null,
       "html_url": "https://github.com/nexu-io/opengame",
@@ -183,7 +183,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:34:37Z"
+      "updated_at": "2026-11-28T14:44:35Z"
     },
     {
       "id": "alesha-pro/llm.asm",
@@ -192,7 +192,7 @@
       "title_zh": "llm.asm",
       "summary_zh": "llm.asm：Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratc…",
       "bullets_zh": [
-        "已有超过 2,326 人星标，说明很多人在用或关注",
+        "已有超过 2,586 人星标，说明很多人在用或关注",
         "主要使用 Assembly 开发",
         "标签：assembly、avx2、bare-metal、llm"
       ],
@@ -211,10 +211,10 @@
         "transformer",
         "x86-64"
       ],
-      "stars": 2326,
-      "stars_delta_7d": 116,
+      "stars": 2586,
+      "stars_delta_7d": 129,
       "stars_delta_30d": 0,
-      "forks": 358,
+      "forks": 392,
       "language": "Assembly",
       "homepage": null,
       "html_url": "https://github.com/alesha-pro/llm.asm",
@@ -225,7 +225,38 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:34:20Z"
+      "updated_at": "2026-11-28T14:46:28Z"
+    },
+    {
+      "id": "Reukix/Reloc",
+      "full_name": "Reukix/Reloc",
+      "name": "Reloc",
+      "title_zh": "Reloc",
+      "summary_zh": "Reloc：iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / N…",
+      "bullets_zh": [
+        "已有超过 2,292 人星标，说明很多人在用或关注",
+        "主要使用 Swift 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 2292,
+      "stars_delta_7d": 114,
+      "stars_delta_30d": 0,
+      "forks": 486,
+      "language": "Swift",
+      "homepage": null,
+      "html_url": "https://github.com/Reukix/Reloc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120629904?v=4",
+      "description": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:44:56Z"
     },
     {
       "id": "os6/nospeaker",
@@ -234,7 +265,7 @@
       "title_zh": "nospeaker",
       "summary_zh": "nospeaker：make your macbook's trackpad talk using its haptic motor",
       "bullets_zh": [
-        "已有超过 1,997 人星标，说明很多人在用或关注",
+        "已有超过 2,006 人星标，说明很多人在用或关注",
         "主要使用 Swift 开发",
         "标签：haptics、macos、swift、trackpad"
       ],
@@ -247,10 +278,10 @@
         "swift",
         "trackpad"
       ],
-      "stars": 1997,
-      "stars_delta_7d": 99,
+      "stars": 2006,
+      "stars_delta_7d": 100,
       "stars_delta_30d": 0,
-      "forks": 108,
+      "forks": 111,
       "language": "Swift",
       "homepage": "https://x.com/codycollier",
       "html_url": "https://github.com/os6/nospeaker",
@@ -261,38 +292,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:30:04Z"
-    },
-    {
-      "id": "Reukix/Reloc",
-      "full_name": "Reukix/Reloc",
-      "name": "Reloc",
-      "title_zh": "Reloc",
-      "summary_zh": "Reloc：iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / N…",
-      "bullets_zh": [
-        "已有超过 1,821 人星标，说明很多人在用或关注",
-        "主要使用 Swift 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 1821,
-      "stars_delta_7d": 91,
-      "stars_delta_30d": 0,
-      "forks": 374,
-      "language": "Swift",
-      "homepage": null,
-      "html_url": "https://github.com/Reukix/Reloc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/120629904?v=4",
-      "description": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:33:49Z"
+      "updated_at": "2026-11-28T13:56:23Z"
     },
     {
       "id": "crhywun/g1-acq",
@@ -301,7 +301,7 @@
       "title_zh": "g1-acq",
       "summary_zh": "g1-acq 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "已有超过 1,813 人星标，说明很多人在用或关注",
+        "已有超过 1,845 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -309,10 +309,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 1813,
-      "stars_delta_7d": 90,
+      "stars": 1845,
+      "stars_delta_7d": 92,
       "stars_delta_30d": 0,
-      "forks": 415,
+      "forks": 422,
       "language": "JavaScript",
       "homepage": null,
       "html_url": "https://github.com/crhywun/g1-acq",
@@ -323,7 +323,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:30:25Z"
+      "updated_at": "2026-11-28T14:20:53Z"
     },
     {
       "id": "Avaneesh-Inamdar/Stream-Tube-Desktop",
@@ -332,7 +332,7 @@
       "title_zh": "Stream-Tube-Desktop",
       "summary_zh": "Stream-Tube-Desktop：Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Ret…",
       "bullets_zh": [
-        "已有超过 1,678 人星标，说明很多人在用或关注",
+        "已有超过 1,755 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：dearrow、desktop-app、gpui、mpv"
       ],
@@ -350,10 +350,10 @@
         "youtube",
         "youtube-client"
       ],
-      "stars": 1678,
-      "stars_delta_7d": 83,
+      "stars": 1755,
+      "stars_delta_7d": 87,
       "stars_delta_30d": 0,
-      "forks": 151,
+      "forks": 161,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
@@ -364,7 +364,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:28:29Z"
+      "updated_at": "2026-11-28T14:45:44Z"
     },
     {
       "id": "Pixel679-cmyk/windows-titlebar-blur-customizer",
@@ -373,7 +373,7 @@
       "title_zh": "windows-titlebar-blur-customizer",
       "summary_zh": "windows-titlebar-blur-customizer：Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and ad…",
       "bullets_zh": [
-        "已有超过 1,505 人星标，说明很多人在用或关注",
+        "已有超过 1,509 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "标签：acrylic、aero、aeroglass、blur"
       ],
@@ -401,10 +401,10 @@
         "windows-11",
         "windows-customization"
       ],
-      "stars": 1505,
+      "stars": 1509,
       "stars_delta_7d": 75,
       "stars_delta_30d": 0,
-      "forks": 0,
+      "forks": 1,
       "language": "C++",
       "homepage": null,
       "html_url": "https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer",
@@ -415,59 +415,7 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-27T21:38:14Z"
-    },
-    {
-      "id": "Indigo-0167/universal-game-mod-manager",
-      "full_name": "Indigo-0167/universal-game-mod-manager",
-      "name": "universal-game-mod-manager",
-      "title_zh": "universal-game-mod-manager",
-      "summary_zh": "universal-game-mod-manager：Free Windows game mod manager to discover, install, update and manage univers…",
-      "bullets_zh": [
-        "已有超过 1,371 人星标，说明很多人在用或关注",
-        "主要使用 Rust 开发",
-        "标签：automation、desktop、epic-games、game-development"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "automation",
-        "desktop",
-        "epic-games",
-        "game-development",
-        "game-engine",
-        "game-mods",
-        "game-tools",
-        "gaming",
-        "gog",
-        "itch",
-        "mod-manager",
-        "modding",
-        "open-source",
-        "pc-gaming",
-        "rust",
-        "steam",
-        "tauri",
-        "unity",
-        "unreal",
-        "windows"
-      ],
-      "stars": 1371,
-      "stars_delta_7d": 68,
-      "stars_delta_30d": 0,
-      "forks": 1,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/Indigo-0167/universal-game-mod-manager",
-      "avatar_url": "https://avatars.githubusercontent.com/u/360265394?v=4",
-      "description": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T00:59:47Z"
+      "updated_at": "2026-11-28T13:31:04Z"
     },
     {
       "id": "ZigZagBoi1/ScarlettPort",
@@ -476,7 +424,7 @@
       "title_zh": "ScarlettPort",
       "summary_zh": "ScarlettPort：Native PC port layer for an Xbox Series X|S title: the game's x64 code runs o…",
       "bullets_zh": [
-        "已有超过 1,369 人星标，说明很多人在用或关注",
+        "已有超过 1,493 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：amd、compatibility-layer、d3d12、directx12"
       ],
@@ -502,10 +450,10 @@
         "xbox-series-s",
         "xbox-series-x"
       ],
-      "stars": 1369,
-      "stars_delta_7d": 68,
+      "stars": 1493,
+      "stars_delta_7d": 74,
       "stars_delta_30d": 0,
-      "forks": 196,
+      "forks": 211,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/ZigZagBoi1/ScarlettPort",
@@ -516,342 +464,45 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:35:50Z"
+      "updated_at": "2026-11-28T14:44:06Z"
     },
     {
-      "id": "deterministic-machines/deslop-please",
-      "full_name": "deterministic-machines/deslop-please",
-      "name": "deslop-please",
-      "title_zh": "deslop-please",
-      "summary_zh": "deslop-please：Bring (back) sanity to your code",
+      "id": "DeadInternetStudios/100x-engineer-skill",
+      "full_name": "DeadInternetStudios/100x-engineer-skill",
+      "name": "100x-engineer-skill",
+      "title_zh": "100x-engineer-skill",
+      "summary_zh": "100x-engineer-skill：100x is a skill by a former Cursor engineer that turns prompts into formally …",
       "bullets_zh": [
-        "已有超过 1,356 人星标，说明很多人在用或关注",
-        "主要使用 Rust 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 1356,
-      "stars_delta_7d": 67,
-      "stars_delta_30d": 0,
-      "forks": 74,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/deterministic-machines/deslop-please",
-      "avatar_url": "https://avatars.githubusercontent.com/u/353129101?v=4",
-      "description": "Bring (back) sanity to your code",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:33:42Z"
-    },
-    {
-      "id": "Umbra9179/clipboard-history-manager-windows",
-      "full_name": "Umbra9179/clipboard-history-manager-windows",
-      "name": "clipboard-history-manager-windows",
-      "title_zh": "clipboard-history-manager-windows",
-      "summary_zh": "clipboard-history-manager-windows：Free open-source Windows clipboard manager with searchable history, image pre…",
-      "bullets_zh": [
-        "已有超过 1,272 人星标，说明很多人在用或关注",
-        "主要使用 C# 开发",
-        "标签：clipboard、clipboard-history、clipboard-manager、desktop-app"
-      ],
-      "category_ids": [
-        "productivity"
-      ],
-      "topics": [
-        "clipboard",
-        "clipboard-history",
-        "clipboard-manager",
-        "desktop-app",
-        "desktop-application",
-        "dotnet",
-        "fluent",
-        "open-source",
-        "productivity",
-        "utility",
-        "windows",
-        "windows-10",
-        "windows-11",
-        "windows-app-sdk",
-        "windows-application",
-        "winui"
-      ],
-      "stars": 1272,
-      "stars_delta_7d": 63,
-      "stars_delta_30d": 0,
-      "forks": 1,
-      "language": "C#",
-      "homepage": null,
-      "html_url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
-      "avatar_url": "https://avatars.githubusercontent.com/u/357439170?v=4",
-      "description": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T02:23:24Z"
-    },
-    {
-      "id": "solv4626/steam-achievement-manager-windows",
-      "full_name": "solv4626/steam-achievement-manager-windows",
-      "name": "steam-achievement-manager-windows",
-      "title_zh": "steam-achievement-manager-windows",
-      "summary_zh": "steam-achievement-manager-windows：Free open-source Steam Achievement Manager for Windows to manage game achieve…",
-      "bullets_zh": [
-        "已有超过 1,236 人星标，说明很多人在用或关注",
-        "主要使用 Rust 开发",
-        "标签：achievement-management、achievements、desktop、desktop-application"
-      ],
-      "category_ids": [
-        "productivity"
-      ],
-      "topics": [
-        "achievement-management",
-        "achievements",
-        "desktop",
-        "desktop-application",
-        "game-stats",
-        "game-utility",
-        "games",
-        "gaming",
-        "gaming-tools",
-        "gtk",
-        "gui",
-        "linux",
-        "open-source",
-        "productivity",
-        "steam",
-        "steam-achievement-manager",
-        "windows"
-      ],
-      "stars": 1236,
-      "stars_delta_7d": 61,
-      "stars_delta_30d": 0,
-      "forks": 1,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/solv4626/steam-achievement-manager-windows",
-      "avatar_url": "https://avatars.githubusercontent.com/u/358033547?v=4",
-      "description": "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-27T23:26:34Z"
-    },
-    {
-      "id": "Basil0879/steam-game-idler",
-      "full_name": "Basil0879/steam-game-idler",
-      "name": "steam-game-idler",
-      "title_zh": "steam-game-idler",
-      "summary_zh": "steam-game-idler：Free Steam idler for trading card farming, achievement management, playtime b…",
-      "bullets_zh": [
-        "已有超过 1,189 人星标，说明很多人在用或关注",
-        "主要使用 TypeScript 开发",
-        "标签：achievement-management、archisteamfarm、asf、automation"
+        "已有超过 1,489 人星标，说明很多人在用或关注",
+        "主要使用 JavaScript 开发",
+        "标签：agent-skills、ai-agents、claude-code、codex"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [
-        "achievement-management",
-        "archisteamfarm",
-        "asf",
-        "automation",
-        "desktop",
-        "idle-master",
-        "idlemaster",
-        "linux",
-        "open-source",
-        "steam",
-        "steam-api",
-        "steam-bot",
-        "steam-farm",
-        "steam-game-idler",
-        "steam-games",
-        "steam-idler",
-        "steam-inventory",
-        "steamkit2",
-        "steamworks",
-        "windows"
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "cursor",
+        "formal-verification"
       ],
-      "stars": 1189,
-      "stars_delta_7d": 59,
+      "stars": 1489,
+      "stars_delta_7d": 74,
       "stars_delta_30d": 0,
-      "forks": 0,
-      "language": "TypeScript",
+      "forks": 223,
+      "language": "JavaScript",
       "homepage": null,
-      "html_url": "https://github.com/Basil0879/steam-game-idler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/358019030?v=4",
-      "description": "Free Steam idler for trading card farming, achievement management, playtime boosting and multi-account automation on Windows.",
+      "html_url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132347856?v=4",
+      "description": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:34:57Z"
-    },
-    {
-      "id": "kai415-debug/ffmpeg-video-audio-converter",
-      "full_name": "kai415-debug/ffmpeg-video-audio-converter",
-      "name": "ffmpeg-video-audio-converter",
-      "title_zh": "ffmpeg-video-audio-converter",
-      "summary_zh": "ffmpeg-video-audio-converter：Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, an…",
-      "bullets_zh": [
-        "已有超过 1,136 人星标，说明很多人在用或关注",
-        "主要使用 C++ 开发",
-        "标签：audio、audio-converter、conversion、converter-encoding"
-      ],
-      "category_ids": [
-        "media"
-      ],
-      "topics": [
-        "audio",
-        "audio-converter",
-        "conversion",
-        "converter-encoding",
-        "cpp",
-        "desktop",
-        "ffmpeg",
-        "ffmpeg-wrapper",
-        "gui",
-        "media-converter",
-        "media-processing",
-        "multimedia",
-        "open-source",
-        "qml",
-        "qt5",
-        "transcoding",
-        "video",
-        "video-converter",
-        "video-encoding",
-        "windows"
-      ],
-      "stars": 1136,
-      "stars_delta_7d": 56,
-      "stars_delta_30d": 0,
-      "forks": 0,
-      "language": "C++",
-      "homepage": null,
-      "html_url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter",
-      "avatar_url": "https://avatars.githubusercontent.com/u/357971194?v=4",
-      "description": "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T00:55:14Z"
-    },
-    {
-      "id": "umbradev315/ffmpeg-video-audio-converter",
-      "full_name": "umbradev315/ffmpeg-video-audio-converter",
-      "name": "ffmpeg-video-audio-converter",
-      "title_zh": "ffmpeg-video-audio-converter",
-      "summary_zh": "ffmpeg-video-audio-converter：Free open-source FFmpeg GUI for Windows to convert video and audio, batch pro…",
-      "bullets_zh": [
-        "已有超过 1,111 人星标，说明很多人在用或关注",
-        "主要使用 Kotlin 开发",
-        "标签：audio-converter、audio-encoding、audio-processing、batch-processing"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "audio-converter",
-        "audio-encoding",
-        "audio-processing",
-        "batch-processing",
-        "desktop-app",
-        "ffmpeg",
-        "ffmpeg-gui",
-        "gui",
-        "media-analysis",
-        "media-converter",
-        "media-tools",
-        "multimedia",
-        "open-source",
-        "psnr",
-        "ssim",
-        "video-converter",
-        "video-encoding",
-        "video-processing",
-        "vmaf",
-        "windows"
-      ],
-      "stars": 1111,
-      "stars_delta_7d": 55,
-      "stars_delta_30d": 0,
-      "forks": 0,
-      "language": "Kotlin",
-      "homepage": null,
-      "html_url": "https://github.com/umbradev315/ffmpeg-video-audio-converter",
-      "avatar_url": "https://avatars.githubusercontent.com/u/360000107?v=4",
-      "description": "Free open-source FFmpeg GUI for Windows to convert video and audio, batch process media, and analyze quality.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:35:47Z"
-    },
-    {
-      "id": "Nebula4207/av1-video-encoder-gui",
-      "full_name": "Nebula4207/av1-video-encoder-gui",
-      "name": "av1-video-encoder-gui",
-      "title_zh": "av1-video-encoder-gui",
-      "summary_zh": "av1-video-encoder-gui：Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick S…",
-      "bullets_zh": [
-        "已有超过 1,107 人星标，说明很多人在用或关注",
-        "主要使用 C# 开发",
-        "标签：aom、aomenc、av1、av1-encoders"
-      ],
-      "category_ids": [
-        "media"
-      ],
-      "topics": [
-        "aom",
-        "aomenc",
-        "av1",
-        "av1-encoders",
-        "chunks",
-        "encoder",
-        "encoding",
-        "ffmpeg",
-        "gui",
-        "gui-handler",
-        "hardware-acceleration",
-        "libaom",
-        "rav1e",
-        "svt-av1",
-        "video",
-        "video-converter",
-        "video-encoding",
-        "vp9",
-        "windows"
-      ],
-      "stars": 1107,
-      "stars_delta_7d": 55,
-      "stars_delta_30d": 0,
-      "forks": 1,
-      "language": "C#",
-      "homepage": null,
-      "html_url": "https://github.com/Nebula4207/av1-video-encoder-gui",
-      "avatar_url": "https://avatars.githubusercontent.com/u/358296278?v=4",
-      "description": "Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T03:18:38Z"
+      "updated_at": "2026-11-28T14:45:41Z"
     },
     {
       "id": "peak85-sketch/stardew-valley-mod-manager",
@@ -860,7 +511,7 @@
       "title_zh": "stardew-valley-mod-manager",
       "summary_zh": "stardew-valley-mod-manager：Free open-source Stardew Valley mod manager for Windows with SMAPI support, m…",
       "bullets_zh": [
-        "已有超过 1,067 人星标，说明很多人在用或关注",
+        "已有超过 1,413 人星标，说明很多人在用或关注",
         "主要使用 C# 开发",
         "标签：avaloniaui、cross-platform、csharp、desktop"
       ],
@@ -885,8 +536,8 @@
         "stardew-valley-mods",
         "windows"
       ],
-      "stars": 1067,
-      "stars_delta_7d": 53,
+      "stars": 1413,
+      "stars_delta_7d": 70,
       "stars_delta_30d": 0,
       "forks": 0,
       "language": "C#",
@@ -899,349 +550,90 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:35:34Z"
+      "updated_at": "2026-11-28T13:13:29Z"
     },
     {
-      "id": "lsernau/grh-lean",
-      "full_name": "lsernau/grh-lean",
-      "name": "grh-lean",
-      "title_zh": "grh-lean",
-      "summary_zh": "grh-lean：A short Lean 4 proof of the Generalized Riemann Hypothesis",
+      "id": "deterministic-machines/deslop-please",
+      "full_name": "deterministic-machines/deslop-please",
+      "name": "deslop-please",
+      "title_zh": "deslop-please",
+      "summary_zh": "deslop-please：Bring (back) sanity to your code",
       "bullets_zh": [
-        "已有超过 1,067 人星标，说明很多人在用或关注",
-        "主要使用 Lean 开发",
+        "已有超过 1,410 人星标，说明很多人在用或关注",
+        "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 1067,
-      "stars_delta_7d": 53,
+      "stars": 1410,
+      "stars_delta_7d": 70,
       "stars_delta_30d": 0,
-      "forks": 120,
-      "language": "Lean",
+      "forks": 80,
+      "language": "Rust",
       "homepage": null,
-      "html_url": "https://github.com/lsernau/grh-lean",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4541943?v=4",
-      "description": "A short Lean 4 proof of the Generalized Riemann Hypothesis",
+      "html_url": "https://github.com/deterministic-machines/deslop-please",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353129101?v=4",
+      "description": "Bring (back) sanity to your code",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:22:59Z"
+      "updated_at": "2026-11-28T14:36:47Z"
     },
     {
-      "id": "DeadInternetStudios/100x-engineer-skill",
-      "full_name": "DeadInternetStudios/100x-engineer-skill",
-      "name": "100x-engineer-skill",
-      "title_zh": "100x-engineer-skill",
-      "summary_zh": "100x-engineer-skill：100x is a skill by a former Cursor engineer that turns prompts into formally …",
+      "id": "flint63-code/gitdesk-windows",
+      "full_name": "flint63-code/gitdesk-windows",
+      "name": "gitdesk-windows",
+      "title_zh": "gitdesk-windows",
+      "summary_zh": "gitdesk-windows：Free open-source Git GUI client for Windows with visual commit history, branc…",
       "bullets_zh": [
-        "已有超过 1,044 人星标，说明很多人在用或关注",
-        "主要使用 JavaScript 开发",
-        "标签：agent-skills、ai-agents、claude-code、codex"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude-code",
-        "codex",
-        "cursor",
-        "formal-verification"
-      ],
-      "stars": 1044,
-      "stars_delta_7d": 52,
-      "stars_delta_30d": 0,
-      "forks": 140,
-      "language": "JavaScript",
-      "homepage": null,
-      "html_url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132347856?v=4",
-      "description": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:35:18Z"
-    },
-    {
-      "id": "olive527/steam-library-manager-windows",
-      "full_name": "olive527/steam-library-manager-windows",
-      "name": "steam-library-manager-windows",
-      "title_zh": "steam-library-manager-windows",
-      "summary_zh": "steam-library-manager-windows：Free Windows game library manager and backup tool for Steam, Origin and Ubiso…",
-      "bullets_zh": [
-        "已有超过 1,023 人星标，说明很多人在用或关注",
+        "已有超过 1,389 人星标，说明很多人在用或关注",
         "主要使用 C# 开发",
-        "标签：backup、backup-tool、csharp、desktop"
+        "标签：bitbucket、cross-platform、desktop、developer-tools"
       ],
       "category_ids": [
+        "productivity",
         "developer"
       ],
       "topics": [
-        "backup",
-        "backup-tool",
-        "csharp",
+        "bitbucket",
+        "cross-platform",
         "desktop",
+        "developer-tools",
         "dotnet",
-        "game-backup",
-        "game-library",
-        "game-manager",
-        "gaming",
+        "git",
+        "git-client",
+        "git-gui",
+        "git-lfs",
+        "git-workflow",
+        "gitea",
+        "github",
+        "gitlab",
+        "gui",
         "open-source",
-        "origin",
-        "origin-games",
-        "steam",
-        "steam-games",
-        "uplay",
-        "uplay-games",
-        "windows",
-        "wpf"
+        "productivity",
+        "ssh",
+        "version-control",
+        "windows"
       ],
-      "stars": 1023,
-      "stars_delta_7d": 51,
+      "stars": 1389,
+      "stars_delta_7d": 69,
       "stars_delta_30d": 0,
       "forks": 0,
       "language": "C#",
       "homepage": null,
-      "html_url": "https://github.com/olive527/steam-library-manager-windows",
-      "avatar_url": "https://avatars.githubusercontent.com/u/358474442?v=4",
-      "description": "Free Windows game library manager and backup tool for Steam, Origin and Ubisoft Connect with multi-library support.",
+      "html_url": "https://github.com/flint63-code/gitdesk-windows",
+      "avatar_url": "https://avatars.githubusercontent.com/u/360285106?v=4",
+      "description": "Free open-source Git GUI client for Windows with visual commit history, branch management, SSH, Git LFS and more.",
       "source": "trending",
       "scene": null,
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T00:22:16Z"
-    },
-    {
-      "id": "zortos293/XSEmu",
-      "full_name": "zortos293/XSEmu",
-      "name": "XSEmu",
-      "title_zh": "XSEmu",
-      "summary_zh": "XSEmu：Experimental Xbox Series X|S (GDK) title runner for Windows, built on the XCL…",
-      "bullets_zh": [
-        "目前约有 934 个星标",
-        "主要使用 Rust 开发",
-        "标签：compatibility-layer、d3d12、dxil、emulator"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "compatibility-layer",
-        "d3d12",
-        "dxil",
-        "emulator",
-        "gdk",
-        "hlsl",
-        "rdna2",
-        "rust",
-        "shader-recompiler",
-        "windows",
-        "xbox",
-        "xbox-series"
-      ],
-      "stars": 934,
-      "stars_delta_7d": 46,
-      "stars_delta_30d": 0,
-      "forks": 61,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/zortos293/XSEmu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65777760?v=4",
-      "description": "Experimental Xbox Series X|S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T04:58:42Z"
-    },
-    {
-      "id": "DoubleGhosty/cool_fox",
-      "full_name": "DoubleGhosty/cool_fox",
-      "name": "cool_fox",
-      "title_zh": "cool_fox",
-      "summary_zh": "cool_fox：cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency,…",
-      "bullets_zh": [
-        "目前约有 862 个星标",
-        "主要使用 Rust 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 862,
-      "stars_delta_7d": 43,
-      "stars_delta_30d": 0,
-      "forks": 472,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/DoubleGhosty/cool_fox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57076195?v=4",
-      "description": "cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:17:28Z"
-    },
-    {
-      "id": "erkamyaman/safe-anything",
-      "full_name": "erkamyaman/safe-anything",
-      "name": "safe-anything",
-      "title_zh": "safe-anything",
-      "summary_zh": "safe-anything：Find the holes before someone else does. A fast, 100% Rust vulnerability scan…",
-      "bullets_zh": [
-        "目前约有 837 个星标",
-        "主要使用 Rust 开发",
-        "标签：ai-agents、claude-code、claude-code-plugin、cli"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "claude-code-plugin",
-        "cli",
-        "codex",
-        "cursor",
-        "devsecops",
-        "mcp",
-        "osv",
-        "owasp",
-        "rust",
-        "sast",
-        "secret-scanning",
-        "secrets",
-        "security",
-        "security-scanner",
-        "sql-injection",
-        "vulnerability",
-        "vulnerability-scanner",
-        "xss"
-      ],
-      "stars": 837,
-      "stars_delta_7d": 41,
-      "stars_delta_30d": 0,
-      "forks": 96,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/erkamyaman/safe-anything",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88717125?v=4",
-      "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:34:20Z"
-    },
-    {
-      "id": "riveran0226/windows-explorer-blur-mica",
-      "full_name": "riveran0226/windows-explorer-blur-mica",
-      "name": "windows-explorer-blur-mica",
-      "title_zh": "windows-explorer-blur-mica",
-      "summary_zh": "windows-explorer-blur-mica：Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transpare…",
-      "bullets_zh": [
-        "目前约有 809 个星标",
-        "主要使用 C++ 开发",
-        "标签：acrylic、blur、cpp、customization"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "acrylic",
-        "blur",
-        "cpp",
-        "customization",
-        "dark-mode",
-        "desktop",
-        "desktop-customization",
-        "explorer",
-        "mica",
-        "personalization",
-        "shell",
-        "themes",
-        "transparency",
-        "user-interface",
-        "windows",
-        "windows-explorer",
-        "windows10",
-        "windows11"
-      ],
-      "stars": 809,
-      "stars_delta_7d": 40,
-      "stars_delta_30d": 0,
-      "forks": 0,
-      "language": "C++",
-      "homepage": null,
-      "html_url": "https://github.com/riveran0226/windows-explorer-blur-mica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/361635094?v=4",
-      "description": "Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transparency and background blur effects.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:35:38Z"
-    },
-    {
-      "id": "gary23w/f-ck_data_brokers",
-      "full_name": "gary23w/f-ck_data_brokers",
-      "name": "f-ck_data_brokers",
-      "title_zh": "f-ck_data_brokers",
-      "summary_zh": "f-ck_data_brokers：fck_data_brokers.py is a free, open-source Python script that sends opt-out a…",
-      "bullets_zh": [
-        "目前约有 806 个星标",
-        "主要使用 Python 开发",
-        "标签：ccpa、cli、data-brokers、data-deletion"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "ccpa",
-        "cli",
-        "data-brokers",
-        "data-deletion",
-        "gdpr",
-        "lgpd",
-        "mcp",
-        "mcp-server",
-        "opt-out",
-        "personal-data",
-        "pipeda",
-        "privacy",
-        "privacy-tools",
-        "python"
-      ],
-      "stars": 806,
-      "stars_delta_7d": 40,
-      "stars_delta_30d": 0,
-      "forks": 66,
-      "language": "Python",
-      "homepage": "https://agent.garrettstimpson.ca/remove",
-      "html_url": "https://github.com/gary23w/f-ck_data_brokers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61893883?v=4",
-      "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "week"
-      ],
-      "updated_at": "2026-11-28T05:35:37Z"
+      "updated_at": "2026-11-28T14:46:19Z"
     },
     {
       "id": "mist-8659/windows-mouse-keyboard-sharing-kvm",
@@ -1250,7 +642,7 @@
       "title_zh": "windows-mouse-keyboard-sharing-kvm",
       "summary_zh": "windows-mouse-keyboard-sharing-kvm：Free open-source KVM software to share one keyboard and mouse across multiple…",
       "bullets_zh": [
-        "目前约有 801 个星标",
+        "已有超过 1,382 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "标签：c-plus-plus、clipboard、cross-platform、desktop"
       ],
@@ -1279,8 +671,8 @@
         "remote-control",
         "windows"
       ],
-      "stars": 801,
-      "stars_delta_7d": 40,
+      "stars": 1382,
+      "stars_delta_7d": 69,
       "stars_delta_30d": 0,
       "forks": 0,
       "language": "C++",
@@ -1293,7 +685,649 @@
       "trend_periods": [
         "week"
       ],
-      "updated_at": "2026-11-28T05:35:44Z"
+      "updated_at": "2026-11-28T14:46:21Z"
+    },
+    {
+      "id": "riveran0226/windows-explorer-blur-mica",
+      "full_name": "riveran0226/windows-explorer-blur-mica",
+      "name": "windows-explorer-blur-mica",
+      "title_zh": "windows-explorer-blur-mica",
+      "summary_zh": "windows-explorer-blur-mica：Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transpare…",
+      "bullets_zh": [
+        "已有超过 1,382 人星标，说明很多人在用或关注",
+        "主要使用 C++ 开发",
+        "标签：acrylic、blur、cpp、customization"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "acrylic",
+        "blur",
+        "cpp",
+        "customization",
+        "dark-mode",
+        "desktop",
+        "desktop-customization",
+        "explorer",
+        "mica",
+        "personalization",
+        "shell",
+        "themes",
+        "transparency",
+        "user-interface",
+        "windows",
+        "windows-explorer",
+        "windows10",
+        "windows11"
+      ],
+      "stars": 1382,
+      "stars_delta_7d": 69,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "C++",
+      "homepage": null,
+      "html_url": "https://github.com/riveran0226/windows-explorer-blur-mica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/361635094?v=4",
+      "description": "Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transparency and background blur effects.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:46:23Z"
+    },
+    {
+      "id": "Indigo-0167/universal-game-mod-manager",
+      "full_name": "Indigo-0167/universal-game-mod-manager",
+      "name": "universal-game-mod-manager",
+      "title_zh": "universal-game-mod-manager",
+      "summary_zh": "universal-game-mod-manager：Free Windows game mod manager to discover, install, update and manage univers…",
+      "bullets_zh": [
+        "已有超过 1,373 人星标，说明很多人在用或关注",
+        "主要使用 Rust 开发",
+        "标签：automation、desktop、epic-games、game-development"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "automation",
+        "desktop",
+        "epic-games",
+        "game-development",
+        "game-engine",
+        "game-mods",
+        "game-tools",
+        "gaming",
+        "gog",
+        "itch",
+        "mod-manager",
+        "modding",
+        "open-source",
+        "pc-gaming",
+        "rust",
+        "steam",
+        "tauri",
+        "unity",
+        "unreal",
+        "windows"
+      ],
+      "stars": 1373,
+      "stars_delta_7d": 68,
+      "stars_delta_30d": 0,
+      "forks": 1,
+      "language": "Rust",
+      "homepage": null,
+      "html_url": "https://github.com/Indigo-0167/universal-game-mod-manager",
+      "avatar_url": "https://avatars.githubusercontent.com/u/360265394?v=4",
+      "description": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:26:11Z"
+    },
+    {
+      "id": "hollow-445/windows-keyboard-manager",
+      "full_name": "hollow-445/windows-keyboard-manager",
+      "name": "windows-keyboard-manager",
+      "title_zh": "windows-keyboard-manager",
+      "summary_zh": "windows-keyboard-manager：Free open-source keyboard remapping software for Windows with custom layouts,…",
+      "bullets_zh": [
+        "已有超过 1,372 人星标，说明很多人在用或关注",
+        "主要使用 Haskell 开发",
+        "标签：automation、configuration、cross-platform、customization"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [
+        "automation",
+        "configuration",
+        "cross-platform",
+        "customization",
+        "desktop",
+        "haskell",
+        "key-mapping",
+        "keybindings",
+        "keyboard",
+        "keyboard-layout",
+        "keyboard-remapping",
+        "linux",
+        "macos",
+        "open-source",
+        "productivity",
+        "windows"
+      ],
+      "stars": 1372,
+      "stars_delta_7d": 68,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "Haskell",
+      "homepage": null,
+      "html_url": "https://github.com/hollow-445/windows-keyboard-manager",
+      "avatar_url": "https://avatars.githubusercontent.com/u/358397851?v=4",
+      "description": "Free open-source keyboard remapping software for Windows with custom layouts, programmable keys, layers and tap-hold actions.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:46:34Z"
+    },
+    {
+      "id": "Quill400/windows-image-viewer",
+      "full_name": "Quill400/windows-image-viewer",
+      "name": "windows-image-viewer",
+      "title_zh": "windows-image-viewer",
+      "summary_zh": "windows-image-viewer：Fast, free Windows image viewer with photo browsing, editing, folder manageme…",
+      "bullets_zh": [
+        "已有超过 1,365 人星标，说明很多人在用或关注",
+        "主要使用 C++ 开发",
+        "标签：c-plus-plus、cross-platform、desktop-application、image-browser"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [
+        "c-plus-plus",
+        "cross-platform",
+        "desktop-application",
+        "image-browser",
+        "image-editor",
+        "image-processing",
+        "image-viewer",
+        "libmpv",
+        "linux",
+        "photo-viewer",
+        "qt",
+        "qt5",
+        "qt6",
+        "slideshow",
+        "video",
+        "webm",
+        "webm-support",
+        "windows"
+      ],
+      "stars": 1365,
+      "stars_delta_7d": 68,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "C++",
+      "homepage": null,
+      "html_url": "https://github.com/Quill400/windows-image-viewer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/360309724?v=4",
+      "description": "Fast, free Windows image viewer with photo browsing, editing, folder management, and optional video playback.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:46:32Z"
+    },
+    {
+      "id": "quartzdev666/windows-pdf-editor",
+      "full_name": "quartzdev666/windows-pdf-editor",
+      "name": "windows-pdf-editor",
+      "title_zh": "windows-pdf-editor",
+      "summary_zh": "windows-pdf-editor：Free open-source Windows PDF editor to merge, split, rotate, crop, reorder an…",
+      "bullets_zh": [
+        "已有超过 1,363 人星标，说明很多人在用或关注",
+        "主要使用 Python 开发",
+        "标签：desktop-application、document-editor、document-management、gtk"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "desktop-application",
+        "document-editor",
+        "document-management",
+        "gtk",
+        "gtk3",
+        "linux",
+        "open-source",
+        "pdf",
+        "pdf-editor",
+        "pdf-manipulation",
+        "pdf-merger",
+        "pdf-organizer",
+        "pdf-splitter",
+        "pdf-tools",
+        "python3",
+        "windows"
+      ],
+      "stars": 1363,
+      "stars_delta_7d": 68,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "Python",
+      "homepage": null,
+      "html_url": "https://github.com/quartzdev666/windows-pdf-editor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/357446714?v=4",
+      "description": "Free open-source Windows PDF editor to merge, split, rotate, crop, reorder and organize PDF pages with a visual interface.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:46:25Z"
+    },
+    {
+      "id": "Leaf82770/windows-mica-backdrop-customizer",
+      "full_name": "Leaf82770/windows-mica-backdrop-customizer",
+      "name": "windows-mica-backdrop-customizer",
+      "title_zh": "windows-mica-backdrop-customizer",
+      "summary_zh": "windows-mica-backdrop-customizer：Free Windows 11 desktop app to customize Mica, Acrylic, and system backdrop e…",
+      "bullets_zh": [
+        "已有超过 1,358 人星标，说明很多人在用或关注",
+        "主要使用 C# 开发",
+        "标签：acrylic、backdrop、customization、desktop"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "acrylic",
+        "backdrop",
+        "customization",
+        "desktop",
+        "desktop-app",
+        "dotnet",
+        "fluent-design",
+        "mica",
+        "transparency",
+        "win32",
+        "windows",
+        "windows-11",
+        "windows-customization",
+        "winui",
+        "xaml-islands"
+      ],
+      "stars": 1358,
+      "stars_delta_7d": 67,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "C#",
+      "homepage": null,
+      "html_url": "https://github.com/Leaf82770/windows-mica-backdrop-customizer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/357434832?v=4",
+      "description": "Free Windows 11 desktop app to customize Mica, Acrylic, and system backdrop effects for Win32 applications.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:46:27Z"
+    },
+    {
+      "id": "Codelab781/windows-clipboard-sync-manager",
+      "full_name": "Codelab781/windows-clipboard-sync-manager",
+      "name": "windows-clipboard-sync-manager",
+      "title_zh": "windows-clipboard-sync-manager",
+      "summary_zh": "windows-clipboard-sync-manager：Free open-source clipboard manager for Windows with cross-device sync, clipbo…",
+      "bullets_zh": [
+        "已有超过 1,354 人星标，说明很多人在用或关注",
+        "主要使用 C# 开发",
+        "标签：avalonia、clipboard、clipboard-history、clipboard-manager"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [
+        "avalonia",
+        "clipboard",
+        "clipboard-history",
+        "clipboard-manager",
+        "clipboard-sharing",
+        "clipboard-sync",
+        "cross-platform",
+        "csharp",
+        "desktop",
+        "desktop-app",
+        "dotnet",
+        "file-sharing",
+        "image-processing",
+        "open-source",
+        "productivity",
+        "synchronization",
+        "windows",
+        "windows-app"
+      ],
+      "stars": 1354,
+      "stars_delta_7d": 67,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "C#",
+      "homepage": null,
+      "html_url": "https://github.com/Codelab781/windows-clipboard-sync-manager",
+      "avatar_url": "https://avatars.githubusercontent.com/u/361642253?v=4",
+      "description": "Free open-source clipboard manager for Windows with cross-device sync, clipboard history, and text, image & file sharing.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T14:46:29Z"
+    },
+    {
+      "id": "umbradev315/ffmpeg-video-audio-converter",
+      "full_name": "umbradev315/ffmpeg-video-audio-converter",
+      "name": "ffmpeg-video-audio-converter",
+      "title_zh": "ffmpeg-video-audio-converter",
+      "summary_zh": "ffmpeg-video-audio-converter：Free open-source FFmpeg GUI for Windows to convert video and audio, batch pro…",
+      "bullets_zh": [
+        "已有超过 1,328 人星标，说明很多人在用或关注",
+        "主要使用 Kotlin 开发",
+        "标签：audio-converter、audio-encoding、audio-processing、batch-processing"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "audio-converter",
+        "audio-encoding",
+        "audio-processing",
+        "batch-processing",
+        "desktop-app",
+        "ffmpeg",
+        "ffmpeg-gui",
+        "gui",
+        "media-analysis",
+        "media-converter",
+        "media-tools",
+        "multimedia",
+        "open-source",
+        "psnr",
+        "ssim",
+        "video-converter",
+        "video-encoding",
+        "video-processing",
+        "vmaf",
+        "windows"
+      ],
+      "stars": 1328,
+      "stars_delta_7d": 66,
+      "stars_delta_30d": 0,
+      "forks": 1,
+      "language": "Kotlin",
+      "homepage": null,
+      "html_url": "https://github.com/umbradev315/ffmpeg-video-audio-converter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/360000107?v=4",
+      "description": "Free open-source FFmpeg GUI for Windows to convert video and audio, batch process media, and analyze quality.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T10:40:45Z"
+    },
+    {
+      "id": "nocta1554/windows-video-downloader-gui",
+      "full_name": "nocta1554/windows-video-downloader-gui",
+      "name": "windows-video-downloader-gui",
+      "title_zh": "windows-video-downloader-gui",
+      "summary_zh": "windows-video-downloader-gui：Free open-source Windows video downloader GUI for YouTube and 1,000+ websites…",
+      "bullets_zh": [
+        "已有超过 1,322 人星标，说明很多人在用或关注",
+        "主要使用 C++ 开发",
+        "标签：audio、c-plus-plus、desktop-application、downloader"
+      ],
+      "category_ids": [
+        "media"
+      ],
+      "topics": [
+        "audio",
+        "c-plus-plus",
+        "desktop-application",
+        "downloader",
+        "graphical-interface",
+        "gui",
+        "media-downloader",
+        "nana",
+        "open-source",
+        "video",
+        "video-downloader",
+        "windows",
+        "windows-application",
+        "youtube",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "stars": 1322,
+      "stars_delta_7d": 66,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "C++",
+      "homepage": null,
+      "html_url": "https://github.com/nocta1554/windows-video-downloader-gui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/358352282?v=4",
+      "description": "Free open-source Windows video downloader GUI for YouTube and 1,000+ websites, powered by yt-dlp.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T13:59:57Z"
+    },
+    {
+      "id": "Loris-593/notebook-fan-control-windows",
+      "full_name": "Loris-593/notebook-fan-control-windows",
+      "name": "notebook-fan-control-windows",
+      "title_zh": "notebook-fan-control-windows",
+      "summary_zh": "notebook-fan-control-windows：Free open-source Windows laptop fan control software with custom cooling prof…",
+      "bullets_zh": [
+        "已有超过 1,287 人星标，说明很多人在用或关注",
+        "主要使用 C# 开发",
+        "标签：c-sharp、computer、desktop-application、dotnet"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "c-sharp",
+        "computer",
+        "desktop-application",
+        "dotnet",
+        "fan-control",
+        "fan-speed-control",
+        "hardware",
+        "laptop",
+        "linux",
+        "mono",
+        "notebook",
+        "open-source",
+        "performance",
+        "system-monitoring",
+        "temperature",
+        "windows"
+      ],
+      "stars": 1287,
+      "stars_delta_7d": 64,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "C#",
+      "homepage": null,
+      "html_url": "https://github.com/Loris-593/notebook-fan-control-windows",
+      "avatar_url": "https://avatars.githubusercontent.com/u/358030816?v=4",
+      "description": "Free open-source Windows laptop fan control software with custom cooling profiles and notebook temperature management.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T13:47:04Z"
+    },
+    {
+      "id": "Umbra9179/clipboard-history-manager-windows",
+      "full_name": "Umbra9179/clipboard-history-manager-windows",
+      "name": "clipboard-history-manager-windows",
+      "title_zh": "clipboard-history-manager-windows",
+      "summary_zh": "clipboard-history-manager-windows：Free open-source Windows clipboard manager with searchable history, image pre…",
+      "bullets_zh": [
+        "已有超过 1,275 人星标，说明很多人在用或关注",
+        "主要使用 C# 开发",
+        "标签：clipboard、clipboard-history、clipboard-manager、desktop-app"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [
+        "clipboard",
+        "clipboard-history",
+        "clipboard-manager",
+        "desktop-app",
+        "desktop-application",
+        "dotnet",
+        "fluent",
+        "open-source",
+        "productivity",
+        "utility",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "windows-app-sdk",
+        "windows-application",
+        "winui"
+      ],
+      "stars": 1275,
+      "stars_delta_7d": 63,
+      "stars_delta_30d": 0,
+      "forks": 1,
+      "language": "C#",
+      "homepage": null,
+      "html_url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
+      "avatar_url": "https://avatars.githubusercontent.com/u/357439170?v=4",
+      "description": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T12:22:44Z"
+    },
+    {
+      "id": "Riven-639/windows-dwm-blur-glass-customizer",
+      "full_name": "Riven-639/windows-dwm-blur-glass-customizer",
+      "name": "windows-dwm-blur-glass-customizer",
+      "title_zh": "windows-dwm-blur-glass-customizer",
+      "summary_zh": "windows-dwm-blur-glass-customizer：Free Windows 10 & 11 DWM customization tool for Aero, Acrylic, Mica, blur and…",
+      "bullets_zh": [
+        "已有超过 1,241 人星标，说明很多人在用或关注",
+        "主要使用 C++ 开发",
+        "标签：acrylic、aero、aeroglass、blur"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "acrylic",
+        "aero",
+        "aeroglass",
+        "blur",
+        "c",
+        "desktop",
+        "desktop-customization",
+        "dwm",
+        "glass",
+        "mica",
+        "personalization",
+        "transparency",
+        "visual-effects",
+        "win10",
+        "win11",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "windows-customization"
+      ],
+      "stars": 1241,
+      "stars_delta_7d": 62,
+      "stars_delta_30d": 0,
+      "forks": 0,
+      "language": "C++",
+      "homepage": null,
+      "html_url": "https://github.com/Riven-639/windows-dwm-blur-glass-customizer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/357362078?v=4",
+      "description": "Free Windows 10 & 11 DWM customization tool for Aero, Acrylic, Mica, blur and transparent title bar effects.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T13:05:41Z"
+    },
+    {
+      "id": "solv4626/steam-achievement-manager-windows",
+      "full_name": "solv4626/steam-achievement-manager-windows",
+      "name": "steam-achievement-manager-windows",
+      "title_zh": "steam-achievement-manager-windows",
+      "summary_zh": "steam-achievement-manager-windows：Free open-source Steam Achievement Manager for Windows to manage game achieve…",
+      "bullets_zh": [
+        "已有超过 1,237 人星标，说明很多人在用或关注",
+        "主要使用 Rust 开发",
+        "标签：achievement-management、achievements、desktop、desktop-application"
+      ],
+      "category_ids": [
+        "productivity"
+      ],
+      "topics": [
+        "achievement-management",
+        "achievements",
+        "desktop",
+        "desktop-application",
+        "game-stats",
+        "game-utility",
+        "games",
+        "gaming",
+        "gaming-tools",
+        "gtk",
+        "gui",
+        "linux",
+        "open-source",
+        "productivity",
+        "steam",
+        "steam-achievement-manager",
+        "windows"
+      ],
+      "stars": 1237,
+      "stars_delta_7d": 61,
+      "stars_delta_30d": 0,
+      "forks": 1,
+      "language": "Rust",
+      "homepage": null,
+      "html_url": "https://github.com/solv4626/steam-achievement-manager-windows",
+      "avatar_url": "https://avatars.githubusercontent.com/u/358033547?v=4",
+      "description": "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "week"
+      ],
+      "updated_at": "2026-11-28T07:14:35Z"
     }
   ],
   "month": [
@@ -1304,7 +1338,7 @@
       "title_zh": "craft-anything",
       "summary_zh": "craft-anything：Craft Anything: understand how any software works, and craft your own.",
       "bullets_zh": [
-        "已有超过 44,804 人星标，说明很多人在用或关注",
+        "已有超过 45,055 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1312,10 +1346,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 44804,
+      "stars": 45055,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 4480,
-      "forks": 8852,
+      "stars_delta_30d": 4505,
+      "forks": 8903,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/storytold/craft-anything",
@@ -1326,7 +1360,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:33:29Z"
+      "updated_at": "2026-11-28T14:45:28Z"
     },
     {
       "id": "deepseek-ai/dsh-superagent-prototype",
@@ -1335,7 +1369,7 @@
       "title_zh": "dsh-superagent-prototype",
       "summary_zh": "dsh-superagent-prototype：Towards a More Autonomous Agent System",
       "bullets_zh": [
-        "已有超过 24,753 人星标，说明很多人在用或关注",
+        "已有超过 24,763 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1343,10 +1377,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 24753,
+      "stars": 24763,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 2475,
-      "forks": 3114,
+      "stars_delta_30d": 2476,
+      "forks": 3118,
       "language": "TypeScript",
       "homepage": null,
       "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
@@ -1357,7 +1391,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:35:44Z"
+      "updated_at": "2026-11-28T14:23:00Z"
     },
     {
       "id": "libracoder/kiri",
@@ -1366,7 +1400,7 @@
       "title_zh": "kiri",
       "summary_zh": "kiri：A small, fast container runtime for macOS, Windows and Linux with free Ngrok …",
       "bullets_zh": [
-        "已有超过 14,069 人星标，说明很多人在用或关注",
+        "已有超过 14,121 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：containers、docker、kubernetes、linux"
       ],
@@ -1382,10 +1416,10 @@
         "oci",
         "windows"
       ],
-      "stars": 14069,
+      "stars": 14121,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1406,
-      "forks": 677,
+      "stars_delta_30d": 1412,
+      "forks": 681,
       "language": "Rust",
       "homepage": "https://runkiri.com",
       "html_url": "https://github.com/libracoder/kiri",
@@ -1396,7 +1430,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:00:35Z"
+      "updated_at": "2026-11-28T14:43:54Z"
     },
     {
       "id": "Marvisak/VIctory",
@@ -1405,7 +1439,7 @@
       "title_zh": "VIctory",
       "summary_zh": "VIctory：An attempt at running GTA VI on PC",
       "bullets_zh": [
-        "已有超过 13,864 人星标，说明很多人在用或关注",
+        "已有超过 14,023 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1413,10 +1447,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 13864,
-      "stars_delta_7d": 693,
-      "stars_delta_30d": 1386,
-      "forks": 2405,
+      "stars": 14023,
+      "stars_delta_7d": 701,
+      "stars_delta_30d": 1402,
+      "forks": 2457,
       "language": "Rust",
       "homepage": null,
       "html_url": "https://github.com/Marvisak/VIctory",
@@ -1427,7 +1461,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:23:31Z"
+      "updated_at": "2026-11-28T14:45:50Z"
     },
     {
       "id": "Minireel/HGhub",
@@ -1436,7 +1470,7 @@
       "title_zh": "HGhub",
       "summary_zh": "HGhub：Plug-in media player",
       "bullets_zh": [
-        "已有超过 12,267 人星标，说明很多人在用或关注",
+        "已有超过 12,300 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：android、drama、free、movie-web-app"
       ],
@@ -1451,10 +1485,10 @@
         "reels",
         "windows"
       ],
-      "stars": 12267,
+      "stars": 12300,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1226,
-      "forks": 9291,
+      "stars_delta_30d": 1230,
+      "forks": 9303,
       "language": "Rust",
       "homepage": "https://minireel.github.io/HGhub/",
       "html_url": "https://github.com/Minireel/HGhub",
@@ -1465,7 +1499,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:32:33Z"
+      "updated_at": "2026-11-28T14:24:40Z"
     },
     {
       "id": "janestreet/agent_skills",
@@ -1474,17 +1508,17 @@
       "title_zh": "agent_skills",
       "summary_zh": "agent_skills：Agent skills",
       "bullets_zh": [
-        "已有超过 12,083 人星标，说明很多人在用或关注",
+        "已有超过 12,131 人星标，说明很多人在用或关注",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 12083,
+      "stars": 12131,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1208,
-      "forks": 828,
+      "stars_delta_30d": 1213,
+      "forks": 835,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/janestreet/agent_skills",
@@ -1495,7 +1529,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:33:57Z"
+      "updated_at": "2026-11-28T14:25:16Z"
     },
     {
       "id": "erkamyaman/rust-anything",
@@ -1504,7 +1538,7 @@
       "title_zh": "rust-anything",
       "summary_zh": "rust-anything：Rewrite your app in Rust, piece by piece, checked against the original at eve…",
       "bullets_zh": [
-        "已有超过 10,862 人星标，说明很多人在用或关注",
+        "已有超过 11,032 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：agent-skills、claude-code、cli、code-migration"
       ],
@@ -1533,10 +1567,10 @@
         "rust",
         "typescript"
       ],
-      "stars": 10862,
+      "stars": 11032,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1086,
-      "forks": 885,
+      "stars_delta_30d": 1103,
+      "forks": 900,
       "language": "Rust",
       "homepage": "https://rustanything.ai",
       "html_url": "https://github.com/erkamyaman/rust-anything",
@@ -1547,7 +1581,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:34:43Z"
+      "updated_at": "2026-11-28T14:43:25Z"
     },
     {
       "id": "zortos293/Lichii",
@@ -1556,7 +1590,7 @@
       "title_zh": "Lichii",
       "summary_zh": "Lichii：VERY experimental Nintendo Switch 2 emulator",
       "bullets_zh": [
-        "已有超过 10,384 人星标，说明很多人在用或关注",
+        "已有超过 10,392 人星标，说明很多人在用或关注",
         "主要使用 C++ 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1564,10 +1598,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 10384,
+      "stars": 10392,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 1038,
-      "forks": 1634,
+      "stars_delta_30d": 1039,
+      "forks": 1636,
       "language": "C++",
       "homepage": null,
       "html_url": "https://github.com/zortos293/Lichii",
@@ -1578,7 +1612,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:21:17Z"
+      "updated_at": "2026-11-28T14:38:16Z"
     },
     {
       "id": "patch-gg/pixelfx",
@@ -1587,7 +1621,7 @@
       "title_zh": "pixelfx",
       "summary_zh": "pixelfx：244 pixel art effects, every one a small piece of code. Plus a Claude Code sk…",
       "bullets_zh": [
-        "已有超过 9,672 人星标，说明很多人在用或关注",
+        "已有超过 9,723 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：agent-skills、animation、canvas、claude-code-plugin"
       ],
@@ -1604,9 +1638,9 @@
         "sprite-sheet",
         "vfx"
       ],
-      "stars": 9672,
+      "stars": 9723,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 967,
+      "stars_delta_30d": 972,
       "forks": 1247,
       "language": "JavaScript",
       "homepage": "https://patch-gg.github.io/pixelfx/",
@@ -1618,7 +1652,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:25:09Z"
+      "updated_at": "2026-11-28T14:43:59Z"
     },
     {
       "id": "Lee-xeo/Claude-Cage",
@@ -1627,7 +1661,7 @@
       "title_zh": "Claude-Cage",
       "summary_zh": "Claude-Cage：Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
       "bullets_zh": [
-        "已有超过 9,080 人星标，说明很多人在用或关注",
+        "已有超过 9,203 人星标，说明很多人在用或关注",
         "主要使用 Go 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1635,10 +1669,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 9080,
+      "stars": 9203,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 908,
-      "forks": 1040,
+      "stars_delta_30d": 920,
+      "forks": 1055,
       "language": "Go",
       "homepage": "https://lee-xeo.github.io/Claude-Cage/",
       "html_url": "https://github.com/Lee-xeo/Claude-Cage",
@@ -1649,7 +1683,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:27:39Z"
+      "updated_at": "2026-11-28T14:36:48Z"
     },
     {
       "id": "huami1314/GestaltX",
@@ -1658,7 +1692,7 @@
       "title_zh": "GestaltX",
       "summary_zh": "GestaltX：An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device pr…",
       "bullets_zh": [
-        "已有超过 9,071 人星标，说明很多人在用或关注",
+        "已有超过 9,090 人星标，说明很多人在用或关注",
         "主要使用 Swift 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1666,10 +1700,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 9071,
+      "stars": 9090,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 907,
-      "forks": 2783,
+      "stars_delta_30d": 909,
+      "forks": 2784,
       "language": "Swift",
       "homepage": null,
       "html_url": "https://github.com/huami1314/GestaltX",
@@ -1680,7 +1714,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T04:16:40Z"
+      "updated_at": "2026-11-28T14:31:17Z"
     },
     {
       "id": "xcl-dev/xcl",
@@ -1689,7 +1723,7 @@
       "title_zh": "xcl",
       "summary_zh": "xcl：Xbox Series compatibility layer for Windows - runs console game code natively…",
       "bullets_zh": [
-        "已有超过 8,751 人星标，说明很多人在用或关注",
+        "已有超过 8,785 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：d3d12、gdk、rdna2、xbox"
       ],
@@ -1702,10 +1736,10 @@
         "rdna2",
         "xbox"
       ],
-      "stars": 8751,
+      "stars": 8785,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 875,
-      "forks": 1222,
+      "stars_delta_30d": 878,
+      "forks": 1225,
       "language": "Rust",
       "homepage": "https://discord.gg/xcl",
       "html_url": "https://github.com/xcl-dev/xcl",
@@ -1716,7 +1750,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:13:34Z"
+      "updated_at": "2026-11-28T14:45:53Z"
     },
     {
       "id": "ersinkoc/phonebox",
@@ -1725,7 +1759,7 @@
       "title_zh": "phonebox",
       "summary_zh": "phonebox：Turn an old Android phone into a customizable desk panel and touch control de…",
       "bullets_zh": [
-        "已有超过 7,790 人星标，说明很多人在用或关注",
+        "已有超过 8,060 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：android、claude-code、codex、dashboard"
       ],
@@ -1751,10 +1785,10 @@
         "widgets",
         "windows"
       ],
-      "stars": 7790,
+      "stars": 8060,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 779,
-      "forks": 878,
+      "stars_delta_30d": 806,
+      "forks": 894,
       "language": "JavaScript",
       "homepage": "https://ersinkoc.github.io/phonebox/",
       "html_url": "https://github.com/ersinkoc/phonebox",
@@ -1765,7 +1799,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:35:58Z"
+      "updated_at": "2026-11-28T14:41:50Z"
     },
     {
       "id": "4lwayz/portwatch-vi",
@@ -1774,7 +1808,7 @@
       "title_zh": "portwatch-vi",
       "summary_zh": "portwatch-vi：Does GTA VI run on PC yet? A live tracker of community recompilation and emul…",
       "bullets_zh": [
-        "已有超过 6,857 人星标，说明很多人在用或关注",
+        "已有超过 7,081 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1782,10 +1816,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 6857,
+      "stars": 7081,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 685,
-      "forks": 207,
+      "stars_delta_30d": 708,
+      "forks": 213,
       "language": "JavaScript",
       "homepage": "portwatch-vi.xyz",
       "html_url": "https://github.com/4lwayz/portwatch-vi",
@@ -1796,7 +1830,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:25:05Z"
+      "updated_at": "2026-11-28T14:42:07Z"
     },
     {
       "id": "KKKKhazix/agent-autoloop",
@@ -1805,7 +1839,7 @@
       "title_zh": "agent-autoloop",
       "summary_zh": "agent-autoloop：让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
       "bullets_zh": [
-        "已有超过 6,735 人星标，说明很多人在用或关注",
+        "已有超过 6,761 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai-agents、automation、claude-code、cli"
       ],
@@ -1826,10 +1860,10 @@
         "typescript",
         "workflow"
       ],
-      "stars": 6735,
+      "stars": 6761,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 673,
-      "forks": 1251,
+      "stars_delta_30d": 676,
+      "forks": 1260,
       "language": "TypeScript",
       "homepage": null,
       "html_url": "https://github.com/KKKKhazix/agent-autoloop",
@@ -1840,7 +1874,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T04:50:55Z"
+      "updated_at": "2026-11-28T14:31:52Z"
     },
     {
       "id": "Hut-hzf/ung220z-tool",
@@ -1849,7 +1883,7 @@
       "title_zh": "ung220z-tool",
       "summary_zh": "ung220z-tool：ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的…",
       "bullets_zh": [
-        "已有超过 5,926 人星标，说明很多人在用或关注",
+        "已有超过 6,009 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1857,10 +1891,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 5926,
+      "stars": 6009,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 592,
-      "forks": 1291,
+      "stars_delta_30d": 600,
+      "forks": 1321,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/Hut-hzf/ung220z-tool",
@@ -1871,7 +1905,45 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:29:48Z"
+      "updated_at": "2026-11-28T14:43:19Z"
+    },
+    {
+      "id": "trustno1-coder/VIctory-NVIDIA",
+      "full_name": "trustno1-coder/VIctory-NVIDIA",
+      "name": "VIctory-NVIDIA",
+      "title_zh": "VIctory-NVIDIA",
+      "summary_zh": "VIctory-NVIDIA：VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series …",
+      "bullets_zh": [
+        "已有超过 5,616 人星标，说明很多人在用或关注",
+        "主要使用 Rust 开发",
+        "标签：compatibility-layer、directx-12、dlss、frame-generation"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [
+        "compatibility-layer",
+        "directx-12",
+        "dlss",
+        "frame-generation",
+        "nvidia",
+        "rust"
+      ],
+      "stars": 5616,
+      "stars_delta_7d": 280,
+      "stars_delta_30d": 561,
+      "forks": 1932,
+      "language": "Rust",
+      "homepage": null,
+      "html_url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/361337194?v=4",
+      "description": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "month"
+      ],
+      "updated_at": "2026-11-28T14:46:43Z"
     },
     {
       "id": "deepseek-ai/chat-demo",
@@ -1880,7 +1952,7 @@
       "title_zh": "chat-demo",
       "summary_zh": "chat-demo：Chat Demo",
       "bullets_zh": [
-        "已有超过 5,528 人星标，说明很多人在用或关注",
+        "已有超过 5,538 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -1888,10 +1960,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 5528,
+      "stars": 5538,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 552,
-      "forks": 1330,
+      "stars_delta_30d": 553,
+      "forks": 1332,
       "language": "TypeScript",
       "homepage": "https://deepseek-ai.github.io/chat-demo/",
       "html_url": "https://github.com/deepseek-ai/chat-demo",
@@ -1902,83 +1974,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:02:26Z"
-    },
-    {
-      "id": "expo/exact",
-      "full_name": "expo/exact",
-      "name": "exact",
-      "title_zh": "exact",
-      "summary_zh": "exact：Agent Native, Rust based, high performance way to build apps on web, iOS, mac…",
-      "bullets_zh": [
-        "已有超过 5,245 人星标，说明很多人在用或关注",
-        "主要使用 Rust 开发",
-        "标签：ai-agents、appkit、coding-agents、cross-platform"
-      ],
-      "category_ids": [
-        "design"
-      ],
-      "topics": [
-        "ai-agents",
-        "appkit",
-        "coding-agents",
-        "cross-platform",
-        "css",
-        "ios",
-        "linux",
-        "macos",
-        "native-apps",
-        "rust",
-        "swift",
-        "uikit",
-        "web"
-      ],
-      "stars": 5245,
-      "stars_delta_7d": 0,
-      "stars_delta_30d": 524,
-      "forks": 169,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/expo/exact",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12504344?v=4",
-      "description": "Agent Native, Rust based, high performance way to build apps on web, iOS, macOS, Android, Linux and other platforms. ",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "month"
-      ],
-      "updated_at": "2026-11-28T04:57:36Z"
-    },
-    {
-      "id": "mromidev/claude-animated-shorts",
-      "full_name": "mromidev/claude-animated-shorts",
-      "name": "claude-animated-shorts",
-      "title_zh": "claude-animated-shorts",
-      "summary_zh": "claude-animated-shorts：Free Claude skill: viral animated story shorts (2D characters in a 3D world) …",
-      "bullets_zh": [
-        "已有超过 5,235 人星标，说明很多人在用或关注",
-        "主要使用 TypeScript 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 5235,
-      "stars_delta_7d": 0,
-      "stars_delta_30d": 523,
-      "forks": 1064,
-      "language": "TypeScript",
-      "homepage": null,
-      "html_url": "https://github.com/mromidev/claude-animated-shorts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233344575?v=4",
-      "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "month"
-      ],
-      "updated_at": "2026-11-28T05:09:22Z"
+      "updated_at": "2026-11-28T14:12:22Z"
     },
     {
       "id": "XinaTian/MROffice",
@@ -1987,7 +1983,7 @@
       "title_zh": "MROffice",
       "summary_zh": "MROffice：MR Office — the open-source editors of the AI office suite closest to Microso…",
       "bullets_zh": [
-        "已有超过 5,161 人星标，说明很多人在用或关注",
+        "已有超过 5,382 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai、ai-agent、claude-code、codex"
       ],
@@ -2017,10 +2013,10 @@
         "word",
         "xlsx"
       ],
-      "stars": 5161,
+      "stars": 5382,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 516,
-      "forks": 425,
+      "stars_delta_30d": 538,
+      "forks": 437,
       "language": "TypeScript",
       "homepage": "https://mroffice.ai",
       "html_url": "https://github.com/XinaTian/MROffice",
@@ -2031,7 +2027,83 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:34:01Z"
+      "updated_at": "2026-11-28T14:38:56Z"
+    },
+    {
+      "id": "mromidev/claude-animated-shorts",
+      "full_name": "mromidev/claude-animated-shorts",
+      "name": "claude-animated-shorts",
+      "title_zh": "claude-animated-shorts",
+      "summary_zh": "claude-animated-shorts：Free Claude skill: viral animated story shorts (2D characters in a 3D world) …",
+      "bullets_zh": [
+        "已有超过 5,297 人星标，说明很多人在用或关注",
+        "主要使用 TypeScript 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 5297,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 529,
+      "forks": 1077,
+      "language": "TypeScript",
+      "homepage": null,
+      "html_url": "https://github.com/mromidev/claude-animated-shorts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233344575?v=4",
+      "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "month"
+      ],
+      "updated_at": "2026-11-28T14:44:50Z"
+    },
+    {
+      "id": "expo/exact",
+      "full_name": "expo/exact",
+      "name": "exact",
+      "title_zh": "exact",
+      "summary_zh": "exact：Agent Native, Rust based, high performance way to build apps on web, iOS, mac…",
+      "bullets_zh": [
+        "已有超过 5,251 人星标，说明很多人在用或关注",
+        "主要使用 Rust 开发",
+        "标签：ai-agents、appkit、coding-agents、cross-platform"
+      ],
+      "category_ids": [
+        "design"
+      ],
+      "topics": [
+        "ai-agents",
+        "appkit",
+        "coding-agents",
+        "cross-platform",
+        "css",
+        "ios",
+        "linux",
+        "macos",
+        "native-apps",
+        "rust",
+        "swift",
+        "uikit",
+        "web"
+      ],
+      "stars": 5251,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 525,
+      "forks": 169,
+      "language": "Rust",
+      "homepage": null,
+      "html_url": "https://github.com/expo/exact",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12504344?v=4",
+      "description": "Agent Native, Rust based, high performance way to build apps on web, iOS, macOS, Android, Linux and other platforms. ",
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "month"
+      ],
+      "updated_at": "2026-11-28T14:22:31Z"
     },
     {
       "id": "simplexai-labs/linger",
@@ -2040,7 +2112,7 @@
       "title_zh": "linger",
       "summary_zh": "linger：Linger is An Open-Source Personal Agent That Runs Fully on Your PC. We aim to…",
       "bullets_zh": [
-        "已有超过 5,137 人星标，说明很多人在用或关注",
+        "已有超过 5,202 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：agent-teams、local-llm、memory、personal-agent"
       ],
@@ -2055,10 +2127,10 @@
         "proactive-agent",
         "proactive-ai"
       ],
-      "stars": 5137,
+      "stars": 5202,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 513,
-      "forks": 479,
+      "stars_delta_30d": 520,
+      "forks": 482,
       "language": "TypeScript",
       "homepage": "heylinger.com",
       "html_url": "https://github.com/simplexai-labs/linger",
@@ -2069,38 +2141,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:33:29Z"
-    },
-    {
-      "id": "JenkinWoo/sheeridVerify",
-      "full_name": "JenkinWoo/sheeridVerify",
-      "name": "sheeridVerify",
-      "title_zh": "sheeridVerify",
-      "summary_zh": "sheeridVerify 是 GitHub 上正在受到关注的开源项目。",
-      "bullets_zh": [
-        "已有超过 4,584 人星标，说明很多人在用或关注",
-        "主要使用 JavaScript 开发",
-        "打开项目主页可了解详细用法"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [],
-      "stars": 4584,
-      "stars_delta_7d": 0,
-      "stars_delta_30d": 458,
-      "forks": 1935,
-      "language": "JavaScript",
-      "homepage": null,
-      "html_url": "https://github.com/JenkinWoo/sheeridVerify",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51308528?v=4",
-      "description": null,
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "month"
-      ],
-      "updated_at": "2026-11-28T04:39:33Z"
+      "updated_at": "2026-11-28T14:45:41Z"
     },
     {
       "id": "EL4CTEO/fast-anything",
@@ -2109,7 +2150,7 @@
       "title_zh": "fast-anything",
       "summary_zh": "fast-anything：Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port …",
       "bullets_zh": [
-        "已有超过 4,520 人星标，说明很多人在用或关注",
+        "已有超过 4,614 人星标，说明很多人在用或关注",
         "主要使用 Rust 开发",
         "标签：agent-skills、ai-agents、claude-code、claude-code-plugin"
       ],
@@ -2138,10 +2179,10 @@
         "rust",
         "typescript"
       ],
-      "stars": 4520,
+      "stars": 4614,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 452,
-      "forks": 324,
+      "stars_delta_30d": 461,
+      "forks": 329,
       "language": "Rust",
       "homepage": "https://www.npmjs.com/package/@el4cteo/fast-anything",
       "html_url": "https://github.com/EL4CTEO/fast-anything",
@@ -2152,7 +2193,38 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:27:10Z"
+      "updated_at": "2026-11-28T14:42:35Z"
+    },
+    {
+      "id": "JenkinWoo/sheeridVerify",
+      "full_name": "JenkinWoo/sheeridVerify",
+      "name": "sheeridVerify",
+      "title_zh": "sheeridVerify",
+      "summary_zh": "sheeridVerify 是 GitHub 上正在受到关注的开源项目。",
+      "bullets_zh": [
+        "已有超过 4,613 人星标，说明很多人在用或关注",
+        "主要使用 JavaScript 开发",
+        "打开项目主页可了解详细用法"
+      ],
+      "category_ids": [
+        "developer"
+      ],
+      "topics": [],
+      "stars": 4613,
+      "stars_delta_7d": 0,
+      "stars_delta_30d": 461,
+      "forks": 1942,
+      "language": "JavaScript",
+      "homepage": null,
+      "html_url": "https://github.com/JenkinWoo/sheeridVerify",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51308528?v=4",
+      "description": null,
+      "source": "trending",
+      "scene": null,
+      "trend_periods": [
+        "month"
+      ],
+      "updated_at": "2026-11-28T14:42:09Z"
     },
     {
       "id": "AFK-surf/xnulinux",
@@ -2161,7 +2233,7 @@
       "title_zh": "xnulinux",
       "summary_zh": "xnulinux：XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
       "bullets_zh": [
-        "已有超过 4,382 人星标，说明很多人在用或关注",
+        "已有超过 4,464 人星标，说明很多人在用或关注",
         "主要使用 C 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2169,10 +2241,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 4382,
+      "stars": 4464,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 438,
-      "forks": 231,
+      "stars_delta_30d": 446,
+      "forks": 233,
       "language": "C",
       "homepage": null,
       "html_url": "https://github.com/AFK-surf/xnulinux",
@@ -2183,7 +2255,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:20:09Z"
+      "updated_at": "2026-11-28T14:44:10Z"
     },
     {
       "id": "tangerineturtle1/NX2navi",
@@ -2192,7 +2264,7 @@
       "title_zh": "NX2navi",
       "summary_zh": "NX2navi 是 GitHub 上正在受到关注的开源项目。",
       "bullets_zh": [
-        "已有超过 4,362 人星标，说明很多人在用或关注",
+        "已有超过 4,358 人星标，说明很多人在用或关注",
         "主要使用 C 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2200,9 +2272,9 @@
         "developer"
       ],
       "topics": [],
-      "stars": 4362,
+      "stars": 4358,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 436,
+      "stars_delta_30d": 435,
       "forks": 360,
       "language": "C",
       "homepage": null,
@@ -2214,7 +2286,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:14:50Z"
+      "updated_at": "2026-11-28T13:31:18Z"
     },
     {
       "id": "elvarofficial/teardown",
@@ -2223,7 +2295,7 @@
       "title_zh": "teardown",
       "summary_zh": "teardown：A Claude Code skill that turns any machine into a 3D simulator you can take a…",
       "bullets_zh": [
-        "已有超过 4,335 人星标，说明很多人在用或关注",
+        "已有超过 4,354 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2231,10 +2303,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 4335,
+      "stars": 4354,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 433,
-      "forks": 642,
+      "stars_delta_30d": 435,
+      "forks": 643,
       "language": "JavaScript",
       "homepage": null,
       "html_url": "https://github.com/elvarofficial/teardown",
@@ -2245,45 +2317,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:34:45Z"
-    },
-    {
-      "id": "trustno1-coder/VIctory-NVIDIA",
-      "full_name": "trustno1-coder/VIctory-NVIDIA",
-      "name": "VIctory-NVIDIA",
-      "title_zh": "VIctory-NVIDIA",
-      "summary_zh": "VIctory-NVIDIA：VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series …",
-      "bullets_zh": [
-        "已有超过 4,059 人星标，说明很多人在用或关注",
-        "主要使用 Rust 开发",
-        "标签：compatibility-layer、directx-12、dlss、frame-generation"
-      ],
-      "category_ids": [
-        "developer"
-      ],
-      "topics": [
-        "compatibility-layer",
-        "directx-12",
-        "dlss",
-        "frame-generation",
-        "nvidia",
-        "rust"
-      ],
-      "stars": 4059,
-      "stars_delta_7d": 202,
-      "stars_delta_30d": 405,
-      "forks": 1454,
-      "language": "Rust",
-      "homepage": null,
-      "html_url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/361337194?v=4",
-      "description": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.",
-      "source": "trending",
-      "scene": null,
-      "trend_periods": [
-        "month"
-      ],
-      "updated_at": "2026-11-28T05:35:03Z"
+      "updated_at": "2026-11-28T14:46:59Z"
     },
     {
       "id": "jhaizhou-ops/S2Arm",
@@ -2292,7 +2326,7 @@
       "title_zh": "S2Arm",
       "summary_zh": "S2Arm：Run your own Switch games natively on iPhone, iPad and Mac: game code rewritt…",
       "bullets_zh": [
-        "已有超过 3,984 人星标，说明很多人在用或关注",
+        "已有超过 3,988 人星标，说明很多人在用或关注",
         "主要使用 C# 开发",
         "标签：apple-silicon、arm64、game-porting、ios"
       ],
@@ -2311,7 +2345,7 @@
         "static-recompilation",
         "switch"
       ],
-      "stars": 3984,
+      "stars": 3988,
       "stars_delta_7d": 0,
       "stars_delta_30d": 398,
       "forks": 669,
@@ -2325,7 +2359,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:31:23Z"
+      "updated_at": "2026-11-28T12:44:24Z"
     },
     {
       "id": "shanselman/gputaskman",
@@ -2334,7 +2368,7 @@
       "title_zh": "gputaskman",
       "summary_zh": "gputaskman：A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activit…",
       "bullets_zh": [
-        "已有超过 3,890 人星标，说明很多人在用或关注",
+        "已有超过 3,898 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2342,10 +2376,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 3890,
+      "stars": 3898,
       "stars_delta_7d": 0,
       "stars_delta_30d": 389,
-      "forks": 196,
+      "forks": 197,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/shanselman/gputaskman",
@@ -2356,7 +2390,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T04:31:21Z"
+      "updated_at": "2026-11-28T13:18:09Z"
     },
     {
       "id": "FrigadeHQ/yogurt",
@@ -2365,7 +2399,7 @@
       "title_zh": "yogurt",
       "summary_zh": "yogurt：Private AI meeting notes that stay on your computer. No meeting bot. Free and…",
       "bullets_zh": [
-        "已有超过 3,769 人星标，说明很多人在用或关注",
+        "已有超过 3,809 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai-meeting-assistant、ai-notetaker、electron、granola-alternative"
       ],
@@ -2394,10 +2428,10 @@
         "whisper-cpp",
         "windows"
       ],
-      "stars": 3769,
+      "stars": 3809,
       "stars_delta_7d": 0,
-      "stars_delta_30d": 376,
-      "forks": 334,
+      "stars_delta_30d": 380,
+      "forks": 338,
       "language": "TypeScript",
       "homepage": "https://yogurt.so",
       "html_url": "https://github.com/FrigadeHQ/yogurt",
@@ -2408,7 +2442,7 @@
       "trend_periods": [
         "month"
       ],
-      "updated_at": "2026-11-28T05:04:49Z"
+      "updated_at": "2026-11-28T14:28:17Z"
     }
   ],
   "all": [
@@ -2419,7 +2453,7 @@
       "title_zh": "build-your-own-x",
       "summary_zh": "build-your-own-x：Master programming by recreating your favorite technologies from scratch.",
       "bullets_zh": [
-        "已有超过 566,033 人星标，说明很多人在用或关注",
+        "已有超过 566,131 人星标，说明很多人在用或关注",
         "主要使用 Markdown 开发",
         "标签：awesome-list、free、programming、tutorial-code"
       ],
@@ -2434,10 +2468,10 @@
         "tutorial-exercises",
         "tutorials"
       ],
-      "stars": 566033,
+      "stars": 566131,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 52873,
+      "forks": 52880,
       "language": "Markdown",
       "homepage": "https://codecrafters.io",
       "html_url": "https://github.com/codecrafters-io/build-your-own-x",
@@ -2448,7 +2482,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:33:12Z"
+      "updated_at": "2026-11-28T14:46:32Z"
     },
     {
       "id": "sindresorhus/awesome",
@@ -2471,10 +2505,10 @@
         "resources",
         "unicorns"
       ],
-      "stars": 544038,
+      "stars": 544221,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 38717,
+      "forks": 38729,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/sindresorhus/awesome",
@@ -2485,7 +2519,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:26:52Z"
+      "updated_at": "2026-11-28T14:44:20Z"
     },
     {
       "id": "public-apis/public-apis",
@@ -2494,7 +2528,7 @@
       "title_zh": "public-apis",
       "summary_zh": "public-apis：A collective list of free APIs",
       "bullets_zh": [
-        "已有超过 501,849 人星标，说明很多人在用或关注",
+        "已有超过 501,878 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：api、apis、dataset、development"
       ],
@@ -2516,10 +2550,10 @@
         "resources",
         "software"
       ],
-      "stars": 501849,
+      "stars": 501878,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 56497,
+      "forks": 56508,
       "language": "Python",
       "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
       "html_url": "https://github.com/public-apis/public-apis",
@@ -2530,7 +2564,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:36:15Z"
+      "updated_at": "2026-11-28T14:37:48Z"
     },
     {
       "id": "morluto/rea",
@@ -2539,7 +2573,7 @@
       "title_zh": "rea",
       "summary_zh": "rea：Reverse engineer anything with agents, from app behavior down to native binar…",
       "bullets_zh": [
-        "已有超过 481,332 人星标，说明很多人在用或关注",
+        "已有超过 481,812 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：agent-skills、ai、android、claude-code"
       ],
@@ -2569,10 +2603,10 @@
         "touhou",
         "typescript"
       ],
-      "stars": 481332,
+      "stars": 481812,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 116890,
+      "forks": 116963,
       "language": "TypeScript",
       "homepage": "https://rea.tools",
       "html_url": "https://github.com/morluto/rea",
@@ -2583,7 +2617,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:35:40Z"
+      "updated_at": "2026-11-28T14:46:59Z"
     },
     {
       "id": "freeCodeCamp/freeCodeCamp",
@@ -2616,10 +2650,10 @@
         "react",
         "teachers"
       ],
-      "stars": 459685,
+      "stars": 459692,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 47357,
+      "forks": 47349,
       "language": "TypeScript",
       "homepage": "https://contribute.freecodecamp.org",
       "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
@@ -2630,7 +2664,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:28:56Z"
+      "updated_at": "2026-11-28T14:38:34Z"
     },
     {
       "id": "EbookFoundation/free-programming-books",
@@ -2639,7 +2673,7 @@
       "title_zh": "free-programming-books",
       "summary_zh": "free-programming-books：:books: Freely available programming books",
       "bullets_zh": [
-        "已有超过 402,381 人星标，说明很多人在用或关注",
+        "已有超过 402,392 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：books、education、hacktoberfest、list"
       ],
@@ -2653,10 +2687,10 @@
         "list",
         "resource"
       ],
-      "stars": 402381,
+      "stars": 402392,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 67269,
+      "forks": 67276,
       "language": "Python",
       "homepage": "https://ebookfoundation.github.io/free-programming-books/",
       "html_url": "https://github.com/EbookFoundation/free-programming-books",
@@ -2667,7 +2701,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T04:46:23Z"
+      "updated_at": "2026-11-28T14:29:25Z"
     },
     {
       "id": "openclaw/openclaw",
@@ -2676,7 +2710,7 @@
       "title_zh": "openclaw",
       "summary_zh": "openclaw：The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
       "bullets_zh": [
-        "已有超过 395,364 人星标，说明很多人在用或关注",
+        "已有超过 395,369 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai、assistant、crustacean、molty"
       ],
@@ -2692,10 +2726,10 @@
         "own-your-data",
         "personal"
       ],
-      "stars": 395364,
+      "stars": 395369,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 83017,
+      "forks": 83010,
       "language": "TypeScript",
       "homepage": "https://openclaw.ai",
       "html_url": "https://github.com/openclaw/openclaw",
@@ -2706,7 +2740,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:06:35Z"
+      "updated_at": "2026-11-28T14:45:45Z"
     },
     {
       "id": "donnemartin/system-design-primer",
@@ -2715,7 +2749,7 @@
       "title_zh": "system-design-primer",
       "summary_zh": "system-design-primer：Learn how to design large-scale systems. Prep for the system design interview…",
       "bullets_zh": [
-        "已有超过 379,524 人星标，说明很多人在用或关注",
+        "已有超过 379,575 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：design、design-patterns、design-system、development"
       ],
@@ -2737,10 +2771,10 @@
         "web-application",
         "webapp"
       ],
-      "stars": 379524,
+      "stars": 379575,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 59405,
+      "forks": 59407,
       "language": "Python",
       "homepage": null,
       "html_url": "https://github.com/donnemartin/system-design-primer",
@@ -2751,7 +2785,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:36:22Z"
+      "updated_at": "2026-11-28T14:37:13Z"
     },
     {
       "id": "nilbuild/developer-roadmap",
@@ -2760,7 +2794,7 @@
       "title_zh": "developer-roadmap",
       "summary_zh": "developer-roadmap：Interactive roadmaps, guides and other educational content to help developers…",
       "bullets_zh": [
-        "已有超过 372,912 人星标，说明很多人在用或关注",
+        "已有超过 372,928 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：angular-roadmap、backend-roadmap、blockchain-roadmap、computer-science"
       ],
@@ -2787,10 +2821,10 @@
         "software-architect-roadmap",
         "vue-roadmap"
       ],
-      "stars": 372912,
+      "stars": 372928,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 45501,
+      "forks": 45512,
       "language": "TypeScript",
       "homepage": "https://roadmap.sh",
       "html_url": "https://github.com/nilbuild/developer-roadmap",
@@ -2801,7 +2835,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:20:35Z"
+      "updated_at": "2026-11-28T14:36:33Z"
     },
     {
       "id": "jwasham/coding-interview-university",
@@ -2810,7 +2844,7 @@
       "title_zh": "coding-interview-university",
       "summary_zh": "coding-interview-university：A complete computer science study plan to become a software engineer.",
       "bullets_zh": [
-        "已有超过 365,145 人星标，说明很多人在用或关注",
+        "已有超过 365,159 人星标，说明很多人在用或关注",
         "标签：algorithm、algorithms、coding-interview、coding-interviews"
       ],
       "category_ids": [
@@ -2830,10 +2864,10 @@
         "software-engineering",
         "study-plan"
       ],
-      "stars": 365145,
+      "stars": 365159,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 85281,
+      "forks": 85287,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/jwasham/coding-interview-university",
@@ -2844,7 +2878,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:35:55Z"
+      "updated_at": "2026-11-28T14:47:04Z"
     },
     {
       "id": "awesome-selfhosted/awesome-selfhosted",
@@ -2853,7 +2887,7 @@
       "title_zh": "awesome-selfhosted",
       "summary_zh": "awesome-selfhosted：A list of Free Software network services and web applications which can be ho…",
       "bullets_zh": [
-        "已有超过 341,176 人星标，说明很多人在用或关注",
+        "已有超过 341,284 人星标，说明很多人在用或关注",
         "标签：awesome、awesome-list、cloud、free-software"
       ],
       "category_ids": [
@@ -2870,10 +2904,10 @@
         "self-hosted",
         "selfhosted"
       ],
-      "stars": 341176,
+      "stars": 341284,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 15968,
+      "forks": 15971,
       "language": null,
       "homepage": "https://awesome-selfhosted.net/",
       "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
@@ -2884,7 +2918,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:36:12Z"
+      "updated_at": "2026-11-28T14:45:24Z"
     },
     {
       "id": "vinta/awesome-python",
@@ -2893,7 +2927,7 @@
       "title_zh": "awesome-python",
       "summary_zh": "awesome-python：The definitive list that answers \"I want to do X in Python, which tool should…",
       "bullets_zh": [
-        "已有超过 337,607 人星标，说明很多人在用或关注",
+        "已有超过 337,667 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：awesome、awesome-list、python、python-frameworks"
       ],
@@ -2908,10 +2942,10 @@
         "python-libraries",
         "python-tools"
       ],
-      "stars": 337607,
+      "stars": 337667,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 29152,
+      "forks": 29156,
       "language": "Python",
       "homepage": "https://awesome-python.com/",
       "html_url": "https://github.com/vinta/awesome-python",
@@ -2922,7 +2956,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:33:33Z"
+      "updated_at": "2026-11-28T14:44:22Z"
     },
     {
       "id": "mattpocock/skills",
@@ -2931,7 +2965,7 @@
       "title_zh": "skills",
       "summary_zh": "skills：Skills for Real Engineers. Straight from my .agents directory.",
       "bullets_zh": [
-        "已有超过 334,366 人星标，说明很多人在用或关注",
+        "已有超过 334,582 人星标，说明很多人在用或关注",
         "主要使用 Shell 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -2939,10 +2973,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 334366,
+      "stars": 334582,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 28140,
+      "forks": 28154,
       "language": "Shell",
       "homepage": "https://aihero.dev/skills",
       "html_url": "https://github.com/mattpocock/skills",
@@ -2953,7 +2987,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:32:26Z"
+      "updated_at": "2026-11-28T14:43:43Z"
     },
     {
       "id": "obra/superpowers",
@@ -2962,7 +2996,7 @@
       "title_zh": "superpowers",
       "summary_zh": "superpowers：An agentic skills framework & software development methodology that works.",
       "bullets_zh": [
-        "已有超过 328,462 人星标，说明很多人在用或关注",
+        "已有超过 328,786 人星标，说明很多人在用或关注",
         "主要使用 Shell 开发",
         "标签：ai、brainstorming、coding、obra"
       ],
@@ -2979,10 +3013,10 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "stars": 328462,
+      "stars": 328786,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 29195,
+      "forks": 29230,
       "language": "Shell",
       "homepage": null,
       "html_url": "https://github.com/obra/superpowers",
@@ -2993,7 +3027,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:34:46Z"
+      "updated_at": "2026-11-28T14:47:08Z"
     },
     {
       "id": "affaan-m/ECC",
@@ -3002,7 +3036,7 @@
       "title_zh": "ECC",
       "summary_zh": "ECC：The agent harness performance optimization system. Skills, instincts, memory,…",
       "bullets_zh": [
-        "已有超过 311,983 人星标，说明很多人在用或关注",
+        "已有超过 312,211 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：ai-agents、anthropic、claude、claude-code"
       ],
@@ -3021,10 +3055,10 @@
         "mcp",
         "productivity"
       ],
-      "stars": 311983,
+      "stars": 312211,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 45831,
+      "forks": 45870,
       "language": "JavaScript",
       "homepage": "https://ecc.tools",
       "html_url": "https://github.com/affaan-m/ECC",
@@ -3035,7 +3069,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:35:13Z"
+      "updated_at": "2026-11-28T14:45:22Z"
     },
     {
       "id": "practical-tutorials/project-based-learning",
@@ -3044,7 +3078,7 @@
       "title_zh": "project-based-learning",
       "summary_zh": "project-based-learning：Curated list of project-based tutorials",
       "bullets_zh": [
-        "已有超过 290,620 人星标，说明很多人在用或关注",
+        "已有超过 290,629 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：beginner-project、cpp、golang、javascript"
       ],
@@ -3061,7 +3095,7 @@
         "tutorial",
         "webdevelopment"
       ],
-      "stars": 290620,
+      "stars": 290629,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
       "forks": 36887,
@@ -3075,7 +3109,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:36:05Z"
+      "updated_at": "2026-11-28T14:09:18Z"
     },
     {
       "id": "deepseek-ai/deepseek-harness",
@@ -3084,7 +3118,7 @@
       "title_zh": "deepseek-harness",
       "summary_zh": "deepseek-harness：DeepSeek Harness: Everything is a Plugin.",
       "bullets_zh": [
-        "已有超过 288,124 人星标，说明很多人在用或关注",
+        "已有超过 288,299 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai-agents、cordis、dsh、dsh-plugin"
       ],
@@ -3097,10 +3131,10 @@
         "dsh",
         "dsh-plugin"
       ],
-      "stars": 288124,
+      "stars": 288299,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 35995,
+      "forks": 36018,
       "language": "TypeScript",
       "homepage": "https://deepseek.com/harness",
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
@@ -3111,7 +3145,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:35:39Z"
+      "updated_at": "2026-11-28T14:46:34Z"
     },
     {
       "id": "996icu/996.ICU",
@@ -3120,17 +3154,17 @@
       "title_zh": "996.ICU",
       "summary_zh": "996.ICU：Repo for counting stars and contributing. Press F to pay respect to glorious …",
       "bullets_zh": [
-        "已有超过 277,258 人星标，说明很多人在用或关注",
+        "已有超过 277,254 人星标，说明很多人在用或关注",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 277258,
+      "stars": 277254,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 20612,
+      "forks": 20611,
       "language": null,
       "homepage": "https://996.icu",
       "html_url": "https://github.com/996icu/996.ICU",
@@ -3141,7 +3175,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:35:04Z"
+      "updated_at": "2026-11-28T14:28:59Z"
     },
     {
       "id": "NousResearch/hermes-agent",
@@ -3150,7 +3184,7 @@
       "title_zh": "hermes-agent",
       "summary_zh": "hermes-agent：The agent that grows with you",
       "bullets_zh": [
-        "已有超过 266,622 人星标，说明很多人在用或关注",
+        "已有超过 266,687 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：ai、ai-agent、ai-agents、anthropic"
       ],
@@ -3172,10 +3206,10 @@
         "nous-research",
         "openai"
       ],
-      "stars": 266622,
+      "stars": 266687,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 60523,
+      "forks": 60551,
       "language": "Python",
       "homepage": "https://hermes-agent.nousresearch.com",
       "html_url": "https://github.com/NousResearch/hermes-agent",
@@ -3186,7 +3220,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:31:25Z"
+      "updated_at": "2026-11-28T14:45:28Z"
     },
     {
       "id": "trimstray/the-book-of-secret-knowledge",
@@ -3195,7 +3229,7 @@
       "title_zh": "the-book-of-secret-knowledge",
       "summary_zh": "the-book-of-secret-knowledge：A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-line…",
       "bullets_zh": [
-        "已有超过 261,950 人星标，说明很多人在用或关注",
+        "已有超过 262,038 人星标，说明很多人在用或关注",
         "标签：awesome、awesome-list、bsd、cheatsheets"
       ],
       "category_ids": [
@@ -3223,10 +3257,10 @@
         "security-researchers",
         "sysops"
       ],
-      "stars": 261950,
+      "stars": 262038,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 15005,
+      "forks": 15004,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
@@ -3237,7 +3271,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:24:37Z"
+      "updated_at": "2026-11-28T14:44:26Z"
     },
     {
       "id": "torvalds/linux",
@@ -3246,7 +3280,7 @@
       "title_zh": "linux",
       "summary_zh": "linux：Linux kernel source tree",
       "bullets_zh": [
-        "已有超过 256,883 人星标，说明很多人在用或关注",
+        "已有超过 256,937 人星标，说明很多人在用或关注",
         "主要使用 C 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3254,10 +3288,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 256883,
+      "stars": 256937,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 66776,
+      "forks": 66772,
       "language": "C",
       "homepage": null,
       "html_url": "https://github.com/torvalds/linux",
@@ -3268,7 +3302,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:07:18Z"
+      "updated_at": "2026-11-28T14:36:14Z"
     },
     {
       "id": "react/react",
@@ -3277,7 +3311,7 @@
       "title_zh": "react",
       "summary_zh": "react：The library for web and native user interfaces.",
       "bullets_zh": [
-        "已有超过 252,854 人星标，说明很多人在用或关注",
+        "已有超过 252,834 人星标，说明很多人在用或关注",
         "主要使用 JavaScript 开发",
         "标签：declarative、frontend、javascript、library"
       ],
@@ -3292,10 +3326,10 @@
         "react",
         "ui"
       ],
-      "stars": 252854,
+      "stars": 252834,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 51898,
+      "forks": 51889,
       "language": "JavaScript",
       "homepage": "https://react.dev",
       "html_url": "https://github.com/react/react",
@@ -3306,7 +3340,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:07:28Z"
+      "updated_at": "2026-11-28T14:42:10Z"
     },
     {
       "id": "multica-ai/andrej-karpathy-skills",
@@ -3315,17 +3349,17 @@
       "title_zh": "andrej-karpathy-skills",
       "summary_zh": "andrej-karpathy-skills：A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej …",
       "bullets_zh": [
-        "已有超过 236,275 人星标，说明很多人在用或关注",
+        "已有超过 236,526 人星标，说明很多人在用或关注",
         "打开项目主页可了解详细用法"
       ],
       "category_ids": [
         "developer"
       ],
       "topics": [],
-      "stars": 236275,
+      "stars": 236526,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 23432,
+      "forks": 23468,
       "language": null,
       "homepage": null,
       "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
@@ -3336,7 +3370,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:35:08Z"
+      "updated_at": "2026-11-28T14:46:25Z"
     },
     {
       "id": "anomalyco/opencode",
@@ -3345,7 +3379,7 @@
       "title_zh": "opencode",
       "summary_zh": "opencode：The open source coding agent.",
       "bullets_zh": [
-        "已有超过 229,654 人星标，说明很多人在用或关注",
+        "已有超过 229,734 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "打开项目主页可了解详细用法"
       ],
@@ -3353,10 +3387,10 @@
         "developer"
       ],
       "topics": [],
-      "stars": 229654,
+      "stars": 229734,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 31273,
+      "forks": 31286,
       "language": "TypeScript",
       "homepage": "https://opencode.ai",
       "html_url": "https://github.com/anomalyco/opencode",
@@ -3367,7 +3401,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:36:22Z"
+      "updated_at": "2026-11-28T14:46:07Z"
     },
     {
       "id": "TheAlgorithms/Python",
@@ -3376,7 +3410,7 @@
       "title_zh": "Python",
       "summary_zh": "Python：All Algorithms implemented in Python",
       "bullets_zh": [
-        "已有超过 226,513 人星标，说明很多人在用或关注",
+        "已有超过 226,522 人星标，说明很多人在用或关注",
         "主要使用 Python 开发",
         "标签：algorithm、algorithm-competitions、algorithms-implemented、algos"
       ],
@@ -3399,10 +3433,10 @@
         "sorting-algorithms",
         "sorts"
       ],
-      "stars": 226513,
+      "stars": 226522,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 51356,
+      "forks": 51364,
       "language": "Python",
       "homepage": "https://thealgorithms.github.io/Python/",
       "html_url": "https://github.com/TheAlgorithms/Python",
@@ -3413,7 +3447,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:08:00Z"
+      "updated_at": "2026-11-28T14:35:08Z"
     },
     {
       "id": "vuejs/vue",
@@ -3438,7 +3472,7 @@
       "stars": 212494,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 33657,
+      "forks": 33654,
       "language": "TypeScript",
       "homepage": "http://v2.vuejs.org",
       "html_url": "https://github.com/vuejs/vue",
@@ -3449,7 +3483,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:08:04Z"
+      "updated_at": "2026-11-28T13:24:54Z"
     },
     {
       "id": "n8n-io/n8n",
@@ -3488,10 +3522,10 @@
         "workflow",
         "workflow-automation"
       ],
-      "stars": 212350,
+      "stars": 212353,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 61690,
+      "forks": 61678,
       "language": "TypeScript",
       "homepage": "https://n8n.io",
       "html_url": "https://github.com/n8n-io/n8n",
@@ -3502,7 +3536,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:34:12Z"
+      "updated_at": "2026-11-28T14:44:35Z"
     },
     {
       "id": "firecrawl/firecrawl",
@@ -3511,7 +3545,7 @@
       "title_zh": "firecrawl",
       "summary_zh": "firecrawl：Knowledge infrastructure to make your agents smarter. Search, scrape and acce…",
       "bullets_zh": [
-        "已有超过 211,807 人星标，说明很多人在用或关注",
+        "已有超过 212,046 人星标，说明很多人在用或关注",
         "主要使用 TypeScript 开发",
         "标签：ai、ai-agents、ai-crawler、ai-scraping"
       ],
@@ -3540,10 +3574,10 @@
         "web-search",
         "webscraping"
       ],
-      "stars": 211807,
+      "stars": 212046,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 11151,
+      "forks": 11173,
       "language": "TypeScript",
       "homepage": "https://firecrawl.dev",
       "html_url": "https://github.com/firecrawl/firecrawl",
@@ -3554,7 +3588,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:34:46Z"
+      "updated_at": "2026-11-28T14:45:18Z"
     },
     {
       "id": "ossu/computer-science",
@@ -3563,7 +3597,7 @@
       "title_zh": "computer-science",
       "summary_zh": "computer-science：🎓 Path to a free self-taught education in Computer Science!",
       "bullets_zh": [
-        "已有超过 211,623 人星标，说明很多人在用或关注",
+        "已有超过 211,634 人星标，说明很多人在用或关注",
         "主要使用 HTML 开发",
         "标签：awesome-list、computer-science、courses、curriculum"
       ],
@@ -3576,10 +3610,10 @@
         "courses",
         "curriculum"
       ],
-      "stars": 211623,
+      "stars": 211634,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 26159,
+      "forks": 26164,
       "language": "HTML",
       "homepage": "https://cs.ossu.dev",
       "html_url": "https://github.com/ossu/computer-science",
@@ -3590,7 +3624,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:08:19Z"
+      "updated_at": "2026-11-28T13:49:40Z"
     },
     {
       "id": "yt-dlp/yt-dlp",
@@ -3615,10 +3649,10 @@
         "youtube-downloader",
         "yt-dlp"
       ],
-      "stars": 211239,
+      "stars": 211325,
       "stars_delta_7d": 0,
       "stars_delta_30d": 0,
-      "forks": 18718,
+      "forks": 18726,
       "language": "Python",
       "homepage": "https://discord.gg/H5MNcFW63r",
       "html_url": "https://github.com/yt-dlp/yt-dlp",
@@ -3629,7 +3663,7 @@
       "trend_periods": [
         "all"
       ],
-      "updated_at": "2026-11-28T05:32:46Z"
+      "updated_at": "2026-11-28T14:45:00Z"
     }
   ]
 }
